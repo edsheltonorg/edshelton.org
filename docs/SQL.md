@@ -1,67 +1,59 @@
----
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Implementation Subconcept Template
-  description: A drill-down on a specific part of an implementation.
----
+
 <!---- Image: Logo, Width 75 --------->
-$0
-# ***Overview:*** ${FOAM_TITLE}
-<!-- What? --------------------->
+![[sql-logo.png]]{width=75}
 
-<!-- What Does It Do? ---------------->
+# ***Overview:*** SQL
+Structured Query Language, is a DSL made for viewing or manipulating data.
 
-<!---- Image: Screenshot, Width 520 -->
+Nearly every database uses some form of SQL (or tries to replicate its function).
+
+![[image-20230813195640.png]]{width=520}
 
 <!-- How Does It Fit Into Process?  -->
 
 <!---- Image: Diagram, Width 720 ----->
+
 <br>
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Info:***
-External information regarding ${FOAM_TITLE}:
+# ***Nice to Know:***
+Information that will greatly help in understanding all things SQL:
 
-| *Info*        | *Link*               | *Note*                                |
-| ------------- | -------------------- | ------------------------------------- |
-| Documentation | [Documentation][Doc] |                                       |
-| Project Home  | [Project Home][Proj] |                                       |
-
-<!-- [Doc]:     https://www.example.org -->
-<!-- [Proj]:    https://www.example.org -->
-<!-- [Parent]:  https://www.example.org -->
-
-<!----------------------------------------------------------------------------->
-
-<!-- # ***Nice to Know:***
-Information that will greatly help in understanding all things ${FOAM_TITLE}:
-
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| General Networking              | [[Networking]]                             |
-| Windows Event Viewer            | [[Windows-Event-Viewer]]                   |
-|                                 |                                            | -->
+| *Topic*                         | *Link*                                      |
+| ------------------------------- | -------------------------------------       |
+| Databases                       | [[Databases]]                                 |
+| Relational Databases            | [[Relational-Database]]                         |
+|                                 |                                             |
 
 <!----------------------------------------------------------------------------->
 
 <!-- # ***Getting Started:***
-Common day-to-day tasks, problems, and procedures:
+Basic overview for SQL:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Network Profiles                | [[${FOAM_TITLE}-User-Config]]              |
-| netstat                         | [[${FOAM_TITLE}-netstat]]                  |
+| Scripting vs Programming        | [[SQL-Scripting-vs-Programming]] |
+|                                 |                                            | -->
+
+<!-- # ***Deep Dive:***
+Specific information once fundamentals are understood:
+
+| *Topic*                         | *Link*                                     |
+| ------------------------------- | ------------------------------------------ |
+| Common Terms & Definitions      | [[SQL-Glossary]]                 |
+| In Memory Encryption            | [[SQL-In-Memory-Encryption]]     |
 |                                 |                                            | -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Deep Dive:***
-Specific information that isn't as common:
+<!-- # ***Implementations:***
+Examples of *SQL* in real world use.
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[${FOAM_TITLE}-Glossary]]                 |
+| .NET                            | [[.NET]]                                   |
+| Python                          | [[Python]]                                 |
 |                                 |                                            | -->
 
 <!----------------------------------------------------------------------------->
@@ -79,13 +71,20 @@ Questions you may have:
 <!----------------------------------------------------------------------------->
 
 <!-- # ***Related:***
-Topics related to ${FOAM_TITLE}:
+Topics related to SQL:
 
 | *Topic & Link*                       | *Why*                                 |
 | ------------------------------------ | ------------------------------------- |
-| [[PARENT]]                           | Parent Concept                        |
+| [[Business-Analysis]]                | Business Analysis                     |
+| [[SDLC]]                             | Software Development Life Cycle       |
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->
 
 <br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>
+
+
+[//begin]: # "Autogenerated link references for markdown compatibility"
+[Databases]: Databases.md "Overview: Databases"
+[Relational-Database]: Relational-Database.md "Overview: Relational Database"
+[//end]: # "Autogenerated link references"

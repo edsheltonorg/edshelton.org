@@ -1,6 +1,6 @@
 ---
 foam_template:
-  filepath: 'notes/$FOAM_TITLE.md'
+  filepath: 'docs-unpublished/$FOAM_TITLE.md'
   name: Article Issue & QA Template
   description: A question/answer style note.
 ---

@@ -1,67 +1,61 @@
----
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Implementation Subconcept Template
-  description: A drill-down on a specific part of an implementation.
----
+![[rdbms-logo.png]]{width=75}
 <!---- Image: Logo, Width 75 --------->
-$0
-# ***Overview:*** ${FOAM_TITLE}
-<!-- What? --------------------->
 
-<!-- What Does It Do? ---------------->
+# ***Overview:*** Relational Database
+<!-- What? --------------------------->
+Relational Databases Management Systems (RDBMS) are common ways to model data.
+
+<!-- Why Should People Care? --------->
+A significant portion of programs use RDBMS as a dependency.
 
 <!---- Image: Screenshot, Width 520 -->
+
+![[rdbms-example-schema.png]]{ width="520" }
 
 <!-- How Does It Fit Into Process?  -->
 
 <!---- Image: Diagram, Width 720 ----->
+
 <br>
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Info:***
-External information regarding ${FOAM_TITLE}:
+# ***Nice to Know:***
+Information that will greatly help in understanding all things Relational-Database:
 
-| *Info*        | *Link*               | *Note*                                |
-| ------------- | -------------------- | ------------------------------------- |
-| Documentation | [Documentation][Doc] |                                       |
-| Project Home  | [Project Home][Proj] |                                       |
-
-<!-- [Doc]:     https://www.example.org -->
-<!-- [Proj]:    https://www.example.org -->
-<!-- [Parent]:  https://www.example.org -->
+| *Topic*                         | *Link*                                      |
+| ------------------------------- | -------------------------------------       |
+| SQL                             | [[SQL]]                         |
+|                                 |                                             |
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Nice to Know:***
-Information that will greatly help in understanding all things ${FOAM_TITLE}:
+# ***Getting Started:***
+Basic overview for Relational-Database:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| General Networking              | [[Networking]]                             |
-| Windows Event Viewer            | [[Windows-Event-Viewer]]                   |
-|                                 |                                            | -->
-
-<!----------------------------------------------------------------------------->
-
-<!-- # ***Getting Started:***
-Common day-to-day tasks, problems, and procedures:
-
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Network Profiles                | [[${FOAM_TITLE}-User-Config]]              |
-| netstat                         | [[${FOAM_TITLE}-netstat]]                  |
-|                                 |                                            | -->
-
-<!----------------------------------------------------------------------------->
+| Fundamentals                    | [[Relational-Database-Fundamentals]]       |
+|                                 |                                            |
 
 <!-- # ***Deep Dive:***
-Specific information that isn't as common:
+Specific information once fundamentals are understood:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[${FOAM_TITLE}-Glossary]]                 |
+| Common Terms & Definitions      | [[Relational-Database-Glossary]]                 |
+| In Memory Encryption            | [[Relational-Database-In-Memory-Encryption]]     |
+|                                 |                                            | -->
+
+<!----------------------------------------------------------------------------->
+
+<!-- # ***Implementations:***
+Examples of *Relational-Database* in real world use.
+
+| *Topic*                         | *Link*                                     |
+| ------------------------------- | ------------------------------------------ |
+| .NET                            | [[.NET]]                                   |
+| Python                          | [[Python]]                                 |
 |                                 |                                            | -->
 
 <!----------------------------------------------------------------------------->
@@ -79,13 +73,19 @@ Questions you may have:
 <!----------------------------------------------------------------------------->
 
 <!-- # ***Related:***
-Topics related to ${FOAM_TITLE}:
+Topics related to Relational-Database:
 
 | *Topic & Link*                       | *Why*                                 |
 | ------------------------------------ | ------------------------------------- |
-| [[PARENT]]                           | Parent Concept                        |
+| [[Business-Analysis]]                | Business Analysis                     |
+| [[SDLC]]                             | Software Development Life Cycle       |
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->
 
 <br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>
+
+
+[//begin]: # "Autogenerated link references for markdown compatibility"
+[SQL]: SQL.md "Overview: SQL"
+[//end]: # "Autogenerated link references"

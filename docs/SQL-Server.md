@@ -1,47 +1,43 @@
----
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Implementation Subconcept Template
-  description: A drill-down on a specific part of an implementation.
----
 <!---- Image: Logo, Width 75 --------->
-$0
-# ***Overview:*** ${FOAM_TITLE}
-<!-- What? --------------------->
+![[sql-server.png]]{width=75}
 
-<!-- What Does It Do? ---------------->
+# ***Overview:*** SQL Server
 
-<!---- Image: Screenshot, Width 520 -->
+Microsoft's Relational Database Management System.
 
-<!-- How Does It Fit Into Process?  -->
+It allows for efficient storage and retrieval of data.
 
-<!---- Image: Diagram, Width 720 ----->
+![[image-20230808213036.png]]{width=520}
+
+It is traditionally chosen for .NET projects or for legacy reasons.
+
 <br>
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Info:***
-External information regarding ${FOAM_TITLE}:
+# ***Info:***
+External information regarding SQL Server:
 
 | *Info*        | *Link*               | *Note*                                |
 | ------------- | -------------------- | ------------------------------------- |
 | Documentation | [Documentation][Doc] |                                       |
-| Project Home  | [Project Home][Proj] |                                       |
+| Download      | [Download][Down]     | Many editions exist based on $        |
+| License       | [License][Lic]       |                                       |
+| Pricing       | [Pricing][Price]     | Cost is complex and varied.           |
 
-<!-- [Doc]:     https://www.example.org -->
-<!-- [Proj]:    https://www.example.org -->
-<!-- [Parent]:  https://www.example.org -->
+[Doc]:   https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
+[Down]:  https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+[Lic]:   https://www.microsoft.com/en-us/Useterms/Retail/SQLServerStandard/2019/Useterms_Retail_SQLServerStandard_2019_English.htm
+[Price]: https://www.licenseware.io/microsoft-sql-server-2022-licensing-guide/
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Nice to Know:***
-Information that will greatly help in understanding all things ${FOAM_TITLE}:
+# ***Nice to Know:***
+Information that will greatly help in understanding all things SQL Server:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| General Networking              | [[Networking]]                             |
-| Windows Event Viewer            | [[Windows-Event-Viewer]]                   |
-|                                 |                                            | -->
+| What is a Relational Database   | [[Relational-Database]]                    |
 
 <!----------------------------------------------------------------------------->
 
@@ -50,19 +46,20 @@ Common day-to-day tasks, problems, and procedures:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Network Profiles                | [[${FOAM_TITLE}-User-Config]]              |
-| netstat                         | [[${FOAM_TITLE}-netstat]]                  |
+| User Preferences and Config     | [[SQL-Server-User-Config]]              |
+| Logging and Alerts              | [[SQL-Server-Logging]]                  |
+| Maintenance Information         | [[SQL-Server-Server-Maintenance]]       |
 |                                 |                                            | -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Deep Dive:***
+
+# ***Deep Dive:***
 Specific information that isn't as common:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[${FOAM_TITLE}-Glossary]]                 |
-|                                 |                                            | -->
+| Common Terms & Definitions      | [[SQL-Server-Glossary]]                    |
 
 <!----------------------------------------------------------------------------->
 
@@ -78,12 +75,21 @@ Questions you may have:
 
 <!----------------------------------------------------------------------------->
 
+<!-- # ***Contacts:***
+People of interest regarding SQL-Server:
+
+| *Who*         | *What*               | *Why*                                 |
+| ------------- | -------------------- | ------------------------------------- |
+|               |                      |                                       | -->
+
+<!----------------------------------------------------------------------------->
+
 <!-- # ***Related:***
-Topics related to ${FOAM_TITLE}:
+Topics related to SQL-Server:
 
 | *Topic & Link*                       | *Why*                                 |
 | ------------------------------------ | ------------------------------------- |
-| [[PARENT]]                           | Parent Concept                        |
+| [[PARENT]]                           | Logical Concept                       |
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->

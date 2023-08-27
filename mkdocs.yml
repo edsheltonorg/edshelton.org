@@ -10,9 +10,36 @@ theme:
   features:
     - navigation.expand
     - tabs
+    - content.tabs.link
+    - navigation.tabs
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: green
+      toggle:
+        # icon: material/toggle-switch
+        icon: material/weather-night
+        name: Switch to Dark Mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        # icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
+        name: Switch to Light Mode
+  font:
+    # text: Comic Neue
+    text: Inter
+    code: JetBrains Mono
 markdown_extensions:
-  - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
-  - pymdownx.tabbed  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
   - nl2br # newline-to-break
   - toc:
       permalink: '#' # heading anchor
@@ -51,5 +78,13 @@ plugins:
         - "*.gz"
       regex:
         - '.*\.(tmp|bin|tar)$'
+  - glightbox
 extra:
   generator: false
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:ed@edshelton.org
+    - icon: fontawesome/brands/github
+      link: https://github.com/edsheltonorg
+
+copyright: Copyright &copy; 2023 Ed Shelton

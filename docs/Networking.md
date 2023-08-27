@@ -1,67 +1,62 @@
----
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Implementation Subconcept Template
-  description: A drill-down on a specific part of an implementation.
----
+
 <!---- Image: Logo, Width 75 --------->
-$0
-# ***Overview:*** ${FOAM_TITLE}
-<!-- What? --------------------->
+![[network-icon.png]]{width=75}
 
-<!-- What Does It Do? ---------------->
+# ***Overview:*** Networking
+Networking connects computers to other computers.
 
-<!---- Image: Screenshot, Width 520 -->
+This concept enables things like the Internet to exist.
+
+![[network-switch.png]]{width=520}
 
 <!-- How Does It Fit Into Process?  -->
 
 <!---- Image: Diagram, Width 720 ----->
+
 <br>
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Info:***
-External information regarding ${FOAM_TITLE}:
-
-| *Info*        | *Link*               | *Note*                                |
-| ------------- | -------------------- | ------------------------------------- |
-| Documentation | [Documentation][Doc] |                                       |
-| Project Home  | [Project Home][Proj] |                                       |
-
-<!-- [Doc]:     https://www.example.org -->
-<!-- [Proj]:    https://www.example.org -->
-<!-- [Parent]:  https://www.example.org -->
-
-<!----------------------------------------------------------------------------->
-
 <!-- # ***Nice to Know:***
-Information that will greatly help in understanding all things ${FOAM_TITLE}:
+Information that will greatly help in understanding all things Networking:
+
+| *Topic*                         | *Link*                                      |
+| ------------------------------- | -------------------------------------       |
+| Computer Basics                 | [[Computer-Basics]]                         |
+| Windows Basics                  | [[Windows]]                                 |
+|                                 |                                             | -->
+
+<!----------------------------------------------------------------------------->
+
+# ***Getting Started:***
+Basic overview for Networking:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| General Networking              | [[Networking]]                             |
-| Windows Event Viewer            | [[Windows-Event-Viewer]]                   |
-|                                 |                                            | -->
-
-<!----------------------------------------------------------------------------->
-
-<!-- # ***Getting Started:***
-Common day-to-day tasks, problems, and procedures:
-
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Network Profiles                | [[${FOAM_TITLE}-User-Config]]              |
-| netstat                         | [[${FOAM_TITLE}-netstat]]                  |
-|                                 |                                            | -->
-
-<!----------------------------------------------------------------------------->
+| OSI Model                       | [[Networking-OSI-Model]]                   |
+| Routing                         | [[Networking-Routing]]                     |
+| Firewalls                       | [[Networking-Firewalls]]                   |
+|                                 |                                            |
 
 <!-- # ***Deep Dive:***
-Specific information that isn't as common:
+Specific information once fundamentals are understood:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[${FOAM_TITLE}-Glossary]]                 |
+| Common Terms & Definitions      | [[Networking-Glossary]]                    |
+| In Memory Encryption            | [[Networking-In-Memory-Encryption]]        |
+|                                 |                                            | -->
+
+<!----------------------------------------------------------------------------->
+
+<!-- # ***Implementations:***
+Examples of *Networking* in real world use.
+
+| *Topic*                         | *Link*                                     |
+| ------------------------------- | ------------------------------------------ |
+| HTTP                            | [[HTTP]]                                   |
+| TCP                             | [[TCP]]                                    |
+| MAC                             | [[MAC]]                                    |
 |                                 |                                            | -->
 
 <!----------------------------------------------------------------------------->
@@ -79,11 +74,12 @@ Questions you may have:
 <!----------------------------------------------------------------------------->
 
 <!-- # ***Related:***
-Topics related to ${FOAM_TITLE}:
+Topics related to Networking:
 
 | *Topic & Link*                       | *Why*                                 |
 | ------------------------------------ | ------------------------------------- |
-| [[PARENT]]                           | Parent Concept                        |
+| [[Business-Analysis]]                | Business Analysis                     |
+| [[SDLC]]                             | Software Development Life Cycle       |
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->

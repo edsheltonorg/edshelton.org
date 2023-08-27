@@ -1,6 +1,6 @@
 ---
 foam_template:
-  filepath: 'notes/$FOAM_TITLE.md'
+  filepath: 'docs-unpublished/$FOAM_TITLE.md'
   name: Concept Implementation Template
   description: Implementation of a Concept
 ---

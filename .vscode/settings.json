@@ -32,8 +32,8 @@
   "git.enableSmartCommit"  : true,
   "git.postCommitCommand"  : "sync",
   "markdown.preview.breaks": false,
-  "pasteImage.path"                       : "${projectRoot}/docs/attachments",
-  "pasteImage.insertPattern"              : "<img src=\"${imageFilePath}\" alt=\"drawing\" width=\"520\"/>",
+  "pasteImage.path"                       : "${projectRoot}/docs/attachment",
+  "pasteImage.insertPattern"              : "![[${imageFileName}]]{width=520}",
   "pasteImage.showFilePathConfirmInputBox": true,
   "prettier.singleQuote"                  : false,
 }
