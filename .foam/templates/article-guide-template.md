@@ -6,7 +6,7 @@ foam_template:
 ---
 $0
 
-<!-- # ***Nice to Know:***
+<!-- ## ***Nice to Know***
 Information that you may want to know:
 
 | *Topic*                         | *Link*                                      |
@@ -17,7 +17,7 @@ Information that you may want to know:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Guide:*** ${FOAM_TITLE} --> -->
+<!-- ## ***Guide*** ${FOAM_TITLE} --> -->
 
 <!-- # What: -->
 <!-- Image: Process Diagram, Width 720                -->
@@ -28,7 +28,7 @@ Information that you may want to know:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Related:***
+<!-- ## ***Related***
 Relevant information related to the concept:
 
 | *Topic & Link*                       | *Why*                                 |
@@ -37,5 +37,3 @@ Relevant information related to the concept:
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->
-
-<br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>

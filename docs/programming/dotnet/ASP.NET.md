@@ -1,7 +1,7 @@
 
-<!-- ![[aspnet-logo.png]]{width=75 } -->
+<!-- ![[aspnet-logo.png]]{width=75, align=right } -->
 
-![[aspnet-logo.png]]{width=75, align=right }
+![[aspnet-logo.png]]{width=75, align=right, align=right }
 
 # ASP.NET
 
@@ -19,7 +19,7 @@ ASP.NET is a library contained in .NET, although many web framework for .NET exi
 
 <!----------------------------------------------------------------------------->
 
-# ***Info:***
+## ***Info***
 External information regarding ASP.NET:
 
 | *Info*        | *Link*                                        | *Note*                                                      |
@@ -37,7 +37,7 @@ External information regarding ASP.NET:
 
 <!---------------------------------------------------------------------------
 
-<!-- # ***Nice to Know:***
+<!-- ## ***Nice to Know***
 Information that will greatly help in understanding all things ASP.NET:
 
 | *Topic*                         | *Link*                                     |
@@ -48,7 +48,7 @@ Information that will greatly help in understanding all things ASP.NET:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Getting Started:***
+<!-- ## ***Getting Started***
 Common day-to-day tasks, problems, and procedures:
 
 | *Topic*                         | *Link*                                     |
@@ -59,7 +59,7 @@ Common day-to-day tasks, problems, and procedures:
 
 <!----------------------------------------------------------------------------->
 
-# ***Deep Dive:***
+## ***Deep Dive***
 Specific information that isn't as common:
 
 | *Topic*                         | *Link*                                     |
@@ -69,7 +69,7 @@ Specific information that isn't as common:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Common Questions:***
+<!-- ## ***Common Questions***
 Questions you may have:
 
 | *Question*                           | *Answer*                              |
@@ -77,11 +77,11 @@ Questions you may have:
 |                                      | [Answer](#inline-answer-1)            |
 |                                      |                                       | -->
 
-<!-- ## **Inline Answer 1:** -->
+<!-- ## **Inline Answer 1** -->
 
 <!----------------------------------------------------------------------------->
 
-# ***Related:***
+## ***Related***
 Topics related to ASP.NET:
 
 | *Topic & Link*      | Why                             |
@@ -89,5 +89,3 @@ Topics related to ASP.NET:
 | [[.NET Overview]]   | Framework that contains Library |
 
 <!----------------------------------------------------------------------------->
-
-<br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>

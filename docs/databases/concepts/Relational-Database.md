@@ -1,13 +1,16 @@
-
+![[rdbms-logo.png]]{width=75, align=right}
 <!---- Image: Logo, Width 75 --------->
-![[network-icon.png]]{width=75}
 
-# ***Overview:*** Networking
-Networking connects computers to other computers.
+# Relational Database
+<!-- What? --------------------------->
+Relational Databases Management Systems (RDBMS) are common ways to model data.
 
-This concept enables things like the Internet to exist.
+<!-- Why Should People Care? --------->
+A significant portion of programs use RDBMS as a dependency.
 
-![[network-switch.png]]{width=520}
+<!---- Image: Screenshot, Width 520 -->
+
+![[rdbms-example-schema.png]]{ width="520" }
 
 <!-- How Does It Fit Into Process?  -->
 
@@ -17,51 +20,47 @@ This concept enables things like the Internet to exist.
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Nice to Know:***
-Information that will greatly help in understanding all things Networking:
+## ***Nice to Know***
+Information that will greatly help in understanding all things Relational-Database:
 
 | *Topic*                         | *Link*                                      |
 | ------------------------------- | -------------------------------------       |
-| Computer Basics                 | [[Computer-Basics]]                         |
-| Windows Basics                  | [[Windows]]                                 |
-|                                 |                                             | -->
+| SQL                             | [[SQL]]                         |
+|                                 |                                             |
 
 <!----------------------------------------------------------------------------->
 
-# ***Getting Started:***
-Basic overview for Networking:
+## ***Getting Started***
+Basic overview for Relational-Database:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| OSI Model                       | [[Networking-OSI-Model]]                   |
-| Routing                         | [[Networking-Routing]]                     |
-| Firewalls                       | [[Networking-Firewalls]]                   |
+| Fundamentals                    | [[Relational-Database-Fundamentals]]       |
 |                                 |                                            |
 
-<!-- # ***Deep Dive:***
+<!-- ## ***Deep Dive***
 Specific information once fundamentals are understood:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[Networking-Glossary]]                    |
-| In Memory Encryption            | [[Networking-In-Memory-Encryption]]        |
+| Common Terms & Definitions      | [[Relational-Database-Glossary]]                 |
+| In Memory Encryption            | [[Relational-Database-In-Memory-Encryption]]     |
 |                                 |                                            | -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Implementations:***
-Examples of *Networking* in real world use.
+<!-- ## ***Implementations***
+Examples of *Relational-Database* in real world use.
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| HTTP                            | [[HTTP]]                                   |
-| TCP                             | [[TCP]]                                    |
-| MAC                             | [[MAC]]                                    |
+| .NET                            | [[.NET]]                                   |
+| Python                          | [[Python]]                                 |
 |                                 |                                            | -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Common Questions:***
+<!-- ## ***Common Questions***
 Questions you may have:
 
 | *Question*                           | *Answer*                              |
@@ -69,12 +68,12 @@ Questions you may have:
 |                                      | [Answer](#inline-answer-1)            |
 |                                      |                                       | -->
 
-<!-- ## **Inline Answer 1:** -->
+<!-- ## **Inline Answer 1** -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Related:***
-Topics related to Networking:
+<!-- ## ***Related***
+Topics related to Relational-Database:
 
 | *Topic & Link*                       | *Why*                                 |
 | ------------------------------------ | ------------------------------------- |
@@ -84,4 +83,9 @@ Topics related to Networking:
 
 <!----------------------------------------------------------------------------->
 
-<br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>
+
+
+
+[//begin]: # "Autogenerated link references for markdown compatibility"
+[SQL]: SQL.md "Overview: SQL"
+[//end]: # "Autogenerated link references"

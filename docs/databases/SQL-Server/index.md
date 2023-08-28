@@ -1,7 +1,11 @@
+---
+title: SQL Server
+description: SQL Server
+---
 <!---- Image: Logo, Width 75 --------->
-![[sql-server.png]]{width=75}
+![[sql-server.png]]{width=75, align=right}
 
-# ***Overview:*** SQL Server
+# SQL Server
 
 Microsoft's Relational Database Management System.
 
@@ -15,7 +19,7 @@ It is traditionally chosen for .NET projects or for legacy reasons.
 
 <!----------------------------------------------------------------------------->
 
-# ***Info:***
+## ***Info***
 External information regarding SQL Server:
 
 | *Info*        | *Link*               | *Note*                                |
@@ -32,7 +36,7 @@ External information regarding SQL Server:
 
 <!----------------------------------------------------------------------------->
 
-# ***Nice to Know:***
+## ***Nice to Know***
 Information that will greatly help in understanding all things SQL Server:
 
 | *Topic*                         | *Link*                                     |
@@ -41,7 +45,7 @@ Information that will greatly help in understanding all things SQL Server:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Getting Started:***
+<!-- ## ***Getting Started***
 Common day-to-day tasks, problems, and procedures:
 
 | *Topic*                         | *Link*                                     |
@@ -54,7 +58,7 @@ Common day-to-day tasks, problems, and procedures:
 <!----------------------------------------------------------------------------->
 
 
-# ***Deep Dive:***
+## ***Deep Dive***
 Specific information that isn't as common:
 
 | *Topic*                         | *Link*                                     |
@@ -63,7 +67,7 @@ Specific information that isn't as common:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Common Questions:***
+<!-- ## ***Common Questions***
 Questions you may have:
 
 | *Question*                           | *Answer*                              |
@@ -71,11 +75,11 @@ Questions you may have:
 |                                      | [Answer](#inline-answer-1)            |
 |                                      |                                       | -->
 
-<!-- ## **Inline Answer 1:** -->
+<!-- ## **Inline Answer 1** -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Contacts:***
+<!-- ## ***Contacts***
 People of interest regarding SQL-Server:
 
 | *Who*         | *What*               | *Why*                                 |
@@ -84,7 +88,7 @@ People of interest regarding SQL-Server:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Related:***
+<!-- ## ***Related***
 Topics related to SQL-Server:
 
 | *Topic & Link*                       | *Why*                                 |
@@ -93,5 +97,3 @@ Topics related to SQL-Server:
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->
-
-<br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>

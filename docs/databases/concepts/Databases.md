@@ -1,13 +1,16 @@
 
 <!---- Image: Logo, Width 75 --------->
-![[sql-logo.png]]{width=75}
+![[database-logo.png]]{width=75, align=right}
 
-# ***Overview:*** SQL
-Structured Query Language, is a DSL made for viewing or manipulating data.
+# Databases
+Databases are organizations of data that provide access via Database Management Systems (DBMS)
+<!-- What? --------------------------->
 
-Nearly every database uses some form of SQL (or tries to replicate its function).
+<!-- Why Should People Care? --------->
+Most software stores data via a database, making it essential to understand.
 
-![[image-20230813195640.png]]{width=520}
+<!---- Image: Screenshot, Width 520 -->
+![[image-20230813203210.png]]{width=520}
 
 <!-- How Does It Fit Into Process?  -->
 
@@ -17,48 +20,51 @@ Nearly every database uses some form of SQL (or tries to replicate its function)
 
 <!----------------------------------------------------------------------------->
 
-# ***Nice to Know:***
-Information that will greatly help in understanding all things SQL:
+<!-- ## ***Nice to Know***
+Information that will greatly help in understanding all things Databases:
 
 | *Topic*                         | *Link*                                      |
 | ------------------------------- | -------------------------------------       |
-| Databases                       | [[Databases]]                                 |
-| Relational Databases            | [[Relational-Database]]                         |
-|                                 |                                             |
+| Computer Basics                 | [[Computer-Basics]]                         |
+| Windows Basics                  | [[Windows]]                                 |
+|                                 |                                             | -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Getting Started:***
-Basic overview for SQL:
+## ***Getting Started***
+Basic overview for Databases:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Scripting vs Programming        | [[SQL-Scripting-vs-Programming]] |
-|                                 |                                            | -->
+| Fundamentals                    | [[Databases-Fundamentals]]                 |
+| Communication & Security        | [[Databases-Communication-And-Security]]   |
+| Models and Schema               | [[Databases-Models-And-Schema]]            |
+| Database Index                  | [[Databases-Index]]                        |
+|                                 |                                            |
 
-<!-- # ***Deep Dive:***
+<!-- ## ***Deep Dive***
 Specific information once fundamentals are understood:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[SQL-Glossary]]                 |
-| In Memory Encryption            | [[SQL-In-Memory-Encryption]]     |
+| Common Terms & Definitions      | [[Databases-Glossary]]                 |
+| In Memory Encryption            | [[Databases-In-Memory-Encryption]]     |
 |                                 |                                            | -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Implementations:***
-Examples of *SQL* in real world use.
+## ***Implementations***
+Examples of *Databases* in real world use.
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| .NET                            | [[.NET]]                                   |
+| Relational Databases            | [[Relational-Database]]                                   |
 | Python                          | [[Python]]                                 |
-|                                 |                                            | -->
+|                                 |                                            |
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Common Questions:***
+<!-- ## ***Common Questions***
 Questions you may have:
 
 | *Question*                           | *Answer*                              |
@@ -66,12 +72,12 @@ Questions you may have:
 |                                      | [Answer](#inline-answer-1)            |
 |                                      |                                       | -->
 
-<!-- ## **Inline Answer 1:** -->
+<!-- ## **Inline Answer 1** -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Related:***
-Topics related to SQL:
+<!-- ## ***Related***
+Topics related to Databases:
 
 | *Topic & Link*                       | *Why*                                 |
 | ------------------------------------ | ------------------------------------- |
@@ -81,10 +87,9 @@ Topics related to SQL:
 
 <!----------------------------------------------------------------------------->
 
-<br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>
+
 
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
-[Databases]: Databases.md "Overview: Databases"
 [Relational-Database]: Relational-Database.md "Overview: Relational Database"
 [//end]: # "Autogenerated link references"

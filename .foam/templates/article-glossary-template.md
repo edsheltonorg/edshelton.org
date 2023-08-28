@@ -48,5 +48,3 @@ Explanation for terminology & basic navigation.
 | [API Reference]()                    | API Reference                         | -->
 
 <!----------------------------------------------------------------------------->
-
-<br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>

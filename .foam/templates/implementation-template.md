@@ -6,7 +6,7 @@ foam_template:
 ---
 <!---- Image: Logo, Width 75 --------->
 $0
-# ***Overview:*** ${FOAM_TITLE}
+# ${FOAM_TITLE}
 <!-- Who & What? --------------------->
 
 <!-- What Does It Do? ---------------->
@@ -20,7 +20,7 @@ $0
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Info:***
+<!-- ## ***Info***
 External information regarding ${FOAM_TITLE}:
 
 | *Info*        | *Link*               | *Note*                                |
@@ -41,7 +41,7 @@ External information regarding ${FOAM_TITLE}:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Nice to Know:***
+<!-- ## ***Nice to Know***
 Information that will greatly help in understanding all things ${FOAM_TITLE}:
 
 | *Topic*                         | *Link*                                     |
@@ -52,7 +52,7 @@ Information that will greatly help in understanding all things ${FOAM_TITLE}:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Getting Started:***
+<!-- ## ***Getting Started***
 Common day-to-day tasks, problems, and procedures:
 
 | *Topic*                         | *Link*                                     |
@@ -64,7 +64,7 @@ Common day-to-day tasks, problems, and procedures:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Deep Dive:***
+<!-- ## ***Deep Dive***
 Specific information that isn't as common:
 
 | *Topic*                         | *Link*                                     |
@@ -74,7 +74,7 @@ Specific information that isn't as common:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Common Questions:***
+<!-- ## ***Common Questions***
 Questions you may have:
 
 | *Question*                           | *Answer*                              |
@@ -82,11 +82,11 @@ Questions you may have:
 |                                      | [Answer](#inline-answer-1)            |
 |                                      |                                       | -->
 
-<!-- ## **Inline Answer 1:** -->
+<!-- ## **Inline Answer 1** -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Contacts:***
+<!-- ## ***Contacts***
 People of interest regarding ${FOAM_TITLE}:
 
 | *Who*         | *What*               | *Why*                                 |
@@ -95,7 +95,7 @@ People of interest regarding ${FOAM_TITLE}:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Related:***
+<!-- ## ***Related***
 Topics related to ${FOAM_TITLE}:
 
 | *Topic & Link*                       | *Why*                                 |
@@ -104,5 +104,3 @@ Topics related to ${FOAM_TITLE}:
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->
-
-<br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>

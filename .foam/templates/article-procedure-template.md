@@ -5,7 +5,7 @@ foam_template:
   description: A procedure style note.
 ---
 $0
-# ***Procedure:*** ${FOAM_TITLE}
+## ***Procedure*** ${FOAM_TITLE}
 <!-- Basic explanation of action desired:             -->
 <!-- Image: Process Diagram, Width 720                -->
 <!-- Agreement Link & Date:                           -->
@@ -22,11 +22,11 @@ $0
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Procedure Begin:*** -->
+<!-- ## ***Procedure Begin*** -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Procedure Table:***
+<!-- ## ***Procedure Table***
 This issue has many possible procedures:
 
 | *Possible Answer*               | *Answer*                                   |
@@ -34,21 +34,21 @@ This issue has many possible procedures:
 |                                 | [Answer](#procedure-1)                     |
 |                                 |                                            | -->
 
-<!-- ## **Procedure 1:** -->
+<!-- ## **Procedure 1** -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Further Troubleshooting:*** -->
+<!-- ## ***Further Troubleshooting*** -->
 <!-- Detailed instructions if issue still not resolved -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Preventative Maintenance:*** -->
+<!-- ## ***Preventative Maintenance*** -->
 <!-- Suggestions to solve issue going forward -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Contacts:***
+<!-- ## ***Contacts***
 Anyone out of the ordinary to reach out to:
 
 | *Who*         | *What*               | *Why*                                 |
@@ -57,7 +57,7 @@ Anyone out of the ordinary to reach out to:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Related:***
+<!-- ## ***Related***
 Relevant information related to the procedure:
 
 | *Topic & Link*                       | *Why*                                 |
@@ -66,5 +66,3 @@ Relevant information related to the procedure:
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->
-
-<br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>

@@ -1,6 +1,6 @@
-![[visualstudio-icon.png]]{width=75}
+![[visualstudio-icon.png]]{width=75, align=right}
 
-# Overview: Visual Studio
+# Visual Studio
 
 Microsoft's Free* IDE for .NET, C++, and more.
 
@@ -14,7 +14,7 @@ An IDE such as Visual Studio is used to both develop and debug code:
 
 <!----------------------------------------------------------------------------->
 
-# ***Info:***
+## ***Info***
 External information regarding Visual Studio:
 
 | *Info*        | *Link*                         | *Note*                                |
@@ -32,7 +32,7 @@ External information regarding Visual Studio:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Nice to Know:***
+<!-- ## ***Nice to Know***
 Information that will greatly help in understanding all things Visual-Studio:
 
 | *Topic*                         | *Link*                                     |
@@ -43,7 +43,7 @@ Information that will greatly help in understanding all things Visual-Studio:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Getting Started:***
+<!-- ## ***Getting Started***
 Common day-to-day tasks, problems, and procedures:
 
 | *Topic*                         | *Link*                                     |
@@ -55,7 +55,7 @@ Common day-to-day tasks, problems, and procedures:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Deep Dive:***
+<!-- ## ***Deep Dive***
 Specific information that isn't as common:
 
 | *Topic*                         | *Link*                                     |
@@ -65,7 +65,7 @@ Specific information that isn't as common:
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Common Questions:***
+<!-- ## ***Common Questions***
 Questions you may have:
 
 | *Question*                           | *Answer*                              |
@@ -73,11 +73,11 @@ Questions you may have:
 |                                      | [Answer](#inline-answer-1)            |
 |                                      |                                       | -->
 
-<!-- ## **Inline Answer 1:** -->
+<!-- ## **Inline Answer 1** -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- # ***Contacts:***
+<!-- ## ***Contacts***
 People of interest regarding Visual-Studio:
 
 | *Who*         | *What*               | *Why*                                 |
@@ -86,7 +86,7 @@ People of interest regarding Visual-Studio:
 
 <!----------------------------------------------------------------------------->
 
-# ***Related:***
+## ***Related***
 Topics related to Visual Studio:
 
 | *Topic & Link*      | Why                      |
@@ -94,5 +94,3 @@ Topics related to Visual Studio:
 | [[.NET Overview]] | Common Framework Target. |
 
 <!----------------------------------------------------------------------------->
-
-<br><sup><sub>`edshelton.org` by `Ed Shelton` is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)</sub></sup>
