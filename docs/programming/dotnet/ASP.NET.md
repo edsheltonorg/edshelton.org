@@ -89,3 +89,5 @@ Topics related to ASP.NET:
 | [[.NET Overview]]   | Framework that contains Library |
 
 <!----------------------------------------------------------------------------->
+
+![[cool-cat.png]]{width=520}
