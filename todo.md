@@ -10,3 +10,7 @@
 - create blog link & determine strategy
 - Hide from view index of top page
 - Modify 404 page
+- fix slugify deprecations
+https://facelessuser.github.io/pymdown-extensions/faq/#function-references-in-yaml
+- setup gitignore
+- better method than todo.md in files
