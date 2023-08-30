@@ -13,8 +13,54 @@ def thingee:
   y = print(x)
 ```
 
-I love you beth!
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J---aiyznGQ?si=nDdW4i3CTo9yDD-t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Very very much!
+!!! example 2
 
-> I love you too Edwin!
+    === "C"
+
+        ``` c
+        #include <stdio.h>
+
+        int main(void) {
+          printf("Hello world!\n");
+          return 0;
+        }
+        ```
+
+    === "C++"
+
+        ``` c++
+        #include <iostream>
+
+        int main(void) {
+          std::cout << "Hello world!" << std::endl;
+          return 0;
+        }
+        ```
+
+Now check how they're linked below:
+
+!!! example
+
+    === "C"
+
+        ``` c
+        #include <stdio.h>
+
+        int main(void) {
+          printf("Hello world!\n");
+          return 0;
+        }
+        ```
+
+    === "C++"
+
+        ``` c++
+        #include <iostream>
+
+        int main(void) {
+          std::cout << "Hello world!" << std::endl;
+          return 0;
+        }
+        ```

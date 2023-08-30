@@ -1,7 +1,8 @@
+---
+date: 2023-08-25
+---
 
-<!-- ![[aspnet-logo.png]]{width=75, align=right } -->
-
-![[aspnet-logo.png]]{width=75, align=right, align=right }
+![[aspnet-logo.png]]{width=75, align=right }
 
 # ASP.NET
 
@@ -15,7 +16,7 @@ ASP.NET is a library contained in .NET, although many web framework for .NET exi
 
 ![[aspnet-diagram-markup.png]]{width=720}
 
-<br>
+
 
 <!----------------------------------------------------------------------------->
 
@@ -26,7 +27,7 @@ External information regarding ASP.NET:
 | ------------- | --------------------------------------------- | ----------------------------------------------------------- |
 | Documentation | [Documentation][Doc]                          | Uses newest version if not specified.                       |
 | Download      |                                               | Natively part of .NET                                       |
-| License       | [Framework][Lic] / [Core][LicAlt]             | ***.NET Framework:*** Proprietary <br> ***.NET Core:*** MIT |
+| License       | [Framework][Lic] / [Core][LicAlt]             | ***.NET Framework:*** Proprietary / ***.NET Core:*** MIT |
 | Project Home  | [.NET Framework][Proj] / [.NET Core][ProjAlt] |                                                             |
 
 [Doc]:      https://learn.microsoft.com/en-us/aspnet/core/
@@ -89,5 +90,3 @@ Topics related to ASP.NET:
 | [[.NET Overview]]   | Framework that contains Library |
 
 <!----------------------------------------------------------------------------->
-
-![[cool-cat.png]]{width=520}

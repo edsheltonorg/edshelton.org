@@ -4,7 +4,12 @@ foam_template:
   name: Article Issue & QA Template
   description: A question/answer style note.
 ---
-$0
+---
+title: $1
+description: $2
+date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+---
+
 ## ***TURN THIS INTO THE QUESTION / ISSUE*** ${FOAM_TITLE}
 
 <!-- Basic explanation of action desired / led up to: -->

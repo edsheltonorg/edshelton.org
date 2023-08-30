@@ -4,7 +4,12 @@ foam_template:
   name: Article Procedure Template
   description: A procedure style note.
 ---
-$0
+---
+title: $1
+description: $2
+date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+---
+
 ## ***Procedure*** ${FOAM_TITLE}
 <!-- Basic explanation of action desired:             -->
 <!-- Image: Process Diagram, Width 720                -->

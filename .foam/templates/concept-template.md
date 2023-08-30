@@ -4,7 +4,12 @@ foam_template:
   name: Concept Template
   description: Overview of a Concept
 ---
-$0
+---
+title: $1
+description: $2
+date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+---
+
 <!---- Image: Logo, Width 75 --------->
 
 # ${FOAM_TITLE}
@@ -17,8 +22,6 @@ $0
 <!-- How Does It Fit Into Process?  -->
 
 <!---- Image: Diagram, Width 720 ----->
-
-<br>
 
 <!----------------------------------------------------------------------------->
 

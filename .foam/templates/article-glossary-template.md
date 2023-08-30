@@ -7,9 +7,9 @@ foam_template:
 ---
 title: $1
 description: $2
+date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 ---
 
-$0
 # $SUBJECT Glossary
 
 Explanation for terminology & basic navigation.

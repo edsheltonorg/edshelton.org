@@ -4,8 +4,13 @@ foam_template:
   name: Implementation Subconcept Template
   description: A drill-down on a specific part of an implementation.
 ---
+---
+title: $1
+description: $2
+date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+---
+
 <!---- Image: Logo, Width 75 --------->
-$0
 # ${FOAM_TITLE}
 <!-- What? --------------------->
 
@@ -16,7 +21,6 @@ $0
 <!-- How Does It Fit Into Process?  -->
 
 <!---- Image: Diagram, Width 720 ----->
-<br>
 
 <!----------------------------------------------------------------------------->
 

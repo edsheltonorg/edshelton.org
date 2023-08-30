@@ -5,7 +5,11 @@ foam_template:
   description: Implementation of a Concept
 ---
 <!---- Image: Logo, Width 75 --------->
-$0
+---
+title: $1
+description: $2
+date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+---
 # ${FOAM_TITLE}
 <!-- Who & What? --------------------->
 
@@ -16,7 +20,6 @@ $0
 <!-- How Does It Fit Into Process?  -->
 
 <!---- Image: Diagram, Width 720 ----->
-<br>
 
 <!----------------------------------------------------------------------------->
 
