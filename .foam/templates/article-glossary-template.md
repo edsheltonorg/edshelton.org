@@ -5,11 +5,11 @@ foam_template:
   description: A glossary style note.
 ---
 ---
-title: $1
-description: $2
+title: $FOAM_TITLE Glossary
+description: Glossary of $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 ---
-
+$0
 # $SUBJECT Glossary
 
 Explanation for terminology & basic navigation.

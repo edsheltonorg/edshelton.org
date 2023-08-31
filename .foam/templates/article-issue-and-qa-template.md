@@ -5,11 +5,11 @@ foam_template:
   description: A question/answer style note.
 ---
 ---
-title: $1
-description: $2
+title: $FOAM_TITLE Questions and Answers
+description: Common Issues for $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 ---
-
+$0
 ## ***TURN THIS INTO THE QUESTION / ISSUE*** ${FOAM_TITLE}
 
 <!-- Basic explanation of action desired / led up to: -->

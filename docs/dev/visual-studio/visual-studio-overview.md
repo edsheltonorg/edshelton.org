@@ -1,3 +1,8 @@
+---
+title: Visual Studio Overview
+description: Overview of Visual Studio
+---
+
 ![[visualstudio-icon.png]]{width=75, align=right}
 
 # Visual Studio

@@ -5,11 +5,11 @@ foam_template:
   description: A guide style note.
 ---
 ---
-title: $1
-description: $2
+title: $FOAM_TITLE Guide
+description: Guide to $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 ---
-
+$0
 <!-- ## ***Nice to Know***
 Information that you may want to know:
 

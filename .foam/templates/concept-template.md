@@ -5,13 +5,12 @@ foam_template:
   description: Overview of a Concept
 ---
 ---
-title: $1
-description: $2
+title: $FOAM_TITLE Concept
+description: Concept Overview of $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 ---
-
+$0
 <!---- Image: Logo, Width 75 --------->
-
 # ${FOAM_TITLE}
 <!-- What? --------------------------->
 

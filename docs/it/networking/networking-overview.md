@@ -1,3 +1,7 @@
+---
+title: Networking Overview
+description: Overview of Networking
+---
 
 <!---- Image: Logo, Width 75 --------->
 ![[network-icon.png]]{width=75, align=right}

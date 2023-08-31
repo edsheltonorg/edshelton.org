@@ -5,11 +5,11 @@ foam_template:
   description: A drill-down on a specific part of an implementation.
 ---
 ---
-title: $1
-description: $2
+title: $FOAM_TITLE Overview
+description: Concept Overview of $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 ---
-
+$0
 <!---- Image: Logo, Width 75 --------->
 # ${FOAM_TITLE}
 <!-- What? --------------------->

@@ -5,11 +5,11 @@ foam_template:
   description: A procedure style note.
 ---
 ---
-title: $1
-description: $2
+title: $FOAM_TITLE
+description: Procedure to $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 ---
-
+$0
 ## ***Procedure*** ${FOAM_TITLE}
 <!-- Basic explanation of action desired:             -->
 <!-- Image: Process Diagram, Width 720                -->

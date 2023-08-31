@@ -1,57 +1,47 @@
 ---
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Concept Implementation Template
-  description: Implementation of a Concept
+title: SQL Server Overview
+description: Overview of SQL Server
 ---
 <!---- Image: Logo, Width 75 --------->
----
-title: $1
-description: $2
-date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
----
-# ${FOAM_TITLE}
-<!-- Who & What? --------------------->
+![[sql-server.png]]{width=75, align=right}
 
-<!-- What Does It Do? ---------------->
+# SQL Server
 
-<!---- Image: Screenshot, Width 520 -->
+Microsoft's Relational Database Management System.
 
-<!-- How Does It Fit Into Process?  -->
+It allows for efficient storage and retrieval of data.
 
-<!---- Image: Diagram, Width 720 ----->
+![[image-20230808213036.png]]{width=520}
+
+It is traditionally chosen for .NET projects or for legacy reasons.
+
+
 
 <!----------------------------------------------------------------------------->
 
-<!-- ## ***Info***
-External information regarding ${FOAM_TITLE}:
+## ***Info***
+External information regarding SQL Server:
 
 | *Info*        | *Link*               | *Note*                                |
 | ------------- | -------------------- | ------------------------------------- |
 | Documentation | [Documentation][Doc] |                                       |
-| Download      | [Download][Down]     |                                       |
+| Download      | [Download][Down]     | Many editions exist based on $        |
 | License       | [License][Lic]       |                                       |
-| Project Home  | [Project Home][Proj] |                                       |
-| Home          | [Home][Home]         |                                       |
-| Pricing       | [Pricing][Price]     |                                       | -->
+| Pricing       | [Pricing][Price]     | Cost is complex and varied.           |
 
-<!-- [Doc]:   https://www.example.org -->
-<!-- [Down]:  https://www.example.org -->
-<!-- [Lic]:   https://www.example.org -->
-<!-- [Proj]:  https://www.example.org -->
-<!-- [Home]:  https://www.example.org -->
-<!-- [Price]: https://www.example.org -->
+[Doc]:   https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
+[Down]:  https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+[Lic]:   https://www.microsoft.com/en-us/Useterms/Retail/SQLServerStandard/2019/Useterms_Retail_SQLServerStandard_2019_English.htm
+[Price]: https://www.licenseware.io/microsoft-sql-server-2022-licensing-guide/
 
 <!----------------------------------------------------------------------------->
 
-<!-- ## ***Nice to Know***
-Information that will greatly help in understanding all things ${FOAM_TITLE}:
+## ***Nice to Know***
+Information that will greatly help in understanding all things SQL Server:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Why Are We Using This?          | [[${FOAM_TITLE}-Why-Chosen]]               |
-| Server Setup                    | [[${FOAM_TITLE}-Server-Setup]]             |
-|                                 |                                            | -->
+| What is a Relational Database   | [[Relational-Database]]                    |
 
 <!----------------------------------------------------------------------------->
 
@@ -60,20 +50,20 @@ Common day-to-day tasks, problems, and procedures:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| User Preferences and Config     | [[${FOAM_TITLE}-User-Config]]              |
-| Logging and Alerts              | [[${FOAM_TITLE}-Logging]]                  |
-| Maintenance Information         | [[${FOAM_TITLE}-Server-Maintenance]]       |
+| User Preferences and Config     | [[SQL-Server-User-Config]]              |
+| Logging and Alerts              | [[SQL-Server-Logging]]                  |
+| Maintenance Information         | [[SQL-Server-Server-Maintenance]]       |
 |                                 |                                            | -->
 
 <!----------------------------------------------------------------------------->
 
-<!-- ## ***Deep Dive***
+
+## ***Deep Dive***
 Specific information that isn't as common:
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[${FOAM_TITLE}-Glossary]]                 |
-|                                 |                                            | -->
+| Common Terms & Definitions      | [[SQL-Server-Glossary]]                    |
 
 <!----------------------------------------------------------------------------->
 
@@ -90,7 +80,7 @@ Questions you may have:
 <!----------------------------------------------------------------------------->
 
 <!-- ## ***Contacts***
-People of interest regarding ${FOAM_TITLE}:
+People of interest regarding SQL-Server:
 
 | *Who*         | *What*               | *Why*                                 |
 | ------------- | -------------------- | ------------------------------------- |
@@ -99,7 +89,7 @@ People of interest regarding ${FOAM_TITLE}:
 <!----------------------------------------------------------------------------->
 
 <!-- ## ***Related***
-Topics related to ${FOAM_TITLE}:
+Topics related to SQL-Server:
 
 | *Topic & Link*                       | *Why*                                 |
 | ------------------------------------ | ------------------------------------- |
