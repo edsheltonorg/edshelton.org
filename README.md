@@ -61,18 +61,20 @@ Nothing will, besides your department becoming more mature and proactive.
 
 The system is infinitely scalable, using these fundamental units:
 
-| *Unit*                       | *Explanation*                                                                      |
-| ---------------------------- | ---------------------------------------------------------------------------------- |
-| ***Article: Glossary***      | Explaining key terms, low-risk-of-change info, and relevant links.                 |
-| ***Article: Guide***         | How to perform something, use a feature, or learn a concept.                       |
-| ***Article: Issue and QA***  | Offers an alternative way to discover articles to fix issues or understand better. |
-| ***Article: Procedure***     | An ordered list of manuals w/ extra business logic between to perform a process.   |
-| ***Concept Implementation*** | An overview & "start here" of a concrete solution, like "Python".                  |
-| ***Concept***                | An overview & "start here" of a concept, like "Programming".                       |
+| *Unit*                                                                             | *Explanation*                                                                      |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [***Article: Glossary***](.foam/templates/article-glossary-template.md)            | Explaining key terms, low-risk-of-change info, and relevant links.                 |
+| [***Article: Guide***](.foam/templates/article-guide-template.md)                  | How to perform something, use a feature, or learn a concept.                       |
+| [***Article: Issue and QA***](.foam/templates/article-issue-and-qa-template.md)    | Offers an alternative way to discover articles to fix issues or understand better. |
+| [***Article: Procedure***](.foam/templates/article-procedure-template.md)          | An ordered list of manuals w/ extra business logic between to perform a process.   |
+| [***Concept Implementation***](.foam/templates/implementation-concept-template.md) | An overview & "start here" of a concrete solution, like "Python".                  |
+| [***Concept***](.foam/templates/concept-template.md)                               | An overview & "start here" of a concept, like "Programming".                       |
 
 Using these templated units (found in `.foam/templates`) you too can make this system.
 
-Check the Code or Raw view on Github since the good stuff is wrapped comments!
+Check the Code or Raw view on Github since much of it is commented by default:
+
+<img src=docs/attachment/image-20230902124058.png alt="drawing" width="520">
 
 # Writing for Success
 
