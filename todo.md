@@ -1,6 +1,14 @@
 # TODO
 - Reinitialize project
 - Start personal blog site w/ chirpy & link
+- Or use internal blog plugin (wow!)
+  - https://squidfunk.github.io/mkdocs-material/blog/2022/09/12/blog-support-just-landed/
+  - https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/
+- Determine if giscus is worthwhile
+- Get a professional head shot done (linkedin worthy)
+- Ensure description & title make sense for google / SEO
+- Fix Info tab to merge info & link
+- Rename site due too blog being on it
 - Document setup & determine if should be on blog or knowledge base
 - Make youtube video for both platforms
 - Make pixel art icon & favicon
@@ -15,3 +23,4 @@ https://facelessuser.github.io/pymdown-extensions/faq/#function-references-in-ya
   - specifically how they chunk asp.net, blazor, .net, and c#
 - determine orphaned images and trim
 - determine fun stdlib exploration in .NET / C#
+- continue down path of C++

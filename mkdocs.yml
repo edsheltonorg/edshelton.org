@@ -7,6 +7,8 @@ theme:
   name: material
   #  favicon: attachment/portrait.png
   language: en
+  logo: assets/cat.png
+  favicon: assets/favicon/favicon.ico
   features:
     - navigation.instant
     # - navigation.indexes
