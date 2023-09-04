@@ -1,6 +1,8 @@
 ---
 title: Home
 description: Easy to Understand Information
+hide:
+  - footer
 ---
 
 # Thing

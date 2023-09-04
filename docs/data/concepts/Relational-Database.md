@@ -10,7 +10,7 @@ A significant portion of programs use RDBMS as a dependency.
 
 <!---- Image: Screenshot, Width 520 -->
 
-![[rdbms-example-schema.png]]{ width="520" }
+![[rdbms-example-schema.png]]{ width=620 }
 
 <!-- How Does It Fit Into Process?  -->
 

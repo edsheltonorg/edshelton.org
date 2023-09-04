@@ -2,7 +2,17 @@
 title: SQL Server Overview
 description: Overview of SQL Server
 ---
-<!---- Image: Logo, Width 75 --------->
+
+<!-- Use to hide prev / next footers individually: -->
+<!-- <style>
+.md-footer__link--prev {
+    display: none
+}
+.md-footer__link--next {
+    display: none
+}
+</style> -->
+
 ![[sql-server.png]]{width=75, align=right}
 
 # SQL Server
@@ -11,89 +21,121 @@ Microsoft's Relational Database Management System.
 
 It allows for efficient storage and retrieval of data.
 
-![[image-20230808213036.png]]{width=520}
+![[image-20230808213036.png]]{width=620}
 
-It is traditionally chosen for .NET projects or for legacy reasons.
+Traditionally chosen for .NET projects or for legacy reasons.
 
+???+ info "Official"
 
+    External links to authoritative sources:
 
-<!----------------------------------------------------------------------------->
+    | *Info*        | *Link*               | *Note*                             |
+    | ------------- | -------------------- | ---------------------------------- |
+    | Documentation | [Documentation][Doc] |                                    |
+    | Download      | [Download][Down]     | Many editions exist based on usage |
+    | License       | [License][Lic]       |                                    |
+    | Pricing       | [Pricing][Price]     | Cost is complex and varied.        |
 
-## ***Info***
-External information regarding SQL Server:
+    [Doc]:   https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
+    [Down]:  https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+    [Lic]:   https://www.microsoft.com/en-us/Useterms/Retail/SQLServerStandard/2019/Useterms_Retail_SQLServerStandard_2019_English.htm
+    [Price]: https://www.licenseware.io/microsoft-sql-server-2022-licensing-guide/
 
-| *Info*        | *Link*               | *Note*                                |
-| ------------- | -------------------- | ------------------------------------- |
-| Documentation | [Documentation][Doc] |                                       |
-| Download      | [Download][Down]     | Many editions exist based on $        |
-| License       | [License][Lic]       |                                       |
-| Pricing       | [Pricing][Price]     | Cost is complex and varied.           |
+??? quote "Contacts"
 
-[Doc]:   https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
-[Down]:  https://www.microsoft.com/en-us/sql-server/sql-server-downloads
-[Lic]:   https://www.microsoft.com/en-us/Useterms/Retail/SQLServerStandard/2019/Useterms_Retail_SQLServerStandard_2019_English.htm
-[Price]: https://www.licenseware.io/microsoft-sql-server-2022-licensing-guide/
+    Rolodex of people & places for different purposes:
 
-<!----------------------------------------------------------------------------->
-
-## ***Nice to Know***
-Information that will greatly help in understanding all things SQL Server:
-
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| What is a Relational Database   | [[Relational-Database]]                    |
-
-<!----------------------------------------------------------------------------->
-
-<!-- ## ***Getting Started***
-Common day-to-day tasks, problems, and procedures:
-
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| User Preferences and Config     | [[SQL-Server-User-Config]]              |
-| Logging and Alerts              | [[SQL-Server-Logging]]                  |
-| Maintenance Information         | [[SQL-Server-Server-Maintenance]]       |
-|                                 |                                            | -->
-
-<!----------------------------------------------------------------------------->
+    | Who | What | Why |
+    | --- | ---- | --- |
+    |     |      |     |
 
 
-## ***Deep Dive***
-Specific information that isn't as common:
+## Surrounding Info
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[SQL-Server-Glossary]]                    |
+Essential context related to SQL Server:
 
-<!----------------------------------------------------------------------------->
+???+ tip "Prerequisite Knowledge"
 
-<!-- ## ***Common Questions***
-Questions you may have:
+    Information recommended to have before beginning:
 
-| *Question*                           | *Answer*                              |
-| ------------------------------------ | ------------------------------------- |
-|                                      | [Answer](#inline-answer-1)            |
-|                                      |                                       | -->
+    | Topic                         | Link                    | Why |
+    | ----------------------------- | ----------------------- | --- |
+    | What is a Relational Database | [[Relational-Database]] |     |
 
-<!-- ## **Inline Answer 1** -->
+???+ info "Change Log"
 
-<!----------------------------------------------------------------------------->
+    Technical and business changes:
 
-<!-- ## ***Contacts***
-People of interest regarding SQL-Server:
+    | Question | Answer             |
+    | -------- | ------------------ |
+    |          | [[Answer#Section]] |
 
-| *Who*         | *What*               | *Why*                                 |
-| ------------- | -------------------- | ------------------------------------- |
-|               |                      |                                       | -->
+???+ warning "Context & Postmortems"
 
-<!----------------------------------------------------------------------------->
+    Background information & learnt lessons:
 
-<!-- ## ***Related***
-Topics related to SQL-Server:
+    | Question | Answer             |
+    | -------- | ------------------ |
+    |          | [[Answer#Section]] |
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[PARENT]]                           | Logical Concept                       |
-|                                      |                                       | -->
 
-<!----------------------------------------------------------------------------->
+## Articles
+
+Posts all about SQL Server:
+
+???+ note "Readme"
+
+    Articles recommended to start with:
+
+    | Topic                       | Link                              |
+    | --------------------------- | --------------------------------- |
+    | User Preferences and Config | [[SQL-Server-User-Config]]        |
+    | Logging and Alerts          | [[SQL-Server-Logging]]            |
+    | Maintenance Information     | [[SQL-Server-Server-Maintenance]] |
+
+???+ abstract "General"
+
+    Specific articles:
+
+    | Topic                      | Link                    |
+    | -------------------------- | ----------------------- |
+    | Common Terms & Definitions | [[SQL-Server-Glossary]] |
+
+???+ success "Procedures"
+
+    Multiple
+
+    | Topic                      | Link                    |
+    | -------------------------- | ----------------------- |
+    | Common Terms & Definitions | [[SQL-Server-Glossary]] |
+
+## Knowledge Base
+
+KBs for SQL Server:
+
+???+ question "Questions"
+    | Question | Answer             |
+    | -------- | ------------------ |
+    |          | [[Answer#Section]] |
+
+???+ failure "Fixable Errors & Issues"
+    | Error | Fix                |
+    | ----- | ------------------ |
+    |       | [[Answer#Section]] |
+
+??? bug "Unresolved Errors & Issues"
+    | Error | Article / Bug Track |
+    | ----- | ------------------- |
+    |       | [[Answer#Section]]  |
+
+## Opinions & Extras
+
+Microsoft sucks and SQL Server is expensive, but the product is fairly stable.
+
+???+ example "Related Topics"
+
+    | Topic & Link | Why             |
+    | ------------ | --------------- |
+    | [[PARENT]]   | Logical Concept |
+
+<!-- TO-DO List -->

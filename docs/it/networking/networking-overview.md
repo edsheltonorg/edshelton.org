@@ -11,7 +11,7 @@ Networking connects computers to other computers.
 
 This concept enables things like the Internet to exist.
 
-![[network-switch.png]]{width=520}
+![[network-switch.png]]{width=620}
 
 <!-- How Does It Fit Into Process?  -->
 

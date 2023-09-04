@@ -15,6 +15,9 @@ theme:
     - content.tabs.link
     - navigation.tabs
     # - navigation.sections
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -40,6 +43,7 @@ theme:
     code: JetBrains Mono
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.tabbed:
       alternate_style: true
   - toc:

@@ -11,13 +11,11 @@ date: 2023-08-25
 
 ASP.NET contains many types of projects, such as *Web Forms*, *MVC*, and *Blazor*.
 
-![[aspnet-services.png]]{width=520, align= }
+![[aspnet-services.png]]{width=620, align= }
 
 ASP.NET is a library contained in .NET, although many web framework for .NET exist.
 
-![[aspnet-diagram-markup.png]]{width=720}
-
-
+![[aspnet-diagram-markup.png]]{width=620}
 
 <!----------------------------------------------------------------------------->
 

@@ -14,7 +14,7 @@ Databases are organizations of data that provide access via Database Management 
 Most software stores data via a database, making it essential to understand.
 
 <!---- Image: Screenshot, Width 520 -->
-![[image-20230813203210.png]]{width=520}
+![[image-20230813203210.png]]{width=620}
 
 <!-- How Does It Fit Into Process?  -->
 

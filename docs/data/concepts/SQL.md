@@ -7,7 +7,7 @@ Structured Query Language, is a DSL made for viewing or manipulating data.
 
 Nearly every database uses some form of SQL (or tries to replicate its function).
 
-![[image-20230813195640.png]]{width=520}
+![[image-20230813195640.png]]{width=620}
 
 <!-- How Does It Fit Into Process?  -->
 

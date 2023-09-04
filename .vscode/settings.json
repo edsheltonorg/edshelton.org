@@ -33,7 +33,7 @@
   "git.postCommitCommand"  : "sync",
   "markdown.preview.breaks": false,
   "pasteImage.path"                       : "${projectRoot}/docs/attachment",
-  "pasteImage.insertPattern"              : "![[${imageFileName}]]{width=520}",
+  "pasteImage.insertPattern"              : "![[${imageFileName}]]{width=620, align=}",
   "pasteImage.showFilePathConfirmInputBox": true,
   "prettier.singleQuote"                  : false,
 }

@@ -8,9 +8,20 @@ foam_template:
 title: $FOAM_TITLE Glossary
 description: Glossary of $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+hide:
+  - footer
 ---
 $0
-# $SUBJECT Glossary
+<!-- <style>
+    .md-footer__link--prev {
+        display: none
+    }
+    .md-footer__link--next {
+        display: none
+    }
+</style> -->
+
+# *$SUBJECT Glossary*
 
 Explanation for terminology & basic navigation.
 
@@ -18,7 +29,7 @@ Explanation for terminology & basic navigation.
 
 <!-- ## Foo -->
 
-<!-- **What:** is this thing & what does it do? -->
+<!-- **What** is this thing & what does it do? -->
 
 <!-- OPTIONAL: **NOTE:** Previously called ___                 -->
 

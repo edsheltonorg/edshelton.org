@@ -10,7 +10,7 @@ Microsoft's official framework for languages targeting the CIL specification.
 
 .NET compiles C# (and others) to IL, links to included .NET Libraries, and runs via JIT compilation.
 
-![[dotnet-compilation.png]]{width=520}
+![[dotnet-compilation.png]]{width=620}
 
 .NET ships with a large amount of libraries that are heavily associated with C# (Although usable in other CIL languages)
 
@@ -85,7 +85,7 @@ Questions you may have:
 
 Quite a few things changed or didn't survive (i.e. ***ASP.NET WebForms***).
 
-![[dotnet-framework-vs-core.png]]{width=520}
+![[dotnet-framework-vs-core.png]]{width=620}
 
 To help transition, a lot of things have a old (Framework) and new (Core) syntax.
 

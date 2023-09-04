@@ -11,11 +11,11 @@ Microsoft's Free* IDE for .NET, C++, and more.
 
 The most common way tool to develop a C# / .NET programs:
 
-![[visualstudio-demo.png]]{width=520}
+![[visualstudio-demo.png]]{width=620}
 
 An IDE such as Visual Studio is used to both develop and debug code:
 
-![[visualstudio-devops.png]]{width=520}
+![[visualstudio-devops.png]]{width=620}
 
 <!----------------------------------------------------------------------------->
 

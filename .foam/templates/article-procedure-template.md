@@ -8,9 +8,20 @@ foam_template:
 title: $FOAM_TITLE
 description: Procedure to $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+hide:
+  - footer
 ---
 $0
-## ***Procedure*** ${FOAM_TITLE}
+<!-- <style>
+    .md-footer__link--prev {
+        display: none
+    }
+    .md-footer__link--next {
+        display: none
+    }
+</style> -->
+
+# *Procedure ${FOAM_TITLE}*
 <!-- Basic explanation of action desired:             -->
 <!-- Image: Process Diagram, Width 720                -->
 <!-- Agreement Link & Date:                           -->
@@ -18,10 +29,10 @@ $0
 <!----------------------------------------------------------------------------->
 
 <!--
-## What:
-## When & Why:
-## Example Problem:
-## What it isn't:
+## What
+## When & Why
+## Example Problem
+## What it isn't
 ## Requirements
 -->
 

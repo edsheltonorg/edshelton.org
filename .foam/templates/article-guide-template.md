@@ -8,8 +8,19 @@ foam_template:
 title: $FOAM_TITLE Guide
 description: Guide to $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+hide:
+  - footer
 ---
 $0
+<!-- <style>
+    .md-footer__link--prev {
+        display: none
+    }
+    .md-footer__link--next {
+        display: none
+    }
+</style> -->
+
 <!-- ## ***Nice to Know***
 Information that you may want to know:
 
@@ -21,14 +32,16 @@ Information that you may want to know:
 
 <!----------------------------------------------------------------------------->
 
-<!-- ## ***Guide*** ${FOAM_TITLE} --> -->
+<!-- Image: Icon If Available, Width 75               -->
+# *Guide ${FOAM_TITLE}*
 
-<!-- # What: -->
+<!-- Explain What -->
 <!-- Image: Process Diagram, Width 720                -->
 <!-- ## When & Why: -->
 <!-- ## What it isn't: -->
-<!-- # How: -->
-<!-- # Example Problem: -->
+
+<!-- ## How -->
+<!-- ## Example Problem -->
 
 <!----------------------------------------------------------------------------->
 
