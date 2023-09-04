@@ -1,25 +1,30 @@
-# official tutorial
-# mkdocs-material: https://squidfunk.github.io/mkdocs-material/
-# mkdocs: https://www.mkdocs.org/user-guide/configuration/
+site_name: "Ed Shelton"
+site_description: "Home for sane and simple answers."
+site_author: "Ed Shelton"
+copyright: Copyright &copy; 2023 Ed Shelton
 
-site_name: "Ed Shelton's Knowledge Base"
 theme:
   name: material
-  #  favicon: attachment/portrait.png
   language: en
   logo: assets/cat.png
   favicon: assets/favicon/favicon.ico
+
+  font:
+    text: Intra
+    code: JetBrains Mono
+
   features:
-    - navigation.instant
-    # - navigation.indexes
-    # - toc.integrate
-    - tabs
-    - content.tabs.link
-    - navigation.tabs
-    # - navigation.sections
-    - navigation.footer
     - content.action.edit
     - content.action.view
+    - content.tabs.link
+    - navigation.footer
+    - navigation.instant
+    - navigation.tabs
+    # - navigation.indexes
+    # - navigation.sections
+    - tabs
+    # - toc.integrate
+
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -27,7 +32,6 @@ theme:
       primary: teal
       accent: green
       toggle:
-        # icon: material/toggle-switch
         icon: material/weather-night
         name: Switch to Dark Mode
 
@@ -37,27 +41,19 @@ theme:
       primary: black
       accent: teal
       toggle:
-        # icon: material/toggle-switch-off-outline
         icon: material/weather-sunny
         name: Switch to Light Mode
-  font:
-    text: Intra
-    code: JetBrains Mono
+
 markdown_extensions:
-  - attr_list
-  - md_in_html
-  - pymdownx.tabbed:
-      alternate_style: true
-  - toc:
-      permalink: '#'
-      slugify: !!python/name:pymdownx.slugs.uslugify
   - admonition
+  - attr_list
   - codehilite:
       guess_lang: false
       linenums: false
-  - footnotes
-  - meta
   - def_list
+  - footnotes
+  - md_in_html
+  - meta
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -69,28 +65,33 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist
   - pymdownx.tilde
+  - toc:
+      permalink: '#'
+      slugify: !!python/name:pymdownx.slugs.uslugify
+
 plugins:
-  - search
-  - roamlinks
+  - awesome-pages
   - exclude:
       glob:
         - "*.tmp"
         - "*.gz"
       regex:
         - '.*\.(tmp|bin|tar)$'
-  - glightbox
-  - awesome-pages
   - git-revision-date-localized:
       timezone: America/Chicago
       exclude:
           - index.md
-      # type: iso_date
-      # enable_creation_date: true
+  - glightbox
   - redirects:
       redirect_maps:
           'old.md': 'databases/concepts/Databases.md'
+  - roamlinks
+  - search
+
 extra:
   generator: false
   social:
@@ -98,4 +99,3 @@ extra:
       link: mailto:ed@edshelton.org
     - icon: fontawesome/brands/github
       link: https://github.com/edsheltonorg
-copyright: Copyright &copy; 2023 Ed Shelton

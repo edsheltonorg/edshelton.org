@@ -6,9 +6,7 @@
   - https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/
 - Determine if giscus is worthwhile
 - Get a professional head shot done (linkedin worthy)
-- Ensure description & title make sense for google / SEO
 - Fix Info tab to merge info & link
-- Rename site due too blog being on it
 - Document setup & determine if should be on blog or knowledge base
 - Make youtube video for both platforms
 - Make pixel art icon & favicon
@@ -24,3 +22,4 @@ https://facelessuser.github.io/pymdown-extensions/faq/#function-references-in-ya
 - determine orphaned images and trim
 - determine fun stdlib exploration in .NET / C#
 - continue down path of C++
+- investigate prebuild_index / indexing
