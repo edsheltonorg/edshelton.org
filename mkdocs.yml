@@ -3,14 +3,18 @@ site_description: "Home for sane and simple answers."
 site_author: "Ed Shelton"
 copyright: Copyright &copy; 2023 Ed Shelton
 
-repo_url: https://github.com/edsheltonorg/KnowledgeBase
+repo_url: https://github.com/edsheltonorg/edshelton.org
+repo_name: edshelton.org
 
 theme:
   name: material
-  custom_dir: overrides
   language: en
   logo: assets/cat.png
   favicon: assets/favicon/favicon.ico
+  icon:
+    repo: octicons/code-24
+    edit: material/pencil-box
+    view: material/code-not-equal-variant
 
   font:
     text: Intra
@@ -22,7 +26,7 @@ theme:
     - content.action.view
     - content.code.copy
     - content.tabs.link
-    - header.autohide
+    # - header.autohide
     - navigation.footer
     - navigation.instant
     - navigation.tabs
@@ -32,15 +36,6 @@ theme:
     # - toc.integrate
 
   palette:
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: teal
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to Light Mode
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -49,6 +44,15 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to Dark Mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Light Mode
 
 markdown_extensions:
   - admonition
@@ -97,6 +101,9 @@ plugins:
           'old.md': 'databases/concepts/Databases.md'
   - roamlinks
   - search
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   generator: false
