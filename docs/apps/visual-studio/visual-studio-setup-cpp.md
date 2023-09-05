@@ -4,6 +4,15 @@ description: Guide to visual-studio-setup-cpp
 date: 2023-09-02
 ---
 
+<style>
+    /* .md-footer__link--prev {
+        display: none
+    } */
+    .md-footer__link--next {
+        display: none
+    }
+</style>
+
 <!-- ## ***Nice to Know***
 Information that you may want to know:
 
@@ -15,24 +24,26 @@ Information that you may want to know:
 
 <!----------------------------------------------------------------------------->
 
-![[visual-studio-cpp.png]]{width=75, align=right}
+
 # *Setup C++ for Visual Studio*
 
 
 We're going to setup a `C++` development environment in Visual Studio.
 
-!!! question "Why?"
+![[visual-studio-cpp.png]]{width=200}
 
-    You want to develop `C++` using Visual Studio.
+## *Why*
 
-    Its also a ***very common*** way to begin learning `C++` since its very easy to get started!
+You want to develop `C++` using Visual Studio.
 
-!!! abstract "Requirements"
+Its also a ***very common*** way to begin learning `C++` since its very easy to get started!
+
+???+ abstract "Requirements"
 
     - **OS:** Windows *(Any Version Still Supported)*
     - **Storage:** ~20GB *(For Visual Studio IDE + Modules)*
 
-!!! warning "Note"
+???+ warning "Note"
 
     - ***Visual Studio for Mac*** is not the same thing & isn't applicable to this guide at all.
     - MacOS or Linux users will need to use a different IDE or development solution.
@@ -45,15 +56,15 @@ Next, open a blank or existing project.
 
 `Tools > Get Tools and Features...`
 
-![[image-20230902164946.png]]{width=620}
+![[image-20230902164946.png]]{width=700}
 
 Install `Desktop development with C++` (and other workloads you desire):
 
-![[image-20230902165328.png]]{width=620}
+![[image-20230902165328.png]]{width=700}
 
 Save your work and `Continue`:
 
-![[image-20230902165416.png]]{width=620}
+![[image-20230902165416.png]]{width=700}
 
 ## Example Problem
 

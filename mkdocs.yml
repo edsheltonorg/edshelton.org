@@ -3,8 +3,11 @@ site_description: "Home for sane and simple answers."
 site_author: "Ed Shelton"
 copyright: Copyright &copy; 2023 Ed Shelton
 
+repo_url: https://github.com/edsheltonorg/KnowledgeBase
+
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: assets/cat.png
   favicon: assets/favicon/favicon.ico
@@ -14,9 +17,12 @@ theme:
     code: JetBrains Mono
 
   features:
+    - announce.dismiss
     - content.action.edit
     - content.action.view
+    - content.code.copy
     - content.tabs.link
+    - header.autohide
     - navigation.footer
     - navigation.instant
     - navigation.tabs
@@ -26,15 +32,6 @@ theme:
     # - toc.integrate
 
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: green
-      toggle:
-        icon: material/weather-night
-        name: Switch to Dark Mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -43,6 +40,15 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to Light Mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Switch to Dark Mode
 
 markdown_extensions:
   - admonition

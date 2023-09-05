@@ -3,19 +3,29 @@ title: Visual Studio Overview
 description: Overview of Visual Studio
 ---
 
-![[visualstudio-icon.png]]{width=75, align=right}
+<style>
+    .md-footer__link--prev {
+        display: none
+    }
+    /* .md-footer__link--next {
+        display: none
+    } */
+</style>
 
 # Visual Studio
 
+
 Microsoft's Free* IDE for .NET, C++, and more.
+
+![[visualstudio-icon.png]]{width=200}
 
 The most common way tool to develop a C# / .NET programs:
 
-![[visualstudio-demo.png]]{width=620}
+![[visualstudio-demo.png]]{width=700}
 
 An IDE such as Visual Studio is used to both develop and debug code:
 
-![[visualstudio-devops.png]]{width=620}
+![[visualstudio-devops.png]]{width=700}
 
 <!----------------------------------------------------------------------------->
 

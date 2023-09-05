@@ -4,24 +4,24 @@ description: Overview of SQL Server
 ---
 
 <!-- Use to hide prev / next footers individually: -->
-<!-- <style>
+<style>
 .md-footer__link--prev {
     display: none
 }
-.md-footer__link--next {
+/* .md-footer__link--next {
     display: none
-}
-</style> -->
-
-![[sql-server.png]]{width=75, align=right}
+} */
+</style>
 
 # SQL Server
 
 Microsoft's Relational Database Management System.
 
+![[sql-server.png]]{width=200}
+
 It allows for efficient storage and retrieval of data.
 
-![[image-20230808213036.png]]{width=620}
+![[image-20230808213036.png]]{width=700}
 
 Traditionally chosen for .NET projects or for legacy reasons.
 
