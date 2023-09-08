@@ -8,19 +8,10 @@ foam_template:
 title: $FOAM_TITLE Questions and Answers
 description: Common Issues for $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
-hide:
-  - footer
+# hide:
+  # - footer
 ---
 $0
-<!-- <style>
-    .md-footer__link--prev {
-        display: none
-    }
-    .md-footer__link--next {
-        display: none
-    }
-</style> -->
-
 # *TURN THIS INTO THE QUESTION / ISSUE ${FOAM_TITLE}*
 
 <!-- Basic explanation of action desired / led up to: -->
@@ -66,3 +57,12 @@ Relevant information related to the question:
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->
+
+<!-- <style>
+    .md-footer__link--prev {
+        display: none
+    }
+    .md-footer__link--next {
+        display: none
+    }
+</style> -->

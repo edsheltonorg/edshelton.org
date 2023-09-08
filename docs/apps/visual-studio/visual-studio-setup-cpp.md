@@ -4,15 +4,6 @@ description: Guide to visual-studio-setup-cpp
 date: 2023-09-02
 ---
 
-<style>
-    /* .md-footer__link--prev {
-        display: none
-    } */
-    .md-footer__link--next {
-        display: none
-    }
-</style>
-
 <!-- ## ***Nice to Know***
 Information that you may want to know:
 
@@ -79,3 +70,12 @@ Relevant information related to the concept:
 |                                      |                                       | -->
 
 <!----------------------------------------------------------------------------->
+
+<style>
+    /* .md-footer__link--prev {
+        display: none
+    } */
+    .md-footer__link--next {
+        display: none
+    }
+</style>

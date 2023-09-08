@@ -8,19 +8,10 @@ foam_template:
 title: $FOAM_TITLE Overview
 description: Concept Overview of $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
-hide:
-  - footer
+# hide:
+  # - footer
 ---
 $0
-<!-- <style>
-    .md-footer__link--prev {
-        display: none
-    }
-    .md-footer__link--next {
-        display: none
-    }
-</style> -->
-
 <!---- Image: Logo, Width 75 --------->
 # *${FOAM_TITLE}*
 <!-- Who & What? --------------------->
@@ -117,3 +108,12 @@ Topics related to ${FOAM_TITLE}:
 | ------------------------------------ | ------------------------------------- |
 | [[PARENT]]                           | Logical Concept                       |
 |                                      |                                       | -->
+
+<!-- <style>
+    .md-footer__link--prev {
+        display: none
+    }
+    .md-footer__link--next {
+        display: none
+    }
+</style> -->
