@@ -2,6 +2,8 @@
 - Modify 404 page
 - determine orphaned images and trim
 - Add youtube page & linkedin to bottom right
+- lowercase all articles
+- update articles with new formats
 
 # site strategy
 - follow M$ style of naming technical articles
