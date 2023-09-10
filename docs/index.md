@@ -1,68 +1,35 @@
 ---
 title: Home
-description: Easy to Understand Information
+description: Welcome to edshelton.org
 hide:
   - footer
 ---
 
-# Thing
+# Hello!
+![[cat-3x.png]]{width=320, align=right}
+You've stumbled upon my personal site. <sup>[:octicons-code-24:](https://github.com/edsheltonorg/edshelton.org)</sup>
 
-Code:
+There are two sections:
 
-```python
-def thingee:
-  x = 1 + 1
-  y = print(x)
-```
+- The Blog <sup>*(You Are Here!)*</sup>
+- The Knowledge Base <sup>*(Sections in Header.)*</sup>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J---aiyznGQ?si=nDdW4i3CTo9yDD-t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Dedicated to &nbsp;<span style="color:#44a8a2"><font size=6>***Everyone***</font></span>&nbsp; who taught me, whether they knew it or not!
 
-!!! example 2
+Thank you from the bottom of my heart.
 
-    === "C"
+---
 
-        ``` c
-        #include <stdio.h>
 
-        int main(void) {
-          printf("Hello world!\n");
-          return 0;
-        }
-        ```
+<font size=5>Blog Feed</font><br>
+<sup><sup>[Archive](/archive/2023)</sup></sup>
 
-    === "C++"
-
-        ``` c++
-        #include <iostream>
-
-        int main(void) {
-          std::cout << "Hello world!" << std::endl;
-          return 0;
-        }
-        ```
-
-Now check how they're linked below:
-
-!!! example
-
-    === "C"
-
-        ``` c
-        #include <stdio.h>
-
-        int main(void) {
-          printf("Hello world!\n");
-          return 0;
-        }
-        ```
-
-    === "C++"
-
-        ``` c++
-        #include <iostream>
-
-        int main(void) {
-          std::cout << "Hello world!" << std::endl;
-          return 0;
-        }
-        ```
+<style>
+.md-nav__title {
+  font-size: 0px;
+}
+.md-nav__title::after {
+  font-size: 14px;
+  content: 'Recent Blog Posts';
+}
+</style>

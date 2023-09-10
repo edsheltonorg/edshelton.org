@@ -1,7 +1,7 @@
 site_name: "Ed Shelton"
 site_description: "Home for sane and simple answers."
 site_author: "Ed Shelton"
-copyright: Copyright &copy; 2023 Ed Shelton
+copyright: "<a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a><br>Copyright &copy; 2023 Ed Shelton"
 
 repo_url: https://github.com/edsheltonorg/edshelton.org
 repo_name: edshelton.org
@@ -70,6 +70,9 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
@@ -81,10 +84,21 @@ markdown_extensions:
   - pymdownx.tilde
   - toc:
       permalink: '#'
-      slugify: !!python/name:pymdownx.slugs.uslugify
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 plugins:
   - awesome-pages
+  - blog:
+      blog_dir: .
+      blog_toc: true
+      post_dir: blog
+      post_url_format: "blog/{slug}"
+      # archive: false
+      archive_name: "Archive"
+      archive_toc: true
+      categories: false
   - exclude:
       glob:
         - "*.tmp"
@@ -97,9 +111,17 @@ plugins:
           - index.md
   - glightbox
   - redirects:
-      redirect_maps:
-          'old.md': 'databases/concepts/Databases.md'
+      # redirect_maps:
+          # 'old.md': 'databases/concepts/Databases.md'
   - roamlinks
+  - rss:
+      pretty_print: true
+      match_path: "blog/*"
+      date_from_meta:
+        as_creation: "date"
+        as_update: false
+        datetime_format: "%Y-%m-%d %H:%M"
+        default_timezone: America/Chicago
   - search
 
 extra_css:
@@ -112,3 +134,5 @@ extra:
       link: mailto:ed@edshelton.org
     - icon: fontawesome/brands/github
       link: https://github.com/edsheltonorg
+    - icon: simple/rss
+      link: /feed_rss_created.xml

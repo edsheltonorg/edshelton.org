@@ -1,26 +1,20 @@
-# <TODO></TODO>
-- Reinitialize project
-- Start personal blog site w/ chirpy & link
-- Or use internal blog plugin (wow!)
-  - https://squidfunk.github.io/mkdocs-material/blog/2022/09/12/blog-support-just-landed/
-  - https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/
-- Determine if giscus is worthwhile
-- Get a professional head shot done (linkedin worthy)
-- Fix Info tab to merge info & link
-- Document setup & determine if should be on blog or knowledge base
-- Make youtube video for both platforms
-- Make pixel art icon & favicon
-- pixel icon / favicon (book / bookmark)
-- determine naming strategy to reduce redirect issues
-- create blog link & determine strategy
+# site modifications
 - Modify 404 page
-- fix slugify deprecations
-https://facelessuser.github.io/pymdown-extensions/faq/#function-references-in-yaml
-- add video embed support
+- determine orphaned images and trim
+- investigate prebuild_index / indexing
+- fix blogging setup
+- add blog adjacent index for home
+- add blog template
+
+# site strategy
 - follow M$ style of naming technical articles
   - specifically how they chunk asp.net, blazor, .net, and c#
-- determine orphaned images and trim
+- determine naming strategy to reduce redirect issues
+
+# meta content:
+- Document setup & determine if should be on blog or knowledge base
+- Make youtube video on how to setup
+
+# content:
 - determine fun stdlib exploration in .NET / C#
 - continue down path of C++
-- investigate prebuild_index / indexing
-- tags needed for articles?

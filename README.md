@@ -4,7 +4,7 @@ It's my documentation & teaching testing site!
 
 My old system of tagging bookmarks got out of hand:
 
-<img src="docs/attachment/image-20230813102238.png" alt="drawing" width="520"/>
+<img src=".github/assets/image-20230813102238.png" alt="drawing" width="520"/>
 
 <sup>***Only 38,910 different bookmarks!***</sup>
 
@@ -18,7 +18,7 @@ It had **high turnover**, **no documentation**, and **dysfunctional communicatio
 
 On top of that, ***I also became responsible for training new IT staff!***
 
-<img src="docs/attachment/burning-computer.png" alt="drawing" width="520"/>
+<img src=".github/assets/burning-computer.png" alt="drawing" width="520"/>
 
 To my surprise, I found **a deep appreciation for documenting!**
 
@@ -48,13 +48,13 @@ I've attempted to address these issues by breaking information into key units:
 
 By linking these units together, you can begin building valuable & discoverable documentation.
 
-<img src="docs/attachment/business-process-2.png" alt="drawing"/>
+<img src=".github/assets/business-process-2.png" alt="drawing"/>
 
 <sup>This is roughly how I build it, with many units linked between each other in modular fashion.</sup>
 
 Check the Code or Raw view on Github since much of it is commented by default:
 
-<img src=docs/attachment/image-20230902124058.png alt="drawing" width="520">
+<img src=".github/assets/image-20230902124058.png" alt="drawing" width="520">
 
 # How I Implement It
 
@@ -77,7 +77,7 @@ cool [features](https://squidfunk.github.io/mkdocs-material/reference/code-block
 and lots of [plugins](https://github.com/mkdocs/catalog)
 that extend `mkdocs`.
 
-<img src="docs/attachment/image-20230902120438.png" alt="drawing" width="520"/>
+<img src=".github/assets/image-20230902120438.png" alt="drawing" width="520"/>
 
 <sup>An example of the search engine, its amazingly fast and provides good context.</sup>
 
@@ -85,13 +85,13 @@ Shoot me a message & I'll make a how-to-get-started guide to build this implemen
 
 # How You Can Implement It
 
-You can easily adapt my templates into any platform's templates.
+You can easily adapt my templates into any platform's system!
 
 For work, consider your team's skill level & friction tolerance:
 - Microsoft OneNote (Simplest one & free if using Office 365)
 - Bookstack (More advanced features, can share easier)
 
-For personal, anything you're comfortable in will work.
+For personal, anything that can link will work.
 
 # Influences
 
@@ -105,7 +105,7 @@ note-taking systems.
 My templates are `CC0`.
 <br>Please use them as you see fit.
 
-My page content is `CC BY-SA 4.0`.
-<br>They will be explicitly marked at the bottom, just credit me!
+My page content is `CC BY 4.0`.
+<br>Just credit me, that's all!
 
 The software used for this implementation is respectively licensed by their authors.
