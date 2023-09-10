@@ -1,10 +1,7 @@
 # site modifications
 - Modify 404 page
 - determine orphaned images and trim
-- investigate prebuild_index / indexing
-- fix blogging setup
-- add blog adjacent index for home
-- add blog template
+- Add youtube page & linkedin to bottom right
 
 # site strategy
 - follow M$ style of naming technical articles

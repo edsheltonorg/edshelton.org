@@ -1,5 +1,5 @@
 site_name: "Ed Shelton"
-site_description: "Home for sane and simple answers."
+site_description: "Just make it work!"
 site_author: "Ed Shelton"
 copyright: "<a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a><br>Copyright &copy; 2023 Ed Shelton"
 
@@ -115,13 +115,13 @@ plugins:
           # 'old.md': 'databases/concepts/Databases.md'
   - roamlinks
   - rss:
-      pretty_print: true
-      match_path: "blog/*"
-      date_from_meta:
-        as_creation: "date"
-        as_update: false
-        datetime_format: "%Y-%m-%d %H:%M"
-        default_timezone: America/Chicago
+        match_path: "blog.*" # I don't know why 'blog/.*' breaks it.
+        pretty_print: true
+        date_from_meta:
+            as_creation: "date"
+            as_update: false
+            datetime_format: "%Y-%m-%d %H:%M"
+            default_timezone: America/Chicago
   - search
 
 extra_css:

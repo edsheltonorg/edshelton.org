@@ -5,16 +5,16 @@ hide:
   - footer
 ---
 
-# Hello!
+# Hi.
 ![[cat-3x.png]]{width=320, align=right}
-You've stumbled upon my personal site. <sup>[:octicons-code-24:](https://github.com/edsheltonorg/edshelton.org)</sup>
+Welcome to my personal site! <sup>[:octicons-code-24:](https://github.com/edsheltonorg/edshelton.org)</sup>
 
-There are two sections:
+It has two sections:
 
 - The Blog <sup>*(You Are Here!)*</sup>
 - The Knowledge Base <sup>*(Sections in Header.)*</sup>
 
-Dedicated to &nbsp;<span style="color:#44a8a2"><font size=6>***Everyone***</font></span>&nbsp; who taught me, whether they knew it or not!
+`edshelton.org` is dedicated to &nbsp;<span style="color:#44a8a2"><font size=6>***Everyone***</font></span>&nbsp; who taught me, whether they knew it or not!
 
 Thank you from the bottom of my heart.
 
@@ -30,6 +30,6 @@ Thank you from the bottom of my heart.
 }
 .md-nav__title::after {
   font-size: 14px;
-  content: 'Recent Blog Posts';
+  content: 'Recent Posts:';
 }
 </style>
