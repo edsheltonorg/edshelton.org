@@ -1,7 +1,7 @@
 ---
 foam_template:
   filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Article Procedure Template
+  name: Template - Article - Procedure
   description: A procedure style note.
 ---
 ---
@@ -12,67 +12,83 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
   # - footer
 ---
 $0
-# *Procedure ${FOAM_TITLE}*
-<!-- Basic explanation of action desired:             -->
-<!-- Image: Process Diagram, Width 720                -->
-<!-- Agreement Link & Date:                           -->
+# Procedure: ${FOAM_TITLE}
+Basic explanation of action desired:
 
-<!----------------------------------------------------------------------------->
+[[Process_Diagram]]{width=700}
 
-<!--
-## What
-## When & Why
-## Example Problem
-## What it isn't
-## Requirements
--->
+Change Agreement Link:
 
-<!----------------------------------------------------------------------------->
+<!--------------------------------------------------------------->
 
-<!-- ## ***Procedure Begin*** -->
+## Context
 
-<!----------------------------------------------------------------------------->
+Some information regarding ${FOAM_TITLE}:
 
-<!-- ## ***Procedure Table***
-This issue has many possible procedures:
+### What
 
-| *Possible Answer*               | *Answer*                                   |
-| ------------------------------- | -------------------------------------      |
-|                                 | [Answer](#procedure-1)                     |
-|                                 |                                            | -->
+### When & Why
 
-<!-- ## **Procedure 1** -->
+### Example Problem
 
-<!----------------------------------------------------------------------------->
+### What it isn't
 
-<!-- ## ***Further Troubleshooting*** -->
-<!-- Detailed instructions if issue still not resolved -->
+<!--------------------------------------------------------------->
 
-<!----------------------------------------------------------------------------->
+## Procedure Begin
 
-<!-- ## ***Preventative Maintenance*** -->
-<!-- Suggestions to solve issue going forward -->
+???+ abstract "Requirements"
 
-<!----------------------------------------------------------------------------->
+  | *Requirement*               | *Answer*                       |
+  | --------------------------- | ------------------------------ |
+  |                             | [Answer](#procedure-1)         |
 
-<!-- ## ***Contacts***
-Anyone out of the ordinary to reach out to:
+???+ info "Procedure Table"
+  This issue has many possible procedures:
 
-| *Who*         | *What*               | *Why*                                 |
-| ------------- | -------------------- | ------------------------------------- |
-|               |                      |                                       | -->
+  | *Possible Answer*           | *Answer*                       |
+  | --------------------------- | ------------------------------ |
+  |                             | [Answer](#procedure-1)         |
 
-<!----------------------------------------------------------------------------->
+<!--------------------------------------------------------------->
 
-<!-- ## ***Related***
-Relevant information related to the procedure:
+## Procedure 1
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[PARENT]]                           | Subject Parent                        |
-|                                      |                                       | -->
+<!--------------------------------------------------------------->
 
-<!----------------------------------------------------------------------------->
+## Further Troubleshooting
+Detailed instructions if issue still not resolved:
+
+??? quote "Contacts"
+
+    Rolodex of people & places for different purposes:
+
+    | Who          | What                | Why                   |
+    | ---          | ----                | ---                   |
+    |              |                     |                       |
+
+<!--------------------------------------------------------------->
+
+## Preventative Maintenance
+Suggestions to solve issue going forward:
+
+<!--------------------------------------------------------------->
+
+## Opinions & Extras
+
+Opinions on subject.
+
+???+ example "Related Topics"
+
+    | Topic & Link                | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              |
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->
+
+<!--------------------------------------------------------------->
 
 <!-- <style>
     .md-footer__link--prev {

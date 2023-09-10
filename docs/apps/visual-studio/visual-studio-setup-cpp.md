@@ -18,7 +18,6 @@ Information that you may want to know:
 
 # *Setup C++ for Visual Studio*
 
-
 We're going to setup a `C++` development environment in Visual Studio.
 
 ![[visual-studio-cpp.png]]{width=200}

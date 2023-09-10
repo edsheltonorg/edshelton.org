@@ -1,8 +1,8 @@
 ---
 foam_template:
   filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Article Issue & QA Template
-  description: A question/answer style note.
+  name: Template - Article - Issue & QA
+  description: An issue / question+answer style note.
 ---
 ---
 title: $FOAM_TITLE Questions and Answers
@@ -13,50 +13,62 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 ---
 $0
 # *TURN THIS INTO THE QUESTION / ISSUE ${FOAM_TITLE}*
+Basic explanation of action desired / led up to:
 
-<!-- Basic explanation of action desired / led up to: -->
-<!-- Example of error:                                -->
-<!-- Image: Diagram, Width 720                        -->
-<!-- Had it worked previously?                        -->
+Example of error:
 
-<!----------------------------------------------------------------------------->
+[[Issue_Example]]{width=700}
 
-<!-- ## ***Answer*** -->
-<!-- ### ***Long Answer*** -->
+Describe Normal / Expected Behavior:
 
-<!----------------------------------------------------------------------------->
+<!--------------------------------------------------------------->
 
-<!-- ## ***Answer Table***
-This issue has many possible answers:
+???+ info "Answer Table"
+  This issue has many possible procedures:
 
-| *Possible Answer*               | *Answer*                                   |
-| ------------------------------- | -------------------------------------      |
-|                                 | [Answer](#answer-1)                        |
-|                                 |                                            | -->
+  | *Possible Answer*           | *Answer*                       |
+  | --------------------------- | ------------------------------ |
+  |                             | [Answer](#answer-1)            |
 
-<!-- ## **Answer 1** -->
+<!--------------------------------------------------------------->
 
-<!----------------------------------------------------------------------------->
+## Answer 1
 
-<!-- ## ***Further Troubleshooting*** -->
-<!-- Detailed instructions if issue still not resolved -->
+<!--------------------------------------------------------------->
 
-<!----------------------------------------------------------------------------->
+## Further Troubleshooting
+Detailed instructions if issue still not resolved:
 
-<!-- ## ***Preventative Maintenance*** -->
-<!-- Suggestions to solve issue going forward -->
+??? quote "Contacts"
 
-<!----------------------------------------------------------------------------->
+    Rolodex of people & places for different purposes:
 
-<!-- ## ***Related***
-Relevant information related to the question:
+    | Who          | What                | Why                   |
+    | ---          | ----                | ---                   |
+    |              |                     |                       |
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[PARENT]]                           | Subject Parent                        |
-|                                      |                                       | -->
+<!--------------------------------------------------------------->
 
-<!----------------------------------------------------------------------------->
+## Preventative Maintenance
+Suggestions to solve issue going forward:
+
+<!--------------------------------------------------------------->
+
+## Opinions & Extras
+
+Opinions on subject.
+
+???+ example "Related Topics"
+
+    | Topic & Link                | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              |
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->
+
+<!--------------------------------------------------------------->
 
 <!-- <style>
     .md-footer__link--prev {

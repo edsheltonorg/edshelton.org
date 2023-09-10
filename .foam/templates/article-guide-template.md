@@ -1,7 +1,7 @@
 ---
 foam_template:
   filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Article Guide Template
+  name: Template - Article - Guide
   description: A guide style note.
 ---
 ---
@@ -12,39 +12,61 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
   # - footer
 ---
 $0
-<!-- ## ***Nice to Know***
-Information that you may want to know:
+<!--------------------------------------------------------------->
 
-| *Topic*                         | *Link*                                      |
-| ------------------------------- | -------------------------------------       |
-| Computer Basics                 | [[Computer-Basics]]                         |
-| Windows Basics                  | [[Windows]]                                 |
-|                                 |                                             | -->
+# *Guide: ${FOAM_TITLE}*
 
-<!----------------------------------------------------------------------------->
+What?
 
-<!-- Image: Icon If Available, Width 75               -->
-# *Guide ${FOAM_TITLE}*
+[[Logo]]{width=200} -or- [[Screenshot]]{width=700} -or- [[Diagram]]{width=700}
 
-<!-- Explain What -->
-<!-- Image: Process Diagram, Width 720                -->
-<!-- ## When & Why: -->
-<!-- ## What it isn't: -->
+<!--------------------------------------------------------------->
 
-<!-- ## How -->
-<!-- ## Example Problem -->
+<!-- OPTIONAL: ???+ tip "Good to Know"
+    Topics that help in understanding:
 
-<!----------------------------------------------------------------------------->
+    | Topic            | Link                    | Why           |
+    | ---------------- | ----------------------- | ------------- |
+    | What is Whatever | [[What-is-Whatever]]    |               | -->
 
-<!-- ## ***Related***
-Relevant information related to the concept:
+<!--------------------------------------------------------------->
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[PARENT]]                           | Subject Parent                        |
-|                                      |                                       | -->
+## *Why*
 
-<!----------------------------------------------------------------------------->
+<!--------------------------------------------------------------->
+
+## *How*
+
+<!--------------------------------------------------------------->
+
+<!-- ## Optional: Example Problem -->
+
+<!--------------------------------------------------------------->
+
+<!-- ## Optional: Further Reading -->
+
+???+ tip "Further Reading"
+
+    | Topic & Link                | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[Next]]                    | Next Logical Concept         |
+
+<!--------------------------------------------------------------->
+
+## Opinions & Extras
+Opinions on subject.
+
+???+ example "Related Topics"
+
+    | Topic & Link                | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              |
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->
+
+<!--------------------------------------------------------------->
 
 <!-- <style>
     .md-footer__link--prev {

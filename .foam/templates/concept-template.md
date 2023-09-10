@@ -1,94 +1,153 @@
 ---
 foam_template:
   filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Concept Template
-  description: Overview of a Concept
+  name: Template - Concept
+  description: Concept Overview.
 ---
 ---
-title: $FOAM_TITLE Concept
+title: $FOAM_TITLE Overview
 description: Concept Overview of $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 # hide:
   # - footer
 ---
 $0
-<!---- Image: Logo, Width 75 --------->
-# *${FOAM_TITLE}*
-<!-- What? --------------------------->
+<!--------------------------------------------------------------->
 
-<!-- Why Should People Care? --------->
+# ${FOAM_TITLE}
+Who & What?
 
-<!---- Image: Screenshot, Width 520 -->
+[[Logo]]{width=200}
 
-<!-- How Does It Fit Into Process?  -->
+What Does It Do?
 
-<!---- Image: Diagram, Width 720 ----->
+[[Screenshot]]{width=700}
 
-<!----------------------------------------------------------------------------->
+How Does It Fit Into Process?
 
-<!-- ## ***Nice to Know***
-Information that will greatly help in understanding all things ${FOAM_TITLE}:
+[[Diagram]]{width=700}
 
-| *Topic*                         | *Link*                                      |
-| ------------------------------- | -------------------------------------       |
-| Computer Basics                 | [[Computer-Basics]]                         |
-| Windows Basics                  | [[Windows]]                                 |
-|                                 |                                             | -->
+<!--------------------------------------------------------------->
 
-<!----------------------------------------------------------------------------->
+???+ info "Official"
 
-<!-- ## ***Getting Started***
-Basic overview for ${FOAM_TITLE}:
+    | *Info & Link*        | *Note*                              |
+    | -------------------- | ----------------------------------- |
+    | [Documentation][Doc] |                                     |
+    | [Download][Down]     |                                     |
+    | [License][Lic]       |                                     |
+    | [Project Home][Proj] |                                     |
+    | [Home][Home]         |                                     |
+    | [Pricing][Price]     |                                     |
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Scripting vs Programming        | [[${FOAM_TITLE}-Scripting-vs-Programming]] |
-|                                 |                                            | -->
+    <!-- [Doc]:   https://www.example.org -->
+    <!-- [Down]:  https://www.example.org -->
+    <!-- [Lic]:   https://www.example.org -->
+    <!-- [Proj]:  https://www.example.org -->
+    <!-- [Home]:  https://www.example.org -->
+    <!-- [Price]: https://www.example.org -->
 
-<!-- ## ***Deep Dive***
-Specific information once fundamentals are understood:
+??? quote "Contacts"
+    Rolodex of people & places for different purposes:
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[${FOAM_TITLE}-Glossary]]                 |
-| In Memory Encryption            | [[${FOAM_TITLE}-In-Memory-Encryption]]     |
-|                                 |                                            | -->
+    | Who          | What                | Why                   |
+    | ---          | ----                | ---                   |
+    |              |                     |                       |
 
-<!----------------------------------------------------------------------------->
+<!--------------------------------------------------------------->
 
-<!-- ## ***Implementations***
-Examples of *${FOAM_TITLE}* in real world use.
+## Surrounding Info
+Essential context related to ${FOAM_TITLE}:
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| .NET                            | [[.NET]]                                   |
-| Python                          | [[Python]]                                 |
-|                                 |                                            | -->
+???+ tip "Good to Know"
+    Topics that help in understanding:
 
-<!----------------------------------------------------------------------------->
+    | Topic            | Link                    | Why           |
+    | ---------------- | ----------------------- | ------------- |
+    | What is Whatever | [[What-is-Whatever]]    |               |
 
-<!-- ## ***Common Questions***
-Questions you may have:
+???+ info "Change Log"
+    Technical and business changes:
 
-| *Question*                           | *Answer*                              |
-| ------------------------------------ | ------------------------------------- |
-|                                      | [Answer](#inline-answer-1)            |
-|                                      |                                       | -->
+    | Change                      | Link                         |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           |
 
-<!-- ## **Inline Answer 1** -->
+???+ warning "Context & Postmortems"
+    Background information & learnt lessons:
 
-<!----------------------------------------------------------------------------->
+    | Question / Event            | Brief                        |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           |
 
-<!-- ## ***Related***
-Topics related to ${FOAM_TITLE}:
+<!--------------------------------------------------------------->
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[Business-Analysis]]                | Business Analysis                     |
-| [[SDLC]]                             | Software Development Life Cycle       |
-|                                      |                                       | -->
+## Articles
 
-<!----------------------------------------------------------------------------->
+Posts all about ${FOAM_TITLE}:
+
+???+ note "Readme"
+    Articles recommended to start with:
+
+    | Topic                     | Link                           |
+    | ------------------------- | ------------------------------ |
+    | User Preferences & Config | [[${FOAM_TITLE}-User-Config]]  |
+    | Logging and Alerts        | [[${FOAM_TITLE}-Logging]]      |
+    | Maintenance Information   | [[${FOAM_TITLE}-Maintenance]]  |
+
+???+ abstract "General"
+    Specific articles:
+
+    | Topic                       | Link                         |
+    | --------------------------- | ---------------------------- |
+    | Common Terms & Definitions  | [[${FOAM_TITLE}-Glossary]]   |
+
+???+ success "Procedures"
+
+    | Procedure                   | Link                         |
+    | --------------------------- | ---------------------------- |
+    | Reboot Service              | [[${FOAM_TITLE}-Reboot]]     |
+
+<!--------------------------------------------------------------->
+
+## Knowledge Base
+
+KBs for ${FOAM_TITLE}:
+
+???+ question "Questions"
+
+    | Question                    | Answer                       |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           |
+
+???+ failure "Fixable Errors & Issues"
+
+    | Error / Issue               | Fix                          |
+    | --------------------------- | ------------------           |
+    |                             | [[Answer#Section]]           |
+
+??? bug "Unresolved Errors & Issues"
+
+    | Error / Issue               | Article / Bug Track          |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           |
+
+<!--------------------------------------------------------------->
+
+## Opinions & Extras
+Opinions on subject.
+
+???+ example "Related Topics"
+
+    | Topic & Link                | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              |
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->
+
+<!--------------------------------------------------------------->
 
 <!-- <style>
     .md-footer__link--prev {

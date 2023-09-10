@@ -1,4 +1,4 @@
-# TODO
+# <TODO></TODO>
 - Reinitialize project
 - Start personal blog site w/ chirpy & link
 - Or use internal blog plugin (wow!)
@@ -23,3 +23,4 @@ https://facelessuser.github.io/pymdown-extensions/faq/#function-references-in-ya
 - determine fun stdlib exploration in .NET / C#
 - continue down path of C++
 - investigate prebuild_index / indexing
+- tags needed for articles?
