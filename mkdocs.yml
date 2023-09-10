@@ -116,7 +116,7 @@ plugins:
           # 'old.md': 'databases/concepts/Databases.md'
   - roamlinks
   - rss:
-        match_path: "blog.*" # I don't know why 'blog/.*' breaks it.
+        # match_path: "blog.*" # Ensure site_url is set, else won't work in prod
         pretty_print: true
   - search
 
