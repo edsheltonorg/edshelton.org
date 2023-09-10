@@ -1,24 +1,16 @@
 ---
-foam_template:
-  filepath: 'docs/blog/$FOAM_TITLE.md'
-  name: Template - Blog
-  description: Blog Post.
----
----
 # draft: true
-title: $FOAM_TITLE # URL
-description: About $FOAM_TITLE
+title: Title of my New Note # URL
+description: About Title of my New Note
 authors:
   - ed
 date:
-  created: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+  created: 2023-09-10
   # updated:
 # readtime: 15
 ---
-$0
-<!--------------------------------------------------------------->
 
-# ${FOAM_TITLE}
+# Title of my New Note
 Issue being talked about / call to action.
 
 [[Screenshot]]{width=700}

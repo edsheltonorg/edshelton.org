@@ -12,6 +12,8 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
   # - footer
 ---
 $0
+<!--------------------------------------------------------------->
+
 # *TURN THIS INTO THE QUESTION / ISSUE ${FOAM_TITLE}*
 Basic explanation of action desired / led up to:
 

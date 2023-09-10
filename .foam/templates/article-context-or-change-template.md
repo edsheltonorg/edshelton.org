@@ -12,7 +12,11 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
   # - footer
 ---
 $0
+<!--------------------------------------------------------------->
+
 # *$SUBJECT Context / Change*
+
+<!--------------------------------------------------------------->
 
 ## Change / Context 1
 ???+ note "Change / Context [$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE]"
@@ -25,16 +29,16 @@ $0
     **Who** agreed?
     <!-- OPTIONAL: Picture of agreement. -->
     <!-- OPTIONAL: Link to related / changed information:
-    | *Topic & Link*            | *Why*                            |
-    | ------------------------- | -------------------------------- |
-    | [[PARENT]]                | Subject Parent                   |
-    | [[ARTICLE]]               | Article                          |
-    | [Community Reference]()   | StackOverflow Detailing Concept  |
-    | [Documentation]()         | Official Documentation           |
-    | [CLI Reference]()         | CLI Reference                    |
-    | [API Reference]()         | API Reference                    | -->
+    | *Topic & Link*           | *Why*                           |
+    | ------------------------ | ------------------------------- |
+    | [[PARENT]]               | Subject Parent                  |
+    | [[ARTICLE]]              | Article                         |
+    | [Community Reference]()  | StackOverflow Detailing Concept |
+    | [Documentation]()        | Official Documentation          |
+    | [CLI Reference]()        | CLI Reference                   |
+    | [API Reference]()        | API Reference                   | -->
 
-<!----------------------------------------------------------------------------->
+<!--------------------------------------------------------------->
 
 <!-- <style>
     .md-footer__link--prev {
