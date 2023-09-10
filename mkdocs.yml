@@ -119,6 +119,8 @@ plugins:
         # match_path: "blog.*" # Ensure site_url is set, else won't work in prod
         pretty_print: true
   - search
+  - unused_files:
+        dir: attachment
 
 extra_css:
   - stylesheets/extra.css

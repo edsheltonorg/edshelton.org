@@ -7,3 +7,4 @@ mkdocs-awesome-pages-plugin
 mkdocs-redirects
 mkdocs-git-revision-date-localized-plugin
 mkdocs-rss-plugin
+mkdocs-unused-files

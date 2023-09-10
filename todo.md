@@ -1,5 +1,4 @@
 # site modifications
-- Modify 404 page
 - determine orphaned images and trim
 - Add youtube page & linkedin to bottom right
 - lowercase all articles
@@ -11,6 +10,7 @@
 - determine naming strategy to reduce redirect issues
 
 # meta content:
+- Document build procedure on github
 - Document setup & determine if should be on blog or knowledge base
 - Make youtube video on how to setup
 
