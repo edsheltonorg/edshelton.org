@@ -1,3 +1,8 @@
+---
+title: Relational Databases
+description: RDBMS Concepts
+---
+
 ![[rdbms-logo.png]]{width=75, align=right}
 <!---- Image: Logo, Width 75 --------->
 
@@ -25,7 +30,7 @@ Information that will greatly help in understanding all things Relational-Databa
 
 | *Topic*                         | *Link*                                      |
 | ------------------------------- | -------------------------------------       |
-| SQL                             | [[SQL]]                         |
+| SQL                             | [[sql]]                         |
 |                                 |                                             |
 
 <!----------------------------------------------------------------------------->

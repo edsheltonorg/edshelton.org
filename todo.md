@@ -1,8 +1,6 @@
 # site modifications
 - Add youtube page & linkedin to bottom right
-- lowercase all articles
 - update articles with new formats
-- determine if minification is worth it
 
 # site strategy
 - follow M$ style of naming technical articles
@@ -10,8 +8,6 @@
 - determine naming strategy to reduce redirect issues
 
 # meta content:
-- Document build procedure on github
-- Document setup & determine if should be on blog or knowledge base
 - Make youtube video on how to setup
 
 # content:

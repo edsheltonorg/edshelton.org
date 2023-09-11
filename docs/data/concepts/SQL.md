@@ -1,3 +1,8 @@
+---
+title: SQL
+description: SQL Concepts
+---
+
 <!-- Use to hide prev / next footers individually: -->
 <style>
 /* .md-footer__link--prev {
@@ -31,8 +36,8 @@ Information that will greatly help in understanding all things SQL:
 
 | *Topic*                         | *Link*                                      |
 | ------------------------------- | -------------------------------------       |
-| Databases                       | [[Databases]]                                 |
-| Relational Databases            | [[Relational-Database]]                         |
+| Databases                       | [[databases]]                                 |
+| Relational Databases            | [[relational-databases]]                         |
 |                                 |                                             |
 
 <!----------------------------------------------------------------------------->

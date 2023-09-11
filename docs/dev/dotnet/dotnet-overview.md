@@ -1,5 +1,5 @@
 ---
-title: .NET Overview
+title: Overview
 description: Overview of .NET
 ---
 

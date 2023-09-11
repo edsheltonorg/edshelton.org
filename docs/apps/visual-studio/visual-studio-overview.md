@@ -1,23 +1,12 @@
 ---
-title: Visual Studio Overview
+title: Overview
 description: Overview of Visual Studio
 ---
 
-<style>
-    .md-footer__link--prev {
-        display: none
-    }
-    /* .md-footer__link--next {
-        display: none
-    } */
-</style>
-
+![[visualstudio-icon.png]]{width=150, align=right}
 # Visual Studio
 
-
 Microsoft's Free* IDE for .NET, C++, and more.
-
-![[visualstudio-icon.png]]{width=200}
 
 The most common way tool to develop a C# / .NET programs:
 
@@ -109,3 +98,12 @@ Topics related to Visual Studio:
 | [[.NET Overview]] | Common Framework Target. |
 
 <!----------------------------------------------------------------------------->
+
+<style>
+    .md-footer__link--prev {
+        display: none
+    }
+    /* .md-footer__link--next {
+        display: none
+    } */
+</style>

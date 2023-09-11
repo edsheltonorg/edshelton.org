@@ -5,7 +5,7 @@ foam_template:
   description: Concept Overview.
 ---
 ---
-title: $FOAM_TITLE Overview
+title: Overview
 description: Concept Overview of $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 # hide:
@@ -14,10 +14,9 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 $0
 <!--------------------------------------------------------------->
 
+[[Logo]]{width=150, align=right}
 # ${FOAM_TITLE}
 Who & What?
-
-[[Logo]]{width=200}
 
 What Does It Do?
 

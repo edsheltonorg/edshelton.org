@@ -1,5 +1,5 @@
 ---
-title: Networking Overview
+title: Overview
 description: Overview of Networking
 ---
 

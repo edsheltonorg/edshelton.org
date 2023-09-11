@@ -14,9 +14,9 @@ It has two sections:
 - The Blog <sup>*(You Are Here!)*</sup>
 - The Knowledge Base <sup>*(Sections in Header.)*</sup>
 
-`edshelton.org` is dedicated to &nbsp;<span style="color:#44a8a2"><font size=6>***Everyone***</font></span>&nbsp; who taught me, whether they knew it or not!
+Dedicated to &nbsp;<span style='color:#44a8a2'><font size=6>***Everyone***</font></span>&nbsp; who teaches me everyday, whether they know it or not.
 
-Thank you from the bottom of my heart.
+Thank you all so very much.
 
 ---
 

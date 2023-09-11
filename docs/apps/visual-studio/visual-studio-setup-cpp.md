@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Setup C++ Guide
+title: Setup C++
 description: Guide to visual-studio-setup-cpp
 date: 2023-09-02
 ---

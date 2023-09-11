@@ -1,5 +1,6 @@
 ---
-redirect: /databases/concept/SQL/
+title: Databases
+description: Database Concepts
 ---
 
 <!---- Image: Logo, Width 75 --------->
@@ -62,7 +63,7 @@ Examples of *Databases* in real world use.
 
 | *Topic*                         | *Link*                                     |
 | ------------------------------- | ------------------------------------------ |
-| Relational Databases            | [[Relational-Database]]                                   |
+| Relational Databases            | [[relational-databases]]                                   |
 | Python                          | [[Python]]                                 |
 |                                 |                                            |
 

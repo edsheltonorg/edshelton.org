@@ -1,5 +1,5 @@
 ---
-title: SQL Server Overview
+title: Overview
 description: Overview of SQL Server
 ---
 
