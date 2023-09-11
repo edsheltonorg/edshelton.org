@@ -111,6 +111,14 @@ plugins:
       exclude:
           - index.md
   - glightbox
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+          remove_comments: true
+      cache_safe: true
+      minify_css: true
+      css_files:
+          - stylesheets/extra.css
   - redirects:
       # redirect_maps:
           # 'old.md': 'databases/concepts/Databases.md'

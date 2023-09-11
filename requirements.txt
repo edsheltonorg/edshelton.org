@@ -8,3 +8,4 @@ mkdocs-redirects
 mkdocs-git-revision-date-localized-plugin
 mkdocs-rss-plugin
 mkdocs-unused-files
+mkdocs-minify-plugin

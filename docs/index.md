@@ -20,7 +20,6 @@ Thank you from the bottom of my heart.
 
 ---
 
-
 <font size=5>Blog Feed</font><br>
 <sup><sup>[Archive](/archive/2023)</sup></sup>
 
