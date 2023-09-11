@@ -5,8 +5,11 @@ hide:
   - footer
 ---
 
+<figure style="float:right">
+    <img src="/assets/cat-3x.png" alt="drawing" width="350" />
+    <!-- <figcaption><b><sup><sup>Cat</sup></sup></b></figcaption> -->
+</figure>
 # Hi.
-![[cat-3x.png]]{width=320, align=right}
 Welcome to my personal site! <sup>[:octicons-code-24:](https://github.com/edsheltonorg/edshelton.org)</sup>
 
 It has two sections:
@@ -14,9 +17,7 @@ It has two sections:
 - The Blog <sup>*(You Are Here!)*</sup>
 - The Knowledge Base <sup>*(Sections in Header.)*</sup>
 
-Dedicated to &nbsp;<span style='color:#44a8a2'><font size=6>***Everyone***</font></span>&nbsp; who teaches me everyday, whether they know it or not.
-
-Thank you all so very much.
+Dedicated to &nbsp;<span style='color:#44a8a2'><font size=6>***Everyone***</font></span>&nbsp; who teaches me ...whether they know it or not!
 
 ---
 
