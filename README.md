@@ -67,7 +67,7 @@ So I began building a documentation system.
 
 ## Pitfall of Traditional Documentation
 
-After implementing a "real" documentation system with 1500+ articles, trainees *still had issues with:*
+After implementing a "real" documentation system with 1500+ articles, trainees ***still had issues with:***
 
 1. The big picture.
 1. Necessary background information.
@@ -98,15 +98,13 @@ By linking these units together, you can begin building valuable & discoverable 
 
 ## Alternative System Recommendations
 
-You can easily adapt my templates into any platform's system!
+You can easily adapt my templates into any platform's system.
 
 For work, consider your team's skill level & friction tolerance:
 - Microsoft OneNote (Simplest one & free if using Office 365)
 - Bookstack (More advanced features, can share easier)
 
-For personal, anything that can link will work.
-
-Look for systems that can easily adjust links if modified & catch orphaned assets.
+For personal, anything you like will work.
 
 ## Influences
 
@@ -114,6 +112,8 @@ The system takes working-class inspiration from Molecular Note.<br>
 It's definitely a worthy read.
 [Pt. 1](https://reasonabledeviations.com/2022/04/18/molecular-notes-part-1/)
 <sub><sup>+</sup></sub> [Pt. 2](https://reasonabledeviations.com/2022/06/12/molecular-notes-part-2/)
+
+<img src=".github/assets/Molecular-Notes-Screenshot.png" alt="drawing" width="520"/>
 
 ## Licenses
 
