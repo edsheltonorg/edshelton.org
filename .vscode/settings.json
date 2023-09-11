@@ -35,5 +35,5 @@
   "pasteImage.path"                       : "${projectRoot}/docs/attachment",
   "pasteImage.insertPattern"              : "![[${imageFileName}]]{width=620, align=}",
   "pasteImage.showFilePathConfirmInputBox": true,
-  "prettier.singleQuote"                  : false,
+  "prettier.singleQuote": false,
 }
