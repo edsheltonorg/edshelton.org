@@ -90,7 +90,8 @@ markdown_extensions:
           case: lower
 
 plugins:
-  - awesome-pages
+  - awesome-pages:
+      strict: false
   - blog:
       blog_dir: .
       blog_toc: true
