@@ -121,6 +121,7 @@ plugins:
   - search
   - unused_files:
         dir: attachment
+        excluded_files: .*-github-1.png
 
 extra_css:
   - stylesheets/extra.css
