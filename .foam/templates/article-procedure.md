@@ -21,11 +21,11 @@ Basic explanation of action desired:
 
 Change Agreement Link:
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 ## Context
 
-Some information regarding ${FOAM_TITLE}:
+{Some information regarding ${FOAM_TITLE}:}
 
 ### What
 
@@ -35,7 +35,7 @@ Some information regarding ${FOAM_TITLE}:
 
 <!-- ### OPTIONAL: What it isn't -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 ## Procedure Begin
 
@@ -43,52 +43,53 @@ Some information regarding ${FOAM_TITLE}:
 
   | *Requirement*               | *Answer*                       |
   | --------------------------- | ------------------------------ |
-  |                             | [Answer](#procedure-1)         |
+  |                             | [Answer](#procedure-standard)  |
 
 <!-- ???+ info "Procedure Table"
   This issue has many possible procedures:
 
   | *Possible Answer*           | *Answer*                       |
   | --------------------------- | ------------------------------ |
-  |                             | [Answer](#procedure-1)         | -->
+  |                             | [Answer](#procedure-standard)  | -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-## Procedure 1
+## Procedure Standard
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Procedure Emergency -->
+
+<!-- --------------------------------------------------------- -->
 
 <!-- ## Further Troubleshooting
-Detailed instructions if issue still not resolved:
+{Detailed instructions if issue still not resolved} -->
 
-??? quote "Contacts"
+<!-- ??? quote "Contacts"
 
-    Rolodex of people & places for different purposes:
+    People or locations relevant to ${FOAM_TITLE}
 
-    | Who          | What                | Why                   |
-    | ---          | ----                | ---                   |
-    |              |                     |                       | -->
+    | Who & What                  | Why                          |
+    | --------------------------- | ---------------------------- |
+    |                             |                              | -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 <!-- ## Preventative Maintenance
-Suggestions to solve issue going forward: -->
+{Suggestions to solve issue going forward} -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-<!-- ## Opinions & Extras
+<!-- ## Opinions
+{Opinions on subject.} -->
 
-Opinions on subject.
+<!-- --------------------------------------------------------- -->
 
-???+ example "Related Topics"
+<!-- ???+ example "Related Topics"
 
     | Topic & Link                | Why                          |
     | --------------------------- | ---------------------------- |
     | [[PARENT]]                  | Logical Concept              | -->
-
-<!--------------------------------------------------------------->
-
-<!-- TO-DO List -->
 
 <!--------------------------------------------------------------->
 
@@ -100,3 +101,7 @@ Opinions on subject.
         display: none
     }
 </style> -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->

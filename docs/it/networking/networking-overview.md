@@ -1,11 +1,10 @@
 ---
 title: Overview
 description: Overview of Networking
+date: 2023-09-14
 ---
 
-<!---- Image: Logo, Width 75 --------->
 ![[network-icon.png]]{width=75, align=right}
-
 # Networking
 Networking connects computers to other computers.
 
@@ -17,73 +16,72 @@ This concept enables things like the Internet to exist.
 
 <!---- Image: Diagram, Width 720 ----->
 
+<!--------------------------------------------------------------->
 
+<!-- ## Surrounding Info
+Essential context related to ${FOAM_TITLE}: -->
 
-<!----------------------------------------------------------------------------->
+<!-- ???+ tip "Good to Know"
+    Topics that help in understanding:
 
-<!-- ## ***Nice to Know***
-Information that will greatly help in understanding all things Networking:
+    | Topic                                             | Why    |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[how-to-install|Text]]                           |        | -->
 
-| *Topic*                         | *Link*                                      |
-| ------------------------------- | -------------------------------------       |
-| Computer Basics                 | [[Computer-Basics]]                         |
-| Windows Basics                  | [[Windows]]                                 |
-|                                 |                                             | -->
+<!--------------------------------------------------------------->
 
-<!----------------------------------------------------------------------------->
+<!-- ## Articles
 
-## ***Getting Started***
-Basic overview for Networking:
+Posts all about Networking: -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| OSI Model                       | [[Networking-OSI-Model]]                   |
-| Routing                         | [[Networking-Routing]]                     |
-| Firewalls                       | [[Networking-Firewalls]]                   |
-|                                 |                                            |
+<!-- ???+ note "Readme"
+    Articles recommended to start with:
 
-<!-- ## ***Deep Dive***
-Specific information once fundamentals are understood:
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-maintenance|Maintenance Info]]    |        | -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[Networking-Glossary]]                    |
-| In Memory Encryption            | [[Networking-In-Memory-Encryption]]        |
-|                                 |                                            | -->
+<!-- ???+ abstract "General"
+    Specific articles:
 
-<!----------------------------------------------------------------------------->
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
 
-<!-- ## ***Implementations***
-Examples of *Networking* in real world use.
+<!--------------------------------------------------------------->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| HTTP                            | [[HTTP]]                                   |
-| TCP                             | [[TCP]]                                    |
-| MAC                             | [[MAC]]                                    |
-|                                 |                                            | -->
+<!-- ## Knowledge Base
+KBs for ${FOAM_TITLE}: -->
 
-<!----------------------------------------------------------------------------->
+<!-- ???+ question "Questions"
 
-<!-- ## ***Common Questions***
-Questions you may have:
+    | Question                    | Answer                       |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-| *Question*                           | *Answer*                              |
-| ------------------------------------ | ------------------------------------- |
-|                                      | [Answer](#inline-answer-1)            |
-|                                      |                                       | -->
+<!--------------------------------------------------------------->
 
-<!-- ## **Inline Answer 1** -->
+<!-- ## Opinions & Extras
+Opinions on subject. -->
 
-<!----------------------------------------------------------------------------->
+<!-- ???+ example "Related Topics"
 
-<!-- ## ***Related***
-Topics related to Networking:
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              | -->
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[Business-Analysis]]                | Business Analysis                     |
-| [[SDLC]]                             | Software Development Life Cycle       |
-|                                      |                                       | -->
+<!--------------------------------------------------------------->
 
-<!----------------------------------------------------------------------------->
+<!-- TO-DO List -->
+
+<!--------------------------------------------------------------->
+
+<!-- <style>
+    .md-footer__link--prev {
+        display: none
+    }
+    .md-footer__link--next {
+        display: none
+    }
+</style> -->

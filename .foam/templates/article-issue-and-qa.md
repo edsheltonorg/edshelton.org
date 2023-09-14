@@ -15,15 +15,15 @@ $0
 <!--------------------------------------------------------------->
 
 # *TURN THIS INTO THE QUESTION / ISSUE ${FOAM_TITLE}*
-Basic explanation of action desired / led up to:
+{Basic explanation of action desired / led up to}
 
 Example of error:
 
 ![[Issue_Example]]{width=700}
 
-Describe Normal / Expected Behavior:
+{Describe Normal / Expected Behavior}
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 <!-- ???+ info "Answer Table"
   This issue has many possible procedures:
@@ -32,42 +32,39 @@ Describe Normal / Expected Behavior:
   | --------------------------- | ------------------------------ |
   |                             | [Answer](#answer-1)            | -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 ## Answer 1
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 <!-- ## Further Troubleshooting
-Detailed instructions if issue still not resolved:
+{Detailed instructions if issue still not resolved} -->
 
-??? quote "Contacts"
+<!-- ??? quote "Contacts"
+    People or locations relevant to ${FOAM_TITLE}
 
-    Rolodex of people & places for different purposes:
+    | Who & What                  | Why                          |
+    | --------------------------- | ---------------------------- |
+    |                             |                              | -->
 
-    | Who          | What                | Why                   |
-    | ---          | ----                | ---                   |
-    |              |                     |                       | -->
-
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 <!-- ## Preventative Maintenance
-Suggestions to solve issue going forward: -->
+{Suggestions to solve issue going forward} -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-<!-- ## Opinions & Extras
-Opinions on subject.
+<!-- ## Opinions
+{Opinions on subject.} -->
+
+<!-- --------------------------------------------------------- -->
 
 ???+ example "Related Topics"
 
     | Topic & Link                | Why                          |
     | --------------------------- | ---------------------------- |
     | [[PARENT]]                  | Logical Concept              | -->
-
-<!--------------------------------------------------------------->
-
-<!-- TO-DO List -->
 
 <!--------------------------------------------------------------->
 
@@ -79,3 +76,7 @@ Opinions on subject.
         display: none
     }
 </style> -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->

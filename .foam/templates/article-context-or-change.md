@@ -5,7 +5,7 @@ foam_template:
   description: A note explaining background.
 ---
 ---
-title: $FOAM_TITLE Glossary
+title: $FOAM_TITLE Change & Context Log
 description: Context or Change $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 # hide:
@@ -16,7 +16,7 @@ $0
 
 # *$SUBJECT Context / Change*
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 ## Change / Context 1
 ???+ note "Change / Context [$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE]"
@@ -26,17 +26,22 @@ $0
     <!-- OPTIONAL: Picture / Diagram -->
     **What** is impacted?
     **Why** was this done?
+    **What** risks & opinions were discussed?
     **Who** agreed?
     <!-- OPTIONAL: Picture of agreement. -->
     <!-- OPTIONAL: Link to related / changed information:
-    | *Topic & Link*               | *Why*                           |
-    | ---------------------------- | ------------------------------- |
+    | *Topic & Link*               | *Why*                       |
+    | ---------------------------- | --------------------------- |
     | [[PARENT|Text]]              | Subject Parent              |
     | [[ARTICLE|Text]]             | Article                     |
     | [[Community Reference|Text]] | StackOverflow / Hacker News |
     | [[Documentation|Text]]       | Official Documentation      |
     | [[CLI Reference|Text]]       | CLI Reference               |
     | [[API Reference|Text]]       | API Reference               | -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Change / Context 2 -->
 
 <!--------------------------------------------------------------->
 
@@ -48,3 +53,7 @@ $0
         display: none
     }
 </style> -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->

@@ -1,5 +1,7 @@
 ---
 title: Programming Concepts
+description: General Programming Concepts
+date: 2023-09-14
 ---
 
 <!---- Image: Logo, Width 75 --------->
@@ -15,69 +17,72 @@ Understanding programming is vital to debugging software and fixing things.
 
 <!---- Image: Diagram, Width 720 ----->
 
-<!----------------------------------------------------------------------------->
+<!---------------  ---------------------------------------------->
 
-<!-- ## ***Nice to Know***
-Information that will greatly help in understanding all things Programming:
+<!-- ## Surrounding Info
+Essential context related to ${FOAM_TITLE}: -->
 
-| *Topic*                         | *Link*                                      |
-| ------------------------------- | -------------------------------------       |
-| Computer Basics                 | [[Computer-Basics]]                         |
-| Windows Basics                  | [[Windows]]                                 |
-|                                 |                                             | -->
+<!-- ???+ tip "Good to Know"
+    Topics that help in understanding:
 
-<!----------------------------------------------------------------------------->
+    | Topic                                             | Why    |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[how-to-install|Text]]                           |        | -->
 
-### ***Getting Started***
-Basic overview for Programming:
+<!-- --------------------------------------------------------- -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Scripting vs Programming        | [[Programming-Scripting-vs-Programming]] |
-| What is a Compiler?             | [[Programming-Execution-Process]]       |
-| What is a Library?              | [[Programming-Library]]       |
-| What is an API?                 | [[Programming-API]]       |
-|                                 |                                            |
+<!-- ## Articles
 
-### ***Deep Dive***
-Specific information once fundamentals are understood:
+Posts all about Programming Concepts: -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[Programming-Glossary]]                   |
-|                                 |                                            |
+<!-- ???+ note "Readme"
+    Articles recommended to start with:
 
-<!----------------------------------------------------------------------------->
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-maintenance|Maintenance Info]]    |        | -->
 
-### ***Implementations***
-Examples of *Programming* in real world use.
+<!-- ???+ abstract "General"
+    Specific articles:
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| .NET                            | [[dotnet/index]]                                   |
-|                                 |                                            |
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
 
-<!----------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-<!-- ## ***Common Questions***
-Questions you may have:
+<!-- ## Knowledge Base
+KBs for ${FOAM_TITLE}: -->
 
-| *Question*                           | *Answer*                              |
-| ------------------------------------ | ------------------------------------- |
-|                                      | [Answer](#inline-answer-1)            |
-|                                      |                                       | -->
+<!-- ???+ question "Questions"
 
-<!-- ## **Inline Answer 1** -->
+    | Question                    | Answer                       |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-<!----------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-<!-- ## ***Related***
-Topics related to Programming:
+<!-- ## Opinions & Extras
+Opinions on subject. -->
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[Business-Analysis]]                | Business Analysis                     |
-| [[SDLC]]                             | Software Development Life Cycle       |
-|                                      |                                       | -->
+<!-- ???+ example "Related Topics"
 
-<!----------------------------------------------------------------------------->
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              | -->
+
+<!--------------------------------------------------------------->
+
+<!-- <style>
+    .md-footer__link--prev {
+        display: none
+    }
+    .md-footer__link--next {
+        display: none
+    }
+</style> -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->

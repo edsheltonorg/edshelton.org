@@ -1,6 +1,9 @@
 ---
 title: ASP.NET Overview
+description: Concept Overview of ASP.NET
 date: 2023-08-25
+# hide:
+  # - footer
 ---
 
 ![[aspnet-logo.png]]{width=75, align=right }
@@ -17,75 +20,129 @@ ASP.NET is a library contained in .NET, although many web framework for .NET exi
 
 ![[aspnet-diagram-markup.png]]{width=620}
 
-<!----------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-## ***Info***
-External information regarding ASP.NET:
+???+ info "Official"
 
-| *Info*        | *Link*                                        | *Note*                                                      |
-| ------------- | --------------------------------------------- | ----------------------------------------------------------- |
-| Documentation | [Documentation][Doc]                          | Uses newest version if not specified.                       |
-| Download      |                                               | Natively part of .NET                                       |
-| License       | [Framework][Lic] / [Core][LicAlt]             | ***.NET Framework:*** Proprietary / ***.NET Core:*** MIT |
-| Project Home  | [.NET Framework][Proj] / [.NET Core][ProjAlt] |                                                             |
+    | Info & Link                                  | Notes                      |
+    | --------------------                         | -------------------------- |
+    | [Documentation][Doc]                         | Uses newest version if not specified. |
+    | Download                                     | Natively part of .NET |
+    | License: [Framework][Lic] / [Core][LicAlt]   | Framework is proprietary w/ exceptions, Core is MIT |
+    | Project: [Framework][Proj] / [Core][ProjAlt] |                            |
 
-[Doc]:      https://learn.microsoft.com/en-us/aspnet/core/
-[Lic]:      https://www.microsoft.com/web/webpi/eula/aspnet_and_web_tools_2012_2_rtw_eula_enu.htm
-[LicAlt]:   https://github.com/dotnet/aspnetcore/blob/main/LICENSE.txt
-[Proj]:     https://github.com/microsoft/referencesource
-[ProjAlt]:  https://github.com/dotnet/aspnetcore
+    [Doc]:      https://learn.microsoft.com/en-us/aspnet/core/
+    [Lic]:      https://www.microsoft.com/web/webpi/eula/aspnet_and_web_tools_2012_2_rtw_eula_enu.htm
+    [LicAlt]:   https://github.com/dotnet/aspnetcore/blob/main/LICENSE.txt
+    [Proj]:     https://github.com/microsoft/referencesource
+    [ProjAlt]:  https://github.com/dotnet/aspnetcore
 
-<!---------------------------------------------------------------------------
+<!-- ??? quote "Contacts"
+    Rolodex of people & places for different purposes:
 
-<!-- ## ***Nice to Know***
-Information that will greatly help in understanding all things ASP.NET:
+    | Who & What                  | Why                          |
+    | --------------------------- | ---------------------------- |
+    |                             |                              | -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| General Networking              | [[Networking]]                             |
-| Windows Event Viewer            | [[Windows-Event-Viewer]]                   |
-|                                 |                                            | -->
+<!-- ## Surrounding Info
+Essential context related to ${FOAM_TITLE}: -->
 
-<!----------------------------------------------------------------------------->
+<!-- ???+ tip "Good to Know"
+    Topics that help in understanding:
 
-<!-- ## ***Getting Started***
-Common day-to-day tasks, problems, and procedures:
+    | Topic                                             | Why    |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[how-to-install|Text]]                           |        | -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Network Profiles                | [[ASP.NET-User-Config]]              |
-| netstat                         | [[ASP.NET-netstat]]                  |
-|                                 |                                            | -->
+<!-- ???+ info "Change Log"
+    Technical and business changes:
 
-<!----------------------------------------------------------------------------->
+    | Change                      | Link                         |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-## ***Deep Dive***
-Specific information that isn't as common:
+<!-- ???+ warning "Context & Postmortems"
+    Background information & learnt lessons:
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[ASP.NET-Glossary]]                 |
-|                                 |                                            |
+    | Question / Event            | Brief                        |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-<!----------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-<!-- ## ***Common Questions***
-Questions you may have:
+<!-- ## Articles
 
-| *Question*                           | *Answer*                              |
-| ------------------------------------ | ------------------------------------- |
-|                                      | [Answer](#inline-answer-1)            |
-|                                      |                                       | -->
+Posts all about ASP.NET: -->
 
-<!-- ## **Inline Answer 1** -->
+<!-- ???+ note "Readme"
+    Articles recommended to start with:
 
-<!----------------------------------------------------------------------------->
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[${FOAM_TITLE}-user-config|User Config]]         |        |
+    | [[${FOAM_TITLE}-logs-and-alerts|Logs and Alerts]] |        |
+    | [[${FOAM_TITLE}-maintenance|Maintenance Info]]    |        | -->
 
-## ***Related***
-Topics related to ASP.NET:
+<!-- ???+ abstract "General"
+    Specific articles:
 
-| *Topic & Link*      | Why                             |
-| ------------------- | ------------------------------- |
-| [[.NET Overview]]   | Framework that contains Library |
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
 
-<!----------------------------------------------------------------------------->
+<!-- ???+ success "Procedures"
+
+    | Procedure                                         | Notes  |
+    | ---------------------------                       | ------ |
+    | [[${FOAM_TITLE}-Reboot|Reboot Services]]          |        | -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Knowledge Base
+KBs for ${FOAM_TITLE}: -->
+
+<!-- ???+ question "Questions"
+
+    | Question                    | Answer                       |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
+
+<!-- ???+ failure "Fixable Errors & Issues"
+
+    | Error / Issue               | Fix                          |
+    | --------------------------- | ------------------           |
+    |                             | [[Answer#Section]]           | -->
+
+<!-- ??? bug "Unresolved Errors & Issues"
+
+    | Error / Issue               | Article / Bug Track          |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Opinions & Extras
+Opinions on subject. -->
+
+<!-- ???+ example "Related Topics"
+
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              | -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->
+
+<!--------------------------------------------------------------->
+
+<!-- <style>
+    .md-footer__link--prev {
+        display: none
+    }
+    .md-footer__link--next {
+        display: none
+    }
+</style> -->

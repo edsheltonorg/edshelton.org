@@ -15,9 +15,9 @@ $0
 <!--------------------------------------------------------------->
 
 # $SUBJECT Glossary
-Explanation for terminology & basic navigation.
+Terminology, Lingo, and Clarification for ${FOAM_TITLE}.
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 ???+ info "Foo"
     <!-- **Has any part of this been deprecated?** -->
@@ -39,6 +39,12 @@ Explanation for terminology & basic navigation.
     | [CLI Reference]()        | CLI Reference                   |
     | [API Reference]()        | API Reference                   | -->
 
+<!-- --------------------------------------------------------- -->
+
+<!-- ???+ info "Bar"
+    <!-- **Has any part of this been deprecated?** -->
+    **What** is this thing & what does it do? -->
+
 <!--------------------------------------------------------------->
 
 <!-- <style>
@@ -49,3 +55,7 @@ Explanation for terminology & basic navigation.
         display: none
     }
 </style> -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->

@@ -1,12 +1,12 @@
 ---
 foam_template:
   filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Template - Concept
+  name: Template - Concept - Implementation Overview
   description: Concept Overview.
 ---
 ---
 title: Overview
-description: Concept Overview of $FOAM_TITLE
+description: Overview of $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 # hide:
   # - footer
@@ -16,19 +16,20 @@ $0
 
 ![[Logo]]{width=150, align=right}
 # ${FOAM_TITLE}
-Who & What?
+{Who & What?}
 
-What Does It Do?
+{What Does It Do?}
 
 ![[Diagram]]{width=700}
 
-How Does It Fit Into Process?
+{How Does It Fit Into The Process?}
 
 ![[Screenshot]]{width=700}
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 ???+ info "Official"
+    Official links related to ${FOAM_TITLE}
 
     | Info & Link          | Notes                               |
     | -------------------- | ----------------------------------- |
@@ -47,13 +48,13 @@ How Does It Fit Into Process?
     <!-- [Price]: https://www.example.org -->
 
 <!-- ??? quote "Contacts"
-    Rolodex of people & places for different purposes:
+    People or locations relevant to ${FOAM_TITLE}
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |
     |                             |                              | -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 <!-- ## Surrounding Info
 Essential context related to ${FOAM_TITLE}: -->
@@ -80,7 +81,7 @@ Essential context related to ${FOAM_TITLE}: -->
     | --------------------------- | ---------------------------- |
     |                             | [[Answer#Section]]           | -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 ## Articles
 
@@ -109,7 +110,7 @@ Posts all about ${FOAM_TITLE}:
     | ---------------------------                       | ------ |
     | [[${FOAM_TITLE}-Reboot|Reboot Services]]          |        | -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 <!-- ## Knowledge Base
 KBs for ${FOAM_TITLE}: -->
@@ -132,10 +133,12 @@ KBs for ${FOAM_TITLE}: -->
     | --------------------------- | ---------------------------- |
     |                             | [[Answer#Section]]           | -->
 
-<!--------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-<!-- ## Opinions & Extras
-Opinions on subject. -->
+<!-- ## Opinions
+{Opinions on subject.} -->
+
+<!-- --------------------------------------------------------- -->
 
 <!-- ???+ example "Related Topics"
 

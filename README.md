@@ -87,7 +87,7 @@ I've attempted to address these issues by breaking information into key units:
 | [***Article: Guide***](.foam/templates/article-guide.md)                        | How to perform something, use a feature, or learn a concept.                       |
 | [***Article: Issue and QA***](.foam/templates/article-issue-and-qa.md)          | Offers an alternative way to discover articles to fix issues or understand better. |
 | [***Article: Procedure***](.foam/templates/article-procedure.md)                | An ordered list of manuals w/ extra business logic between to perform a process.   |
-| [***Concept***](.foam/templates/concept.md)                                     | A "start here" of a concept or implementation, like "Programming" or "Python".     |
+| [***Concept***](.foam/templates/concept-implementation-overview.md)                                     | A "start here" of a concept or implementation, like "Programming" or "Python".     |
 
 By linking these units together, you can begin building valuable & discoverable documentation.
 
