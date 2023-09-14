@@ -1,20 +1,14 @@
 ---
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Template - Article - Guide
-  description: A guide style note.
----
----
-title: $FOAM_TITLE Guide
-description: Guide to $FOAM_TITLE
-date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+title: Getting Started
+description: Guide to Getting Started with Vagrant
+date: 2023-09-14
 # hide:
   # - footer
 ---
-$0
+
 <!--------------------------------------------------------------->
 
-# *Guide: ${FOAM_TITLE}*
+# *Getting Started*
 
 What?
 
@@ -25,9 +19,9 @@ What?
 <!-- OPTIONAL: ???+ tip "Good to Know"
     Topics that help in understanding:
 
-    | Topic                                      | Why           |
-    | ------------------------------------------ | ------------- |
-    | [[what-is-whatever|What is Whatever]]      |               |
+    | Topic            | Link                    | Why           |
+    | ---------------- | ----------------------- | ------------- |
+    | What is Whatever | [[What-is-Whatever]]    |               | -->
 
 <!--------------------------------------------------------------->
 
@@ -43,24 +37,24 @@ What?
 
 <!--------------------------------------------------------------->
 
-<!-- ## Optional: Further Reading
+<!-- ## Optional: Further Reading -->
 
 ???+ tip "Further Reading"
 
-    | Topic                       | Why                          |
+    | Topic & Link                | Why                          |
     | --------------------------- | ---------------------------- |
-    | [[Next]]                    | Next Logical Concept         | -->
+    | [[Next]]                    | Next Logical Concept         |
 
 <!--------------------------------------------------------------->
 
-<!-- ## Opinions & Extras
+## Opinions & Extras
 Opinions on subject.
 
 ???+ example "Related Topics"
 
-    | Topic                       | Why                          |
+    | Topic & Link                | Why                          |
     | --------------------------- | ---------------------------- |
-    | [[PARENT]]                  | Logical Concept              | -->
+    | [[PARENT]]                  | Logical Concept              |
 
 <!--------------------------------------------------------------->
 

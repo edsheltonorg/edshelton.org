@@ -19,18 +19,18 @@ Basic explanation of action desired / led up to:
 
 Example of error:
 
-[[Issue_Example]]{width=700}
+![[Issue_Example]]{width=700}
 
 Describe Normal / Expected Behavior:
 
 <!--------------------------------------------------------------->
 
-???+ info "Answer Table"
+<!-- ???+ info "Answer Table"
   This issue has many possible procedures:
 
   | *Possible Answer*           | *Answer*                       |
   | --------------------------- | ------------------------------ |
-  |                             | [Answer](#answer-1)            |
+  |                             | [Answer](#answer-1)            | -->
 
 <!--------------------------------------------------------------->
 
@@ -38,7 +38,7 @@ Describe Normal / Expected Behavior:
 
 <!--------------------------------------------------------------->
 
-## Further Troubleshooting
+<!-- ## Further Troubleshooting
 Detailed instructions if issue still not resolved:
 
 ??? quote "Contacts"
@@ -47,24 +47,23 @@ Detailed instructions if issue still not resolved:
 
     | Who          | What                | Why                   |
     | ---          | ----                | ---                   |
-    |              |                     |                       |
+    |              |                     |                       | -->
 
 <!--------------------------------------------------------------->
 
-## Preventative Maintenance
-Suggestions to solve issue going forward:
+<!-- ## Preventative Maintenance
+Suggestions to solve issue going forward: -->
 
 <!--------------------------------------------------------------->
 
-## Opinions & Extras
-
+<!-- ## Opinions & Extras
 Opinions on subject.
 
 ???+ example "Related Topics"
 
     | Topic & Link                | Why                          |
     | --------------------------- | ---------------------------- |
-    | [[PARENT]]                  | Logical Concept              |
+    | [[PARENT]]                  | Logical Concept              | -->
 
 <!--------------------------------------------------------------->
 

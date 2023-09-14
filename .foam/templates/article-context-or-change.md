@@ -29,14 +29,14 @@ $0
     **Who** agreed?
     <!-- OPTIONAL: Picture of agreement. -->
     <!-- OPTIONAL: Link to related / changed information:
-    | *Topic & Link*           | *Why*                           |
-    | ------------------------ | ------------------------------- |
-    | [[PARENT]]               | Subject Parent                  |
-    | [[ARTICLE]]              | Article                         |
-    | [Community Reference]()  | StackOverflow Detailing Concept |
-    | [Documentation]()        | Official Documentation          |
-    | [CLI Reference]()        | CLI Reference                   |
-    | [API Reference]()        | API Reference                   | -->
+    | *Topic & Link*               | *Why*                           |
+    | ---------------------------- | ------------------------------- |
+    | [[PARENT|Text]]              | Subject Parent              |
+    | [[ARTICLE|Text]]             | Article                     |
+    | [[Community Reference|Text]] | StackOverflow / Hacker News |
+    | [[Documentation|Text]]       | Official Documentation      |
+    | [[CLI Reference|Text]]       | CLI Reference               |
+    | [[API Reference|Text]]       | API Reference               | -->
 
 <!--------------------------------------------------------------->
 

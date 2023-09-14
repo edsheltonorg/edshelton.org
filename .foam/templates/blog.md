@@ -21,7 +21,7 @@ $0
 # ${FOAM_TITLE}
 Issue being talked about / call to action.
 
-[[Screenshot]]{width=700}
+![[Screenshot]]{width=700}
 
 <!--------------------------------------------------------------->
 

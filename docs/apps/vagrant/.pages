@@ -1,0 +1,5 @@
+title: "Vagrant"
+nav:
+    - vagrant-overview.md
+    - vagrant-getting-started.md
+    - ...

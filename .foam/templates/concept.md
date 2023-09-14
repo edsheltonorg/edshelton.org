@@ -14,23 +14,23 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 $0
 <!--------------------------------------------------------------->
 
-[[Logo]]{width=150, align=right}
+![[Logo]]{width=150, align=right}
 # ${FOAM_TITLE}
 Who & What?
 
 What Does It Do?
 
-[[Screenshot]]{width=700}
+![[Diagram]]{width=700}
 
 How Does It Fit Into Process?
 
-[[Diagram]]{width=700}
+![[Screenshot]]{width=700}
 
 <!--------------------------------------------------------------->
 
 ???+ info "Official"
 
-    | *Info & Link*        | *Note*                              |
+    | Info & Link          | Notes                               |
     | -------------------- | ----------------------------------- |
     | [Documentation][Doc] |                                     |
     | [Download][Down]     |                                     |
@@ -46,38 +46,39 @@ How Does It Fit Into Process?
     <!-- [Home]:  https://www.example.org -->
     <!-- [Price]: https://www.example.org -->
 
-??? quote "Contacts"
+<!-- ??? quote "Contacts"
     Rolodex of people & places for different purposes:
 
-    | Who          | What                | Why                   |
-    | ---          | ----                | ---                   |
-    |              |                     |                       |
+    | Who & What                  | Why                          |
+    | --------------------------- | ---------------------------- |
+    |                             |                              | -->
 
 <!--------------------------------------------------------------->
 
-## Surrounding Info
-Essential context related to ${FOAM_TITLE}:
+<!-- ## Surrounding Info
+Essential context related to ${FOAM_TITLE}: -->
 
-???+ tip "Good to Know"
+<!-- ???+ tip "Good to Know"
     Topics that help in understanding:
 
-    | Topic            | Link                    | Why           |
-    | ---------------- | ----------------------- | ------------- |
-    | What is Whatever | [[What-is-Whatever]]    |               |
+    | Topic                                             | Why    |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[how-to-install|Text]]                           |        | -->
 
-???+ info "Change Log"
+<!-- ???+ info "Change Log"
     Technical and business changes:
 
     | Change                      | Link                         |
     | --------------------------- | ---------------------------- |
-    |                             | [[Answer#Section]]           |
+    |                             | [[Answer#Section]]           | -->
 
-???+ warning "Context & Postmortems"
+<!-- ???+ warning "Context & Postmortems"
     Background information & learnt lessons:
 
     | Question / Event            | Brief                        |
     | --------------------------- | ---------------------------- |
-    |                             | [[Answer#Section]]           |
+    |                             | [[Answer#Section]]           | -->
 
 <!--------------------------------------------------------------->
 
@@ -88,59 +89,59 @@ Posts all about ${FOAM_TITLE}:
 ???+ note "Readme"
     Articles recommended to start with:
 
-    | Topic                     | Link                           |
-    | ------------------------- | ------------------------------ |
-    | User Preferences & Config | [[${FOAM_TITLE}-User-Config]]  |
-    | Logging and Alerts        | [[${FOAM_TITLE}-Logging]]      |
-    | Maintenance Information   | [[${FOAM_TITLE}-Maintenance]]  |
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[${FOAM_TITLE}-user-config|User Config]]         |        |
+    | [[${FOAM_TITLE}-logs-and-alerts|Logs and Alerts]] |        |
+    | [[${FOAM_TITLE}-maintenance|Maintenance Info]]    |        |
 
-???+ abstract "General"
+<!-- ???+ abstract "General"
     Specific articles:
 
-    | Topic                       | Link                         |
-    | --------------------------- | ---------------------------- |
-    | Common Terms & Definitions  | [[${FOAM_TITLE}-Glossary]]   |
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
 
-???+ success "Procedures"
+<!-- ???+ success "Procedures"
 
-    | Procedure                   | Link                         |
-    | --------------------------- | ---------------------------- |
-    | Reboot Service              | [[${FOAM_TITLE}-Reboot]]     |
+    | Procedure                                         | Notes  |
+    | ---------------------------                       | ------ |
+    | [[${FOAM_TITLE}-Reboot|Reboot Services]]          |        | -->
 
 <!--------------------------------------------------------------->
 
-## Knowledge Base
+<!-- ## Knowledge Base
+KBs for ${FOAM_TITLE}: -->
 
-KBs for ${FOAM_TITLE}:
-
-???+ question "Questions"
+<!-- ???+ question "Questions"
 
     | Question                    | Answer                       |
     | --------------------------- | ---------------------------- |
-    |                             | [[Answer#Section]]           |
+    |                             | [[Answer#Section]]           | -->
 
-???+ failure "Fixable Errors & Issues"
+<!-- ???+ failure "Fixable Errors & Issues"
 
     | Error / Issue               | Fix                          |
     | --------------------------- | ------------------           |
-    |                             | [[Answer#Section]]           |
+    |                             | [[Answer#Section]]           | -->
 
-??? bug "Unresolved Errors & Issues"
+<!-- ??? bug "Unresolved Errors & Issues"
 
     | Error / Issue               | Article / Bug Track          |
     | --------------------------- | ---------------------------- |
-    |                             | [[Answer#Section]]           |
+    |                             | [[Answer#Section]]           | -->
 
 <!--------------------------------------------------------------->
 
-## Opinions & Extras
-Opinions on subject.
+<!-- ## Opinions & Extras
+Opinions on subject. -->
 
-???+ example "Related Topics"
+<!-- ???+ example "Related Topics"
 
-    | Topic & Link                | Why                          |
+    | Topic                       | Why                          |
     | --------------------------- | ---------------------------- |
-    | [[PARENT]]                  | Logical Concept              |
+    | [[PARENT]]                  | Logical Concept              | -->
 
 <!--------------------------------------------------------------->
 
