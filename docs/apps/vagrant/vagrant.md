@@ -6,7 +6,7 @@ date: 2023-09-14
   # - footer
 ---
 
-<!---------------------------------------------------------------------------->
+<!--------------------------------------------------------------->
 
 ![[vagrant-logo.png]]{width=150, align=right}
 # Vagrant
@@ -14,11 +14,11 @@ Hashicorp Vagrant is a tool to quickly and consistently create VMs.
 
 Make a config file specifying Hypervisor, OS, and post-install - Vagrant does the rest.
 
-![[vagrant-diagram.png]]{width=620, align=}
+![[vagrant-diagram.png]]{width=700, align=}
 
 It's great for testing software that requires a full OS instance (AKA Docker doesn't work).
 
-<!---------------------------------------------------------------------------->
+---------------------------------------------------------
 
 ???+ info "Official"
 
@@ -37,23 +37,24 @@ It's great for testing software that requires a full OS instance (AKA Docker doe
     [Home]:  https://www.vagrantup.com/
 
 <!-- ??? quote "Contacts"
-    Rolodex of people & places for different purposes:
+    People or locations relevant to vagrant-overview
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |
     |                             |                              | -->
 
-<!---------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 <!-- ## Surrounding Info
-Essential context related to vagrant: -->
+Essential context related to vagrant-overview: -->
 
 <!-- ???+ tip "Good to Know"
     Topics that help in understanding:
 
-    | Topic            | Link                           | Why           |
-    | ---------------- | ------------------------------ | ------------- |
-    | Getting Started  | [[vagrant-getting-started]]    |               | -->
+    | Topic                                             | Why    |
+    | ------------------------------------------------- | ------ |
+    | [[vagrant-overview-install|Installation]]            |        |
+    | [[how-to-install|Text]]                           |        | -->
 
 <!-- ???+ info "Change Log"
     Technical and business changes:
@@ -69,36 +70,35 @@ Essential context related to vagrant: -->
     | --------------------------- | ---------------------------- |
     |                             | [[Answer#Section]]           | -->
 
-<!---------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 ## Articles
 
-Posts all about vagrant:
+Posts all about Vagrant:
 
 ???+ note "Readme"
     Articles recommended to start with:
 
-    | Topic & Link                                | Notes        |
-    | ------------------------------------------- | ------------ |
-    | [[vagrant-getting-started|Text]] |              |
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[vagrant-getting-started|Getting Started]]            |        |
 
-???+ abstract "General"
+<!-- ???+ abstract "General"
     Specific articles:
 
-    | Topic                       | Link                         |
-    | --------------------------- | ---------------------------- |
-    | Common Terms & Definitions  | [[vagrant-Glossary]]   |
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[vagrant-glossary|Terms & Definitions]]    |        | -->
 
-???+ success "Procedures"
+<!-- ???+ success "Procedures"
 
-    | Procedure                   | Link                         |
-    | --------------------------- | ---------------------------- |
-    | Reboot Service              | [[vagrant-Reboot]]     |
+    | Procedure                                         | Notes  |
+    | ---------------------------                       | ------ |
+    | [[vagrant-reboot|Reboot Services]]          |        | -->
 
-<!---------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
 <!-- ## Knowledge Base
-
 KBs for vagrant: -->
 
 <!-- ???+ question "Questions"
@@ -119,22 +119,33 @@ KBs for vagrant: -->
     | --------------------------- | ---------------------------- |
     |                             | [[Answer#Section]]           | -->
 
-<!---------------------------------------------------------------------------->
+<!-- ??? info "General References"
+    Places to look for more information on Vagrant
 
-## Opinions & Extras
-Opinions on subject.
+    | Info & Link          | Notes                               |
+    | -------------------- | ----------------------------------- |
+    | [Textbook][Src01]    |                                     | -->
 
-???+ example "Related Topics"
+<!-- [Src01]:   https://www.example.org -->
 
-    | Topic & Link                | Why                          |
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Opinions
+{Opinions on subject.} -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ???+ example "Related Topics"
+
+    | Topic                       | Why                          |
     | --------------------------- | ---------------------------- |
-    | [[PARENT]]                  | Logical Concept              |
+    | [[PARENT]]                  | Logical Concept              | -->
 
-<!---------------------------------------------------------------------------->
+<!--------------------------------------------------------------->
 
 <!-- TO-DO List -->
 
-<!---------------------------------------------------------------------------->
+<!--------------------------------------------------------------->
 
 <style>
     .md-footer__link--prev {

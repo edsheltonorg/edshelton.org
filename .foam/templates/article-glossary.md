@@ -8,14 +8,14 @@ foam_template:
 title: $FOAM_TITLE Glossary
 description: Glossary of $FOAM_TITLE
 date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
-# hide:
-  # - footer
+hide:
+  - footer
 ---
 $0
 <!--------------------------------------------------------------->
 
-# $SUBJECT Glossary
-Terminology, Lingo, and Clarification for ${FOAM_TITLE}.
+# {CHANGE ME} Glossary
+Terminology, Lingo, and Clarification for {CHANGE ME}.
 
 <!-- --------------------------------------------------------- -->
 
@@ -41,9 +41,9 @@ Terminology, Lingo, and Clarification for ${FOAM_TITLE}.
 
 <!-- --------------------------------------------------------- -->
 
-<!-- ???+ info "Bar"
+<!-- ???+ info "Bar" -->
     <!-- **Has any part of this been deprecated?** -->
-    **What** is this thing & what does it do? -->
+    <!-- **What** is this thing & what does it do? -->
 
 <!--------------------------------------------------------------->
 

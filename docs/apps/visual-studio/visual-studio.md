@@ -1,54 +1,46 @@
 ---
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Template - Concept - Implementation Overview
-  description: Concept Overview.
----
----
 title: Overview
-description: Overview of $FOAM_TITLE
-date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+description: Overview of Visual Studio
+date: 2023-09-15
 # hide:
   # - footer
 ---
-$0
+
 <!--------------------------------------------------------------->
 
-![[Logo]]{width=150, align=right}
-# {CHANGE ME}
-{Who & What?}
+![[visualstudio-icon.png]]{width=150, align=right}
+# Visual Studio
 
-{What Does It Do?}
+Microsoft's Free* IDE for .NET, C++, and more.
 
-![[Diagram]]{width=700}
+The most common way tool to develop a C# / .NET programs:
 
-{How Does It Fit Into The Process?}
+![[visualstudio-demo.png]]{width=700}
 
-![[Screenshot]]{width=700}
+An IDE such as Visual Studio is used to both develop and debug code:
 
-<!-- --------------------------------------------------------- -->
+![[visualstudio-devops.png]]{width=700}
+
+---------------------------------------------------------
 
 ???+ info "Official"
-    Official links related to {CHANGE ME}
+    Official links related to Visual Studio
 
     | Info & Link          | Notes                               |
     | -------------------- | ----------------------------------- |
     | [Documentation][Doc] |                                     |
     | [Download][Down]     |                                     |
-    | [License][Lic]       |                                     |
-    | [Project Home][Proj] |                                     |
-    | [Home][Home]         |                                     |
-    | [Pricing][Price]     |                                     |
+    | [License][Lic]       | Proprietary                         |
+    | [Free][Price] / [Paid][PriceAlt]    | Community free for certain use cases. |
 
-    <!-- [Doc]:   https://www.example.org -->
-    <!-- [Down]:  https://www.example.org -->
-    <!-- [Lic]:   https://www.example.org -->
-    <!-- [Proj]:  https://www.example.org -->
-    <!-- [Home]:  https://www.example.org -->
-    <!-- [Price]: https://www.example.org -->
+    [Doc]:       https://learn.microsoft.com/en-us/visualstudio/ide
+    [Down]:      https://visualstudio.microsoft.com/downloads/
+    [Lic]:       https://visualstudio.microsoft.com/license-terms/vs2022-ga-community/
+    [Price]:      https://visualstudio.microsoft.com/license-terms/vs2022-ga-community/
+    [PriceAlt]:   https://visualstudio.microsoft.com/vs/pricing/
 
 <!-- ??? quote "Contacts"
-    People or locations relevant to {CHANGE ME}
+    People or locations relevant to visual-studio-overview
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |
@@ -57,14 +49,14 @@ $0
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Surrounding Info
-Essential context related to {CHANGE ME}: -->
+Essential context related to visual-studio-overview: -->
 
 <!-- ???+ tip "Good to Know"
     Topics that help in understanding:
 
     | Topic                                             | Why    |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[visual-studio-overview-install|Installation]]            |        |
     | [[how-to-install|Text]]                           |        | -->
 
 <!-- ???+ info "Change Log"
@@ -81,38 +73,39 @@ Essential context related to {CHANGE ME}: -->
     | --------------------------- | ---------------------------- |
     |                             | [[Answer#Section]]           | -->
 
-<!-- --------------------------------------------------------- -->
+---------------------------------------------------------
 
-<!-- ## Articles
-Posts all about {CHANGE ME}: -->
+## Articles
+
+Posts all about Visual Studio:
 
 <!-- ???+ note "Readme"
     Articles recommended to start with:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-install|Installation]]            |        |
-    | [[${FOAM_TITLE}-user-config|User Config]]         |        |
-    | [[${FOAM_TITLE}-logs-and-alerts|Logs and Alerts]] |        |
-    | [[${FOAM_TITLE}-maintenance|Maintenance Info]]    |        | -->
+    | [[visual-studio-overview-install|Installation]]            |        |
+    | [[visual-studio-overview-user-config|User Config]]         |        |
+    | [[visual-studio-overview-logs-and-alerts|Logs and Alerts]] |        |
+    | [[visual-studio-overview-maintenance|Maintenance Info]]    |        | -->
 
-<!-- ???+ abstract "General"
+???+ abstract "General"
     Specific articles:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
+    | [[visual-studio-setup-cpp|C++ Setup]]    |        |
 
 <!-- ???+ success "Procedures"
 
     | Procedure                                         | Notes  |
     | ---------------------------                       | ------ |
-    | [[${FOAM_TITLE}-reboot|Reboot Services]]          |        | -->
+    | [[visual-studio-overview-Reboot|Reboot Services]]          |        | -->
 
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Knowledge Base
-KBs for {CHANGE ME}: -->
+KBs for visual-studio-overview: -->
 
 <!-- ???+ question "Questions"
 
@@ -133,7 +126,7 @@ KBs for {CHANGE ME}: -->
     |                             | [[Answer#Section]]           | -->
 
 <!-- ??? info "General References"
-    Places to look for more information on {CHANGE ME}
+    Places to look for more information on Visual Studio
 
     | Info & Link          | Notes                               |
     | -------------------- | ----------------------------------- |
@@ -146,13 +139,13 @@ KBs for {CHANGE ME}: -->
 <!-- ## Opinions
 {Opinions on subject.} -->
 
-<!-- --------------------------------------------------------- -->
+---------------------------------------------------------
 
-<!-- ???+ example "Related Topics"
+???+ example "Related Topics"
 
-    | Topic                       | Why                          |
-    | --------------------------- | ---------------------------- |
-    | [[PARENT]]                  | Logical Concept              | -->
+    | Topic                             | Why                     |
+    | --------------------------------- | ----------------------- |
+    | [[dotnet|.NET Overview]] | Common Framework Target |
 
 <!--------------------------------------------------------------->
 

@@ -1,54 +1,48 @@
 ---
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Template - Concept - Implementation Overview
-  description: Concept Overview.
----
----
-title: Overview
-description: Overview of $FOAM_TITLE
-date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+title: .NET Overview
+description: Overview of .NET
+date: 2023-09-15
 # hide:
   # - footer
 ---
-$0
+
 <!--------------------------------------------------------------->
 
-![[Logo]]{width=150, align=right}
-# {CHANGE ME}
-{Who & What?}
+![[dotnet-logo.png]]{width=150, align=right}
+# .NET
+Microsoft's official framework for languages targeting the CIL specification.
 
-{What Does It Do?}
+.NET compiles C# (and others) to IL, links to included .NET Libraries, and runs via JIT compilation.
 
-![[Diagram]]{width=700}
+![[dotnet-compilation.png]]{width=700}
 
-{How Does It Fit Into The Process?}
+.NET ships with a large amount of libraries that are heavily associated with C# (Although usable in other CIL languages)
 
-![[Screenshot]]{width=700}
+![[dotnet-diagram.png]]{width=700}
 
-<!-- --------------------------------------------------------- -->
+---------------------------------------------------------
 
 ???+ info "Official"
-    Official links related to {CHANGE ME}
+    Official links related to .NET
 
     | Info & Link          | Notes                               |
     | -------------------- | ----------------------------------- |
-    | [Documentation][Doc] |                                     |
-    | [Download][Down]     |                                     |
-    | [License][Lic]       |                                     |
-    | [Project Home][Proj] |                                     |
-    | [Home][Home]         |                                     |
-    | [Pricing][Price]     |                                     |
+    | **Documentation:** [Framework][Doc] / [Core][DocAlt] |                                     |
+    | **Downloads:** [Framework][Down] / [Core][DownAlt]    |                                     |
+    | **License:** [Framework][Lic] / [Core][LicAlt]    |                                     |
+    | **Project Home:** [Framework][Proj] / [Core][ProjAlt]    |                                     |
 
-    <!-- [Doc]:   https://www.example.org -->
-    <!-- [Down]:  https://www.example.org -->
-    <!-- [Lic]:   https://www.example.org -->
-    <!-- [Proj]:  https://www.example.org -->
-    <!-- [Home]:  https://www.example.org -->
-    <!-- [Price]: https://www.example.org -->
+    [Down]:     https://dotnet.microsoft.com/en-us/download/dotnet-framework
+    [DownAlt]:  https://dotnet.microsoft.com/en-us/download
+    [Doc]:      https://dotnet.microsoft.com/en-us/download/dotnet-framework
+    [DocAlt]:   https://dotnet.microsoft.com/en-us/download
+    [Lic]:      https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+    [LicAlt]:   https://github.com/dotnet/core/blob/main/LICENSE.TXT
+    [Proj]:     https://github.com/microsoft/referencesource
+    [ProjAlt]:  https://github.com/dotnet/core/
 
 <!-- ??? quote "Contacts"
-    People or locations relevant to {CHANGE ME}
+    People or locations relevant to dotnet
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |
@@ -57,14 +51,14 @@ $0
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Surrounding Info
-Essential context related to {CHANGE ME}: -->
+Essential context related to dotnet: -->
 
 <!-- ???+ tip "Good to Know"
     Topics that help in understanding:
 
     | Topic                                             | Why    |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[dotnet-install|Installation]]            |        |
     | [[how-to-install|Text]]                           |        | -->
 
 <!-- ???+ info "Change Log"
@@ -84,35 +78,35 @@ Essential context related to {CHANGE ME}: -->
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Articles
-Posts all about {CHANGE ME}: -->
+Posts all about .NET: -->
 
 <!-- ???+ note "Readme"
     Articles recommended to start with:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-install|Installation]]            |        |
-    | [[${FOAM_TITLE}-user-config|User Config]]         |        |
-    | [[${FOAM_TITLE}-logs-and-alerts|Logs and Alerts]] |        |
-    | [[${FOAM_TITLE}-maintenance|Maintenance Info]]    |        | -->
+    | [[dotnet-install|Installation]]            |        |
+    | [[dotnet-user-config|User Config]]         |        |
+    | [[dotnet-logs-and-alerts|Logs and Alerts]] |        |
+    | [[dotnet-maintenance|Maintenance Info]]    |        | -->
 
 <!-- ???+ abstract "General"
     Specific articles:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
+    | [[dotnet-glossary|Terms & Definitions]]    |        | -->
 
 <!-- ???+ success "Procedures"
 
     | Procedure                                         | Notes  |
     | ---------------------------                       | ------ |
-    | [[${FOAM_TITLE}-reboot|Reboot Services]]          |        | -->
+    | [[dotnet-reboot|Reboot Services]]          |        | -->
 
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Knowledge Base
-KBs for {CHANGE ME}: -->
+KBs for dotnet: -->
 
 <!-- ???+ question "Questions"
 
@@ -133,7 +127,7 @@ KBs for {CHANGE ME}: -->
     |                             | [[Answer#Section]]           | -->
 
 <!-- ??? info "General References"
-    Places to look for more information on {CHANGE ME}
+    Places to look for more information on dotnet
 
     | Info & Link          | Notes                               |
     | -------------------- | ----------------------------------- |
@@ -146,13 +140,13 @@ KBs for {CHANGE ME}: -->
 <!-- ## Opinions
 {Opinions on subject.} -->
 
-<!-- --------------------------------------------------------- -->
+---------------------------------------------------------
 
-<!-- ???+ example "Related Topics"
+???+ example "Related Topics"
 
     | Topic                       | Why                          |
     | --------------------------- | ---------------------------- |
-    | [[PARENT]]                  | Logical Concept              | -->
+    | [[visual-studio|Visual Studio]]                  | Primary Dev Tool for C#              |
 
 <!--------------------------------------------------------------->
 

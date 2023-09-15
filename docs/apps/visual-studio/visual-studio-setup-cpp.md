@@ -2,19 +2,11 @@
 title: Setup C++
 description: Guide to visual-studio-setup-cpp
 date: 2023-09-02
+# hide:
+  # - footer
 ---
 
-<!-- ## ***Nice to Know***
-Information that you may want to know:
-
-| *Topic*                         | *Link*                                      |
-| ------------------------------- | -------------------------------------       |
-| Computer Basics                 | [[Computer-Basics]]                         |
-| Windows Basics                  | [[Windows]]                                 |
-|                                 |                                             | -->
-
-<!----------------------------------------------------------------------------->
-
+<!--------------------------------------------------------------->
 
 # *Setup C++ for Visual Studio*
 
@@ -22,21 +14,42 @@ We're going to setup a `C++` development environment in Visual Studio.
 
 ![[visual-studio-cpp.png]]{width=200}
 
+<!-- --------------------------------------------------------- -->
+
+<!-- OPTIONAL: ???+ tip "Good to Know"
+    Topics that help in understanding:
+
+    | Topic                                      | Why           |
+    | ------------------------------------------ | ------------- |
+    | [[what-is-whatever|What is Whatever]]      |               | -->
+
+---------------------------------------------------------
+
 ## *Why*
 
 You want to develop `C++` using Visual Studio.
 
 Its also a ***very common*** way to begin learning `C++` since its very easy to get started!
 
+<!-- ## *Example Problem* -->
+
+---------------------------------------------------------
+
+## *Requirements & Warnings*
+
+A basic Windows computer is necessary with a bit of storage.
+
 ???+ abstract "Requirements"
 
     - **OS:** Windows *(Any Version Still Supported)*
     - **Storage:** ~20GB *(For Visual Studio IDE + Modules)*
 
-???+ warning "Note"
+???+ warning "Note for non-Windows Machines"
 
     - ***Visual Studio for Mac*** is not the same thing & isn't applicable to this guide at all.
     - MacOS or Linux users will need to use a different IDE or development solution.
+
+---------------------------------------------------------
 
 ## *How*
 
@@ -56,25 +69,40 @@ Save your work and `Continue`:
 
 ![[image-20230902165416.png]]{width=700}
 
-## Example Problem
+<!-- --------------------------------------------------------- -->
 
-<!----------------------------------------------------------------------------->
+<!-- ## Optional: Further Reading
 
-<!-- ## ***Related***
-Relevant information related to the concept:
+???+ tip "Further Reading"
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[PARENT]]                           | Subject Parent                        |
-|                                      |                                       | -->
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[Next]]                    | Next Logical Concept         | -->
 
-<!----------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-<style>
-    /* .md-footer__link--prev {
+<!-- ## Opinions
+{Opinions on subject.} -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ???+ example "Related Topics"
+
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              | -->
+
+<!--------------------------------------------------------------->
+
+<!-- <style>
+    .md-footer__link--prev {
         display: none
-    } */
+    }
     .md-footer__link--next {
         display: none
     }
-</style>
+</style> -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->

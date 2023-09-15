@@ -6,6 +6,7 @@
 - follow M$ style of naming technical articles
   - specifically how they chunk asp.net, blazor, .net, and c#
 - determine naming strategy to reduce redirect issues
+- embed video, or create gif?
 
 # meta content:
 - Make youtube video on how to setup

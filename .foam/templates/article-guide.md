@@ -14,7 +14,7 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 $0
 <!--------------------------------------------------------------->
 
-# *Guide: ${FOAM_TITLE}*
+# *Guide: {CHANGE ME}*
 
 What?
 
@@ -27,15 +27,34 @@ What?
 
     | Topic                                      | Why           |
     | ------------------------------------------ | ------------- |
-    | [[what-is-whatever|What is Whatever]]      |               |
+    | [[what-is-whatever|What is Whatever]]      |               | -->
 
 <!-- --------------------------------------------------------- -->
 
 ## *Why*
+{WHY}
 
-<!-- ## Optional: Example Problem -->
+<!-- ## *Example Problem* -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## *Requirements & Warnings* -->
+<!-- {Summary if necessary} -->
+
+<!-- ???+ abstract "Requirements"
+
+    - **Item 1:**
+    - **Item 2:**  -->
+
+<!-- ???+ warning "Note"
+
+    - {Warning 1}
+    - {Warning 2} -->
+
+<!-- --------------------------------------------------------- -->
 
 ## *How*
+{HOW}
 
 <!-- --------------------------------------------------------- -->
 
@@ -54,7 +73,7 @@ What?
 
 <!-- --------------------------------------------------------- -->
 
-???+ example "Related Topics"
+<!-- ???+ example "Related Topics"
 
     | Topic                       | Why                          |
     | --------------------------- | ---------------------------- |

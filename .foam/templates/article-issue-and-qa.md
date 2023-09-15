@@ -14,7 +14,7 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 $0
 <!--------------------------------------------------------------->
 
-# *TURN THIS INTO THE QUESTION / ISSUE ${FOAM_TITLE}*
+# *{TURN THIS INTO THE QUESTION / ISSUE ${FOAM_TITLE}}*
 {Basic explanation of action desired / led up to}
 
 Example of error:
@@ -42,7 +42,7 @@ Example of error:
 {Detailed instructions if issue still not resolved} -->
 
 <!-- ??? quote "Contacts"
-    People or locations relevant to ${FOAM_TITLE}
+    People or locations relevant to {CHANGE ME}
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |
@@ -60,7 +60,7 @@ Example of error:
 
 <!-- --------------------------------------------------------- -->
 
-???+ example "Related Topics"
+<!-- ???+ example "Related Topics"
 
     | Topic & Link                | Why                          |
     | --------------------------- | ---------------------------- |

@@ -14,7 +14,7 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 $0
 <!--------------------------------------------------------------->
 
-# Procedure: ${FOAM_TITLE}
+# Procedure: {CHANGE ME}
 Basic explanation of action desired:
 
 ![[Process_Diagram]]{width=700}
@@ -37,13 +37,20 @@ Change Agreement Link:
 
 <!-- --------------------------------------------------------- -->
 
-## Procedure Begin
+<!-- ## *Requirements & Warnings* -->
+<!-- {Summary if necessary} -->
 
-???+ abstract "Requirements"
+<!-- ???+ abstract "Requirements"
 
-  | *Requirement*               | *Answer*                       |
-  | --------------------------- | ------------------------------ |
-  |                             | [Answer](#procedure-standard)  |
+    - **Item 1:**
+    - **Item 2:**  -->
+
+<!-- ???+ warning "Note"
+
+    - {Warning 1}
+    - {Warning 2} -->
+
+<!-- --------------------------------------------------------- -->
 
 <!-- ???+ info "Procedure Table"
   This issue has many possible procedures:
@@ -67,7 +74,7 @@ Change Agreement Link:
 
 <!-- ??? quote "Contacts"
 
-    People or locations relevant to ${FOAM_TITLE}
+    People or locations relevant to {CHANGE ME}
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |

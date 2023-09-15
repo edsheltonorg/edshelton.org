@@ -1,26 +1,20 @@
 ---
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Template - Concept - Overview
-  description: Concept Overview.
----
----
 title: Overview
-description: Concept Overview of $FOAM_TITLE
-date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+description: Overview of Networking
+date: 2023-09-15
 # hide:
   # - footer
 ---
-$0
+
 <!--------------------------------------------------------------->
 
-![[Logo]]{width=150, align=right}
-# {CHANGE ME}
-{What?}
+![[network-icon.png]]{width=150, align=right}
+# networking
+Networking connects computers to other computers.
 
-{What Does It Do?}
+This concept enables things like the Internet to exist.
 
-![[Diagram]]{width=700}
+![[network-switch.png]]{width=700}
 
 <!-- {How Does It Fit Into The Process?} -->
 
@@ -38,33 +32,33 @@ $0
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Articles
-Posts all about {CHANGE ME}: -->
+Posts all about Networking: -->
 
 <!-- ???+ note "Readme"
     Articles recommended to start with:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-intro|Introduction]]              |        | -->
+    | [[networking-intro|Introduction]]              |        | -->
 
 <!-- ???+ abstract "General"
     Specific articles:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
+    | [[networking-glossary|Terms & Definitions]]    |        | -->
 
 <!-- ???+ success "Procedures"
     Logical procedures that are template to implementations.
 
     | Procedure                                         | Notes  |
     | ---------------------------                       | ------ |
-    | [[${FOAM_TITLE}-reboot|Reboot Services]]          |        | -->
+    | [[networking-reboot|Reboot Services]]          |        | -->
 
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Knowledge Base
-Human answers & escalations for {CHANGE ME}: -->
+Human answers & escalations for networking: -->
 
 <!-- ???+ question "Questions"
 
@@ -85,7 +79,7 @@ Human answers & escalations for {CHANGE ME}: -->
     |                             | [[Answer#Section]]           | -->
 
 <!-- ??? info "General References"
-    Places to look for more information on {CHANGE ME}
+    Places to look for more information on networking
 
     | Info & Link          | Notes                               |
     | -------------------- | ----------------------------------- |
@@ -94,7 +88,7 @@ Human answers & escalations for {CHANGE ME}: -->
 <!-- [Src01]:   https://www.example.org -->
 
 <!-- ??? quote "Contacts"
-    People or locations relevant to {CHANGE ME}
+    People or locations relevant to networking
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |
@@ -103,7 +97,7 @@ Human answers & escalations for {CHANGE ME}: -->
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Surrounding Info
-Essential context related to {CHANGE ME}: -->
+Essential context related to networking: -->
 
 <!-- ???+ info "Change Log"
     Technical and business changes:

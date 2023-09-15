@@ -1,93 +1,147 @@
 ---
 title: Databases
 description: Database Concepts
+date: 2023-09-15
+# hide:
+  # - footer
 ---
 
-<!---- Image: Logo, Width 75 --------->
+<!--------------------------------------------------------------->
 
-![[db-alpha.png]]{width=75, align=right}
-
+![[db-alpha.png]]{width=150, align=right}
 # Databases
 Databases are organizations of data that provide access via Database Management Systems (DBMS)
-<!-- What? --------------------------->
 
-<!-- Why Should People Care? --------->
 Most software stores data via a database, making it essential to understand.
 
-<!---- Image: Screenshot, Width 520 -->
-![[image-20230813203210.png]]{width=620}
+![[image-20230813203210.png]]{width=700}
 
-<!-- How Does It Fit Into Process?  -->
+<!-- {How Does It Fit Into The Process?} -->
+<!---- ![[Screenshot]]{width=700} -->
 
-<!---- Image: Diagram, Width 720 ----->
+<!-- --------------------------------------------------------- -->
 
+<!-- ???+ tip "Good to Know"
+    Topics that help in understanding:
 
+    | Topic                                             | Why    |
+    | ------------------------------------------------- | ------ |
+    | [[algebra-1-intro|Algebra 1]]                     |        | -->
 
-<!----------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-<!-- ## ***Nice to Know***
-Information that will greatly help in understanding all things Databases:
+<!-- ## Articles
+Posts all about Databases: -->
 
-| *Topic*                         | *Link*                                      |
-| ------------------------------- | -------------------------------------       |
-| Computer Basics                 | [[Computer-Basics]]                         |
-| Windows Basics                  | [[Windows]]                                 |
-|                                 |                                             | -->
+<!-- ???+ note "Readme"
+    Articles recommended to start with:
 
-<!----------------------------------------------------------------------------->
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[databases-intro|Introduction]]              |        | -->
 
-## ***Getting Started***
-Basic overview for Databases:
+<!-- ???+ abstract "General"
+    Specific articles:
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Fundamentals                    | [[Databases-Fundamentals]]                 |
-| Communication & Security        | [[Databases-Communication-And-Security]]   |
-| Models and Schema               | [[Databases-Models-And-Schema]]            |
-| Database Index                  | [[Databases-Index]]                        |
-|                                 |                                            |
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[databases-glossary|Terms & Definitions]]    |        | -->
 
-<!-- ## ***Deep Dive***
-Specific information once fundamentals are understood:
+<!-- ???+ success "Procedures"
+    Logical procedures that are template to implementations.
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[Databases-Glossary]]                 |
-| In Memory Encryption            | [[Databases-In-Memory-Encryption]]     |
-|                                 |                                            | -->
+    | Procedure                                         | Notes  |
+    | ---------------------------                       | ------ |
+    | [[databases-reboot|Reboot Services]]          |        | -->
 
-<!----------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-## ***Implementations***
-Examples of *Databases* in real world use.
+<!-- ## Knowledge Base
+Human answers & escalations for databases: -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Relational Databases            | [[relational-databases]]                                   |
-| Python                          | [[Python]]                                 |
-|                                 |                                            |
+<!-- ???+ question "Questions"
 
-<!----------------------------------------------------------------------------->
+    | Question                    | Answer                       |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-<!-- ## ***Common Questions***
-Questions you may have:
+<!-- ???+ failure "Fixable Errors & Issues"
 
-| *Question*                           | *Answer*                              |
-| ------------------------------------ | ------------------------------------- |
-|                                      | [Answer](#inline-answer-1)            |
-|                                      |                                       | -->
+    | Error / Issue               | Fix                          |
+    | --------------------------- | ------------------           |
+    |                             | [[Answer#Section]]           | -->
 
-<!-- ## **Inline Answer 1** -->
+<!-- ??? bug "Unresolved Errors & Issues"
 
-<!----------------------------------------------------------------------------->
+    | Error / Issue               | Article / Bug Track          |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-<!-- ## ***Related***
-Topics related to Databases:
+<!-- ??? info "General References"
+    Places to look for more information on databases
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[Business-Analysis]]                | Business Analysis                     |
-| [[SDLC]]                             | Software Development Life Cycle       |
-|                                      |                                       | -->
+    | Info & Link          | Notes                               |
+    | -------------------- | ----------------------------------- |
+    | [Textbook][Src01]    |                                     | -->
 
-<!----------------------------------------------------------------------------->
+<!-- [Src01]:   https://www.example.org -->
+
+<!-- ??? quote "Contacts"
+    People or locations relevant to databases
+
+    | Who & What                  | Why                          |
+    | --------------------------- | ---------------------------- |
+    |                             |                              | -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Surrounding Info
+Essential context related to databases: -->
+
+<!-- ???+ info "Change Log"
+    Technical and business changes:
+
+    | Change                      | Link                         |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
+
+<!-- ???+ warning "Context & Postmortems"
+    Background information & learnt lessons:
+
+    | Question / Event            | Brief                        |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Opinions
+{Opinions on subject.} -->
+
+<!-- --------------------------------------------------------- -->
+
+???+ example "Implementations"
+
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[relational-databases|Relational Databases]]  | Common Database Implementation                           |
+
+<!-- ???+ example "Related Topics"
+
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              | -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->
+
+<!--------------------------------------------------------------->
+
+<style>
+    .md-footer__link--prev {
+        display: none
+    }
+    /* .md-footer__link--next {
+        display: none
+    } */
+</style>

@@ -1,28 +1,22 @@
 ---
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Template - Concept - Overview
-  description: Concept Overview.
----
----
-title: Overview
-description: Concept Overview of $FOAM_TITLE
-date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+title: Programming Concepts
+description: General Programming Concepts
+date: 2023-09-14
 # hide:
   # - footer
 ---
-$0
+
 <!--------------------------------------------------------------->
 
-![[Logo]]{width=150, align=right}
-# {CHANGE ME}
-{What?}
+<!---- ![[Logo]]{width=150, align=right} -->
+# Programming
+The concept of converting human language into computer output.
 
-{What Does It Do?}
+Programming enables you to be safer, faster, and more consistent.
 
-![[Diagram]]{width=700}
+<!---- ![[Diagram]]{width=700} -->
 
-<!-- {How Does It Fit Into The Process?} -->
+Understanding programming is vital to debugging software and fixing things.
 
 <!---- ![[Screenshot]]{width=700} -->
 
@@ -38,33 +32,33 @@ $0
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Articles
-Posts all about {CHANGE ME}: -->
+Posts all about Programming: -->
 
 <!-- ???+ note "Readme"
     Articles recommended to start with:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-intro|Introduction]]              |        | -->
+    | [[programming-intro|Introduction]]              |        | -->
 
 <!-- ???+ abstract "General"
     Specific articles:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
+    | [[programming-glossary|Terms & Definitions]]    |        | -->
 
 <!-- ???+ success "Procedures"
     Logical procedures that are template to implementations.
 
     | Procedure                                         | Notes  |
     | ---------------------------                       | ------ |
-    | [[${FOAM_TITLE}-reboot|Reboot Services]]          |        | -->
+    | [[programming-reboot|Reboot Services]]          |        | -->
 
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Knowledge Base
-Human answers & escalations for {CHANGE ME}: -->
+Human answers & escalations for programming: -->
 
 <!-- ???+ question "Questions"
 
@@ -85,7 +79,7 @@ Human answers & escalations for {CHANGE ME}: -->
     |                             | [[Answer#Section]]           | -->
 
 <!-- ??? info "General References"
-    Places to look for more information on {CHANGE ME}
+    Places to look for more information on programming
 
     | Info & Link          | Notes                               |
     | -------------------- | ----------------------------------- |
@@ -94,7 +88,7 @@ Human answers & escalations for {CHANGE ME}: -->
 <!-- [Src01]:   https://www.example.org -->
 
 <!-- ??? quote "Contacts"
-    People or locations relevant to {CHANGE ME}
+    People or locations relevant to programming
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |
@@ -103,7 +97,7 @@ Human answers & escalations for {CHANGE ME}: -->
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Surrounding Info
-Essential context related to {CHANGE ME}: -->
+Essential context related to programming: -->
 
 <!-- ???+ info "Change Log"
     Technical and business changes:

@@ -1,58 +1,60 @@
 ---
-title: ASP.NET Overview
-description: Concept Overview of ASP.NET
-date: 2023-08-25
+title: Overview
+description: Overview of SQL Server
+date: 2023-09-15
 # hide:
   # - footer
 ---
 
-![[aspnet-logo.png]]{width=75, align=right }
+<!--------------------------------------------------------------->
 
-# ASP.NET
+![[sql-server.png]]{width=150, align=right}
+# SQL Server
+Microsoft's Relational Database Management System.
 
-{++.NET's native web framework++}, allowing .NET to interact with the web.
+It allows for efficient storage and retrieval of data.
 
-ASP.NET contains many types of projects, such as *Web Forms*, *MVC*, and *Blazor*.
+![[image-20230808213036.png]]{width=700}
 
-![[aspnet-services.png]]{width=620, align= }
+Traditionally chosen for .NET projects or for legacy reasons.
 
-ASP.NET is a library contained in .NET, although many web framework for .NET exist.
+<!---- ![[Screenshot]]{width=700} -->
 
-![[aspnet-diagram-markup.png]]{width=620}
-
-<!-- --------------------------------------------------------- -->
+---------------------------------------------------------
 
 ???+ info "Official"
+    Official links related to SQL Server
 
-    | Info & Link                                  | Notes                      |
-    | --------------------                         | -------------------------- |
-    | [Documentation][Doc]                         | Uses newest version if not specified. |
-    | Download                                     | Natively part of .NET |
-    | License: [Framework][Lic] / [Core][LicAlt]   | Framework is proprietary w/ exceptions, Core is MIT |
-    | Project: [Framework][Proj] / [Core][ProjAlt] |                            |
+    | Info & Link          | Notes                               |
+    | -------------------- | ----------------------------------- |
+    | [Documentation][Doc] |                                     |
+    | [Download][Down]     | Many editions exist based on usage. |
+    | [License][Lic]       | Proprietary.                        |
+    | [Pricing][Price]     | Cost is complex and variable!       |
 
-    [Doc]:      https://learn.microsoft.com/en-us/aspnet/core/
-    [Lic]:      https://www.microsoft.com/web/webpi/eula/aspnet_and_web_tools_2012_2_rtw_eula_enu.htm
-    [LicAlt]:   https://github.com/dotnet/aspnetcore/blob/main/LICENSE.txt
-    [Proj]:     https://github.com/microsoft/referencesource
-    [ProjAlt]:  https://github.com/dotnet/aspnetcore
+    [Doc]:   https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
+    [Down]:  https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+    [Lic]:   https://www.microsoft.com/en-us/Useterms/Retail/SQLServerStandard/2019/Useterms_Retail_SQLServerStandard_2019_English.htm
+    [Price]: https://www.licenseware.io/microsoft-sql-server-2022-licensing-guide/
 
 <!-- ??? quote "Contacts"
-    Rolodex of people & places for different purposes:
+    People or locations relevant to sql-server
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |
     |                             |                              | -->
 
+<!-- --------------------------------------------------------- -->
+
 <!-- ## Surrounding Info
-Essential context related to ${FOAM_TITLE}: -->
+Essential context related to sql-server: -->
 
 <!-- ???+ tip "Good to Know"
     Topics that help in understanding:
 
     | Topic                                             | Why    |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[sql-server-install|Installation]]            |        |
     | [[how-to-install|Text]]                           |        | -->
 
 <!-- ???+ info "Change Log"
@@ -72,36 +74,32 @@ Essential context related to ${FOAM_TITLE}: -->
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Articles
-
-Posts all about ASP.NET: -->
+Posts all about SQL Server: -->
 
 <!-- ???+ note "Readme"
     Articles recommended to start with:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-install|Installation]]            |        |
-    | [[${FOAM_TITLE}-user-config|User Config]]         |        |
-    | [[${FOAM_TITLE}-logs-and-alerts|Logs and Alerts]] |        |
-    | [[${FOAM_TITLE}-maintenance|Maintenance Info]]    |        | -->
+    | [[sql-server-install|Installation]]            |        | -->
 
 <!-- ???+ abstract "General"
     Specific articles:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
+    | [[sql-server-glossary|Terms & Definitions]]    |        | -->
 
 <!-- ???+ success "Procedures"
 
     | Procedure                                         | Notes  |
     | ---------------------------                       | ------ |
-    | [[${FOAM_TITLE}-Reboot|Reboot Services]]          |        | -->
+    | [[sql-server-reboot|Reboot Services]]          |        | -->
 
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Knowledge Base
-KBs for ${FOAM_TITLE}: -->
+KBs for sql-server: -->
 
 <!-- ???+ question "Questions"
 
@@ -121,10 +119,21 @@ KBs for ${FOAM_TITLE}: -->
     | --------------------------- | ---------------------------- |
     |                             | [[Answer#Section]]           | -->
 
+<!-- ??? info "General References"
+    Places to look for more information on sql-server
+
+    | Info & Link          | Notes                               |
+    | -------------------- | ----------------------------------- |
+    | [Textbook][Src01]    |                                     | -->
+
+<!-- [Src01]:   https://www.example.org -->
+
 <!-- --------------------------------------------------------- -->
 
-<!-- ## Opinions & Extras
-Opinions on subject. -->
+<!-- ## Opinions
+{Opinions on subject.} -->
+
+<!-- --------------------------------------------------------- -->
 
 <!-- ???+ example "Related Topics"
 
@@ -138,11 +147,11 @@ Opinions on subject. -->
 
 <!--------------------------------------------------------------->
 
-<!-- <style>
+<style>
     .md-footer__link--prev {
         display: none
     }
-    .md-footer__link--next {
+    /* .md-footer__link--next {
         display: none
-    }
-</style> -->
+    } */
+</style>

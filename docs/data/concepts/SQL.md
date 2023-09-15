@@ -1,96 +1,149 @@
 ---
 title: SQL
 description: SQL Concepts
+date: 2023-09-15
+# hide:
+  # - footer
 ---
 
-<!-- Use to hide prev / next footers individually: -->
-<style>
-/* .md-footer__link--prev {
-    display: none
-} */
-.md-footer__link--next {
-    display: none
-}
-</style>
+<!--------------------------------------------------------------->
 
-<!---- Image: Logo, Width 75 --------->
-![[sql-logo.png]]{width=75, align=right}
-
+![[sql-logo.png]]{width=150, align=right}
 # SQL
 Structured Query Language, is a DSL made for viewing or manipulating data.
 
 Nearly every database uses some form of SQL (or tries to replicate its function).
 
-![[image-20230813195640.png]]{width=620}
+![[image-20230813195640.png]]{width=700}
 
-<!-- How Does It Fit Into Process?  -->
+<!-- {How Does It Fit Into The Process?} -->
 
-<!---- Image: Diagram, Width 720 ----->
+<!---- ![[Screenshot]]{width=700} -->
 
+---------------------------------------------------------
 
+???+ tip "Good to Know"
+    Topics that help in understanding:
 
-<!----------------------------------------------------------------------------->
+    | Topic                                             | Why    |
+    | ------------------------------------------------- | ------ |
+    | [[databases|Databases]]                           |        |
+    | [[relational-databases|Relational Databases]]     |        |
 
-## ***Nice to Know***
-Information that will greatly help in understanding all things SQL:
+<!-- --------------------------------------------------------- -->
 
-| *Topic*                         | *Link*                                      |
-| ------------------------------- | -------------------------------------       |
-| Databases                       | [[databases]]                                 |
-| Relational Databases            | [[relational-databases]]                         |
-|                                 |                                             |
+<!-- ## Articles
+Posts all about SQL: -->
 
-<!----------------------------------------------------------------------------->
+<!-- ???+ note "Readme"
+    Articles recommended to start with:
 
-<!-- ## ***Getting Started***
-Basic overview for SQL:
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[sql-intro|Introduction]]              |        | -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Scripting vs Programming        | [[SQL-Scripting-vs-Programming]] |
-|                                 |                                            | -->
+<!-- ???+ abstract "General"
+    Specific articles:
 
-<!-- ## ***Deep Dive***
-Specific information once fundamentals are understood:
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[sql-glossary|Terms & Definitions]]    |        | -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[SQL-Glossary]]                 |
-| In Memory Encryption            | [[SQL-In-Memory-Encryption]]     |
-|                                 |                                            | -->
+<!-- ???+ success "Procedures"
+    Logical procedures that are template to implementations.
 
-<!----------------------------------------------------------------------------->
+    | Procedure                                         | Notes  |
+    | ---------------------------                       | ------ |
+    | [[sql-reboot|Reboot Services]]          |        | -->
 
-<!-- ## ***Implementations***
-Examples of *SQL* in real world use.
+<!-- --------------------------------------------------------- -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| .NET                            | [[.NET]]                                   |
-| Python                          | [[Python]]                                 |
-|                                 |                                            | -->
+<!-- ## Knowledge Base
+Human answers & escalations for sql: -->
 
-<!----------------------------------------------------------------------------->
+<!-- ???+ question "Questions"
 
-<!-- ## ***Common Questions***
-Questions you may have:
+    | Question                    | Answer                       |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-| *Question*                           | *Answer*                              |
-| ------------------------------------ | ------------------------------------- |
-|                                      | [Answer](#inline-answer-1)            |
-|                                      |                                       | -->
+<!-- ???+ failure "Fixable Errors & Issues"
 
-<!-- ## **Inline Answer 1** -->
+    | Error / Issue               | Fix                          |
+    | --------------------------- | ------------------           |
+    |                             | [[Answer#Section]]           | -->
 
-<!----------------------------------------------------------------------------->
+<!-- ??? bug "Unresolved Errors & Issues"
 
-<!-- ## ***Related***
-Topics related to SQL:
+    | Error / Issue               | Article / Bug Track          |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[Business-Analysis]]                | Business Analysis                     |
-| [[SDLC]]                             | Software Development Life Cycle       |
-|                                      |                                       | -->
+<!-- ??? info "General References"
+    Places to look for more information on sql
 
-<!----------------------------------------------------------------------------->
+    | Info & Link          | Notes                               |
+    | -------------------- | ----------------------------------- |
+    | [Textbook][Src01]    |                                     | -->
+
+<!-- [Src01]:   https://www.example.org -->
+
+<!-- ??? quote "Contacts"
+    People or locations relevant to sql
+
+    | Who & What                  | Why                          |
+    | --------------------------- | ---------------------------- |
+    |                             |                              | -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Surrounding Info
+Essential context related to sql: -->
+
+<!-- ???+ info "Change Log"
+    Technical and business changes:
+
+    | Change                      | Link                         |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
+
+<!-- ???+ warning "Context & Postmortems"
+    Background information & learnt lessons:
+
+    | Question / Event            | Brief                        |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Opinions
+{Opinions on subject.} -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ???+ example "Implementations"
+
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[Implementations-1|Text]]  |                              | -->
+
+<!-- ???+ example "Related Topics"
+
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              | -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->
+
+<!--------------------------------------------------------------->
+
+<style>
+    .md-footer__link--prev {
+        display: none
+    }
+    /* .md-footer__link--next {
+        display: none
+    } */
+</style>

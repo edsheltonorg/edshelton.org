@@ -1,89 +1,148 @@
 ---
 title: Relational Databases
 description: RDBMS Concepts
+date: 2023-09-15
+# hide:
+  # - footer
 ---
 
-![[rdbms-logo.png]]{width=75, align=right}
-<!---- Image: Logo, Width 75 --------->
+<!--------------------------------------------------------------->
 
+![[rdbms-logo.png]]{width=150, align=right}
 # Relational Database
-<!-- What? --------------------------->
 Relational Databases Management Systems (RDBMS) are common ways to model data.
 
-<!-- Why Should People Care? --------->
 A significant portion of programs use RDBMS as a dependency.
 
-<!---- Image: Screenshot, Width 520 -->
+![[rdbms-example-schema.png]]{width=700}
 
-![[rdbms-example-schema.png]]{ width=620 }
+<!-- {How Does It Fit Into The Process?} -->
 
-<!-- How Does It Fit Into Process?  -->
+<!---- ![[Screenshot]]{width=700} -->
 
-<!---- Image: Diagram, Width 720 ----->
+<!-- --------------------------------------------------------- -->
 
+<!-- ???+ tip "Good to Know"
+    Topics that help in understanding:
 
+    | Topic                                             | Why    |
+    | ------------------------------------------------- | ------ |
+    | [[algebra-1-intro|Algebra 1]]                     |        | -->
 
-<!----------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-## ***Nice to Know***
-Information that will greatly help in understanding all things Relational-Database:
+<!-- ## Articles
+Posts all about Relational Databases -->
 
-| *Topic*                         | *Link*                                      |
-| ------------------------------- | -------------------------------------       |
-| SQL                             | [[sql]]                         |
-|                                 |                                             |
+<!-- ???+ note "Readme"
+    Articles recommended to start with:
 
-<!----------------------------------------------------------------------------->
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[relational-databases-intro|Introduction]]              |        | -->
 
-## ***Getting Started***
-Basic overview for Relational-Database:
+<!-- ???+ abstract "General"
+    Specific articles:
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Fundamentals                    | [[Relational-Database-Fundamentals]]       |
-|                                 |                                            |
+    | Article                                           | Notes  |
+    | ------------------------------------------------- | ------ |
+    | [[relational-databases-glossary|Terms & Definitions]]    |        | -->
 
-<!-- ## ***Deep Dive***
-Specific information once fundamentals are understood:
+<!-- ???+ success "Procedures"
+    Logical procedures that are template to implementations.
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| Common Terms & Definitions      | [[Relational-Database-Glossary]]                 |
-| In Memory Encryption            | [[Relational-Database-In-Memory-Encryption]]     |
-|                                 |                                            | -->
+    | Procedure                                         | Notes  |
+    | ---------------------------                       | ------ |
+    | [[relational-databases-reboot|Reboot Services]]          |        | -->
 
-<!----------------------------------------------------------------------------->
+<!-- --------------------------------------------------------- -->
 
-<!-- ## ***Implementations***
-Examples of *Relational-Database* in real world use.
+<!-- ## Knowledge Base
+Human answers & escalations for relational-databases: -->
 
-| *Topic*                         | *Link*                                     |
-| ------------------------------- | ------------------------------------------ |
-| .NET                            | [[.NET]]                                   |
-| Python                          | [[Python]]                                 |
-|                                 |                                            | -->
+<!-- ???+ question "Questions"
 
-<!----------------------------------------------------------------------------->
+    | Question                    | Answer                       |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-<!-- ## ***Common Questions***
-Questions you may have:
+<!-- ???+ failure "Fixable Errors & Issues"
 
-| *Question*                           | *Answer*                              |
-| ------------------------------------ | ------------------------------------- |
-|                                      | [Answer](#inline-answer-1)            |
-|                                      |                                       | -->
+    | Error / Issue               | Fix                          |
+    | --------------------------- | ------------------           |
+    |                             | [[Answer#Section]]           | -->
 
-<!-- ## **Inline Answer 1** -->
+<!-- ??? bug "Unresolved Errors & Issues"
 
-<!----------------------------------------------------------------------------->
+    | Error / Issue               | Article / Bug Track          |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
 
-<!-- ## ***Related***
-Topics related to Relational-Database:
+<!-- ??? info "General References"
+    Places to look for more information on relational-databases
 
-| *Topic & Link*                       | *Why*                                 |
-| ------------------------------------ | ------------------------------------- |
-| [[Business-Analysis]]                | Business Analysis                     |
-| [[SDLC]]                             | Software Development Life Cycle       |
-|                                      |                                       | -->
+    | Info & Link          | Notes                               |
+    | -------------------- | ----------------------------------- |
+    | [Textbook][Src01]    |                                     | -->
 
-<!----------------------------------------------------------------------------->
+<!-- [Src01]:   https://www.example.org -->
+
+<!-- ??? quote "Contacts"
+    People or locations relevant to relational-databases
+
+    | Who & What                  | Why                          |
+    | --------------------------- | ---------------------------- |
+    |                             |                              | -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Surrounding Info
+Essential context related to relational-databases: -->
+
+<!-- ???+ info "Change Log"
+    Technical and business changes:
+
+    | Change                      | Link                         |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
+
+<!-- ???+ warning "Context & Postmortems"
+    Background information & learnt lessons:
+
+    | Question / Event            | Brief                        |
+    | --------------------------- | ---------------------------- |
+    |                             | [[Answer#Section]]           | -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ## Opinions
+{Opinions on subject.} -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- ???+ example "Implementations"
+
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[Implementations-1|Text]]  |                              | -->
+
+<!-- ???+ example "Related Topics"
+
+    | Topic                       | Why                          |
+    | --------------------------- | ---------------------------- |
+    | [[PARENT]]                  | Logical Concept              | -->
+
+<!--------------------------------------------------------------->
+
+<!-- TO-DO List -->
+
+<!--------------------------------------------------------------->
+
+<style>
+    .md-footer__link--prev {
+        display: none
+    }
+    /* .md-footer__link--next {
+        display: none
+    } */
+</style>

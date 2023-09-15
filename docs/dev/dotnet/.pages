@@ -1,5 +1,5 @@
 title: ".NET"
 nav:
-    - dotnet-overview.md
-    - aspnet-overview.md
+    - dotnet.md
+    - aspnet.md
     - ...

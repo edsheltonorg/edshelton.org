@@ -1,54 +1,46 @@
 ---
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Template - Concept - Implementation Overview
-  description: Concept Overview.
----
----
-title: Overview
-description: Overview of $FOAM_TITLE
-date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+title: ASP.NET Overview
+description: Concept Overview of ASP.NET
+date: 2023-08-25
 # hide:
   # - footer
 ---
-$0
+
 <!--------------------------------------------------------------->
 
-![[Logo]]{width=150, align=right}
-# {CHANGE ME}
-{Who & What?}
+![[aspnet-logo.png]]{width=150, align=right }
+# ASP.NET
 
-{What Does It Do?}
+{++.NET's native web framework++}, allowing .NET to interact with the web.
 
-![[Diagram]]{width=700}
+ASP.NET contains many types of projects, such as *Web Forms*, *MVC*, and *Blazor*.
 
-{How Does It Fit Into The Process?}
+![[aspnet-services.png]]{width=700, align= }
 
-![[Screenshot]]{width=700}
+ASP.NET is a library contained in .NET, although many web framework for .NET exist.
 
-<!-- --------------------------------------------------------- -->
+![[aspnet-diagram-markup.png]]{width=700}
+
+---------------------------------------------------------
 
 ???+ info "Official"
-    Official links related to {CHANGE ME}
+    Official links related to ASP.NET
 
-    | Info & Link          | Notes                               |
-    | -------------------- | ----------------------------------- |
-    | [Documentation][Doc] |                                     |
-    | [Download][Down]     |                                     |
-    | [License][Lic]       |                                     |
-    | [Project Home][Proj] |                                     |
-    | [Home][Home]         |                                     |
-    | [Pricing][Price]     |                                     |
+    | Info & Link                                  | Notes                      |
+    | --------------------                         | -------------------------- |
+    | [Documentation][Doc]                         | Uses newest version if not specified. |
+    | Download                                     | Natively part of .NET |
+    | License: [Framework][Lic] / [Core][LicAlt]   | Framework is proprietary w/ exceptions, Core is MIT |
+    | Project: [Framework][Proj] / [Core][ProjAlt] |                            |
 
-    <!-- [Doc]:   https://www.example.org -->
-    <!-- [Down]:  https://www.example.org -->
-    <!-- [Lic]:   https://www.example.org -->
-    <!-- [Proj]:  https://www.example.org -->
-    <!-- [Home]:  https://www.example.org -->
-    <!-- [Price]: https://www.example.org -->
+    [Doc]:      https://learn.microsoft.com/en-us/aspnet/core/
+    [Lic]:      https://www.microsoft.com/web/webpi/eula/aspnet_and_web_tools_2012_2_rtw_eula_enu.htm
+    [LicAlt]:   https://github.com/dotnet/aspnetcore/blob/main/LICENSE.txt
+    [Proj]:     https://github.com/microsoft/referencesource
+    [ProjAlt]:  https://github.com/dotnet/aspnetcore
 
 <!-- ??? quote "Contacts"
-    People or locations relevant to {CHANGE ME}
+    People or locations relevant to aspnet
 
     | Who & What                  | Why                          |
     | --------------------------- | ---------------------------- |
@@ -57,14 +49,14 @@ $0
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Surrounding Info
-Essential context related to {CHANGE ME}: -->
+Essential context related to aspnet: -->
 
 <!-- ???+ tip "Good to Know"
     Topics that help in understanding:
 
     | Topic                                             | Why    |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-install|Installation]]            |        |
+    | [[aspnet-install|Installation]]            |        |
     | [[how-to-install|Text]]                           |        | -->
 
 <!-- ???+ info "Change Log"
@@ -84,35 +76,35 @@ Essential context related to {CHANGE ME}: -->
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Articles
-Posts all about {CHANGE ME}: -->
+Posts all about ASP.NET: -->
 
 <!-- ???+ note "Readme"
     Articles recommended to start with:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-install|Installation]]            |        |
-    | [[${FOAM_TITLE}-user-config|User Config]]         |        |
-    | [[${FOAM_TITLE}-logs-and-alerts|Logs and Alerts]] |        |
-    | [[${FOAM_TITLE}-maintenance|Maintenance Info]]    |        | -->
+    | [[aspnet-install|Installation]]            |        |
+    | [[aspnet-user-config|User Config]]         |        |
+    | [[aspnet-logs-and-alerts|Logs and Alerts]] |        |
+    | [[aspnet-maintenance|Maintenance Info]]    |        | -->
 
 <!-- ???+ abstract "General"
     Specific articles:
 
     | Article                                           | Notes  |
     | ------------------------------------------------- | ------ |
-    | [[${FOAM_TITLE}-glossary|Terms & Definitions]]    |        | -->
+    | [[aspnet-glossary|Terms & Definitions]]    |        | -->
 
 <!-- ???+ success "Procedures"
 
     | Procedure                                         | Notes  |
     | ---------------------------                       | ------ |
-    | [[${FOAM_TITLE}-reboot|Reboot Services]]          |        | -->
+    | [[aspnet-reboot|Reboot Services]]          |        | -->
 
 <!-- --------------------------------------------------------- -->
 
 <!-- ## Knowledge Base
-KBs for {CHANGE ME}: -->
+KBs for aspnet: -->
 
 <!-- ???+ question "Questions"
 
@@ -133,7 +125,7 @@ KBs for {CHANGE ME}: -->
     |                             | [[Answer#Section]]           | -->
 
 <!-- ??? info "General References"
-    Places to look for more information on {CHANGE ME}
+    Places to look for more information on aspnet
 
     | Info & Link          | Notes                               |
     | -------------------- | ----------------------------------- |

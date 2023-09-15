@@ -14,7 +14,7 @@ date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
 $0
 <!--------------------------------------------------------------->
 
-# *$SUBJECT Context / Change*
+# *{SUBJECT} Context / Change*
 
 <!-- --------------------------------------------------------- -->
 

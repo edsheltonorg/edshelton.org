@@ -1,6 +1,6 @@
 ---
 # draft: true
-title: Testing # URL
+title: Blog Test # URL
 description: Test
 authors:
   - ed
@@ -9,7 +9,7 @@ date:
 # readtime: 15
 ---
 
-# Thing
+# Blog Test
 
 Code:
 
@@ -18,8 +18,6 @@ def thingee:
   x = 1 + 1
   y = print(x)
 ```
-
-<!-- more -->
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J---aiyznGQ?si=nDdW4i3CTo9yDD-t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -47,6 +45,10 @@ def thingee:
         }
         ```
 
+<!-- more -->
+
+This should be out of the main preview.
+
 Now check how they're linked below:
 
 !!! example
@@ -72,3 +74,5 @@ Now check how they're linked below:
           return 0;
         }
         ```
+
+Thank you for checking out my blog. It's under heavy construction!
