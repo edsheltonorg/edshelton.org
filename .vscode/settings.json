@@ -2,7 +2,7 @@
   "editor.minimap.enabled"    : false,
   "editor.wrappingIndent"     : "indent",
   "editor.overviewRulerBorder": false,
-  // "editor.wordWrapColumn": 80,
+  "editor.wordWrapColumn": 80,
   "[markdown]": {
     "editor.quickSuggestions": {
         "comments": "on",
