@@ -6,7 +6,7 @@ foam_template:
 ---
 ---
 # draft: true
-title: $FOAM_TITLE # URL
+title: $FOAM_TITLE # Proper Title, Auto Slugged
 description: About $FOAM_TITLE
 authors:
   - ed
@@ -18,10 +18,11 @@ date:
 $0
 <!--------------------------------------------------------------->
 
-# ${FOAM_TITLE}
 Issue being talked about / call to action.
 
 ![[Screenshot]]{width=700}
+
+<!-- more -->
 
 <!-- --------------------------------------------------------- -->
 

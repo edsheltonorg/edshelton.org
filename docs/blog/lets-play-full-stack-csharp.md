@@ -1,6 +1,6 @@
 ---
 # draft: true
-title: lets-play-full-stack-csharp # URL
+title: "Let's Play: Full Stack C# Developer" # Proper Title, Auto Slugged
 description: Ed's adventure in learning C# & .NET
 authors:
   - ed
@@ -12,8 +12,6 @@ date:
 
 <!--------------------------------------------------------------->
 
-# Let's Play: Full Stack C# Developer
-
 The Internet has lots (maybe too many!) "How to become" style material.
 
 I ran into this "Roadmap" style one recently, wondering if I could make one for a novice coworker:
@@ -23,6 +21,8 @@ I ran into this "Roadmap" style one recently, wondering if I could make one for 
 So I will begin a quest to "Let's Play" a *few* road maps. <sup>The act of aimlessly narrating something with no end in site!
 
 If all goes well, I'll build my own version made specifically to 0-to-100 an aspiring .NET developer.
+
+<!-- more -->
 
 ---------------------------------------------------------
 

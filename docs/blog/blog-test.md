@@ -1,6 +1,6 @@
 ---
 # draft: true
-title: Blog Test # URL
+title: Blog Test # Proper Title, Auto Slugged
 description: Test
 authors:
   - ed
@@ -8,8 +8,6 @@ date:
   created: 2023-09-01
 # readtime: 15
 ---
-
-# Blog Test
 
 Code:
 
