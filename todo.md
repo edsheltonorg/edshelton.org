@@ -4,6 +4,8 @@
 
 # project meta
 - track everything in gitlab as well (minus CI)
+- modify glossary template for fit programming style better.
+- create templates for polyglot books & foam?
 
 # meta content:
 - Make youtube brand account for edshelton (separate)

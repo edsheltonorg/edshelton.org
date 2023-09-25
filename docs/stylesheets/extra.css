@@ -1,3 +1,17 @@
 .md-source__repository{
     display: none
 }
+
+.highlight .n {
+  color: #ff76c8;
+}
+
+[data-md-color-scheme="default"] {
+  .highlight .n {
+    color: #ff1ea5;
+  };
+  .highlight .s {
+    color: #00a151
+  };
+  --md-code-fg-color: #20272d;
+}

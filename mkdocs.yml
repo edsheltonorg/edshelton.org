@@ -27,6 +27,7 @@ theme:
     - content.action.view
     - content.code.copy
     - content.tabs.link
+    - content.code.annotate
     # - header.autohide
     - navigation.footer
     - navigation.instant
@@ -98,7 +99,7 @@ plugins:
       post_dir: blog
       post_url_format: "blog/{slug}"
       # archive: false
-      archive_name: "Archive"
+      archive_name: "Blog"
       archive_toc: true
       categories: false
   - exclude:

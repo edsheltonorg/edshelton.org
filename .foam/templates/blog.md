@@ -1,6 +1,6 @@
 ---
 foam_template:
-  filepath: 'docs/blog/$FOAM_TITLE.md'
+  filepath: "docs/blog/${FOAM_DATE_YEAR}${FOAM_DATE_MONTH}${FOAM_DATE_DATE}-$FOAM_TITLE.md"
   name: Template - Blog
   description: Blog Post.
 ---

@@ -1,5 +1,6 @@
 title: ".NET"
 nav:
     - dotnet.md
+    - dotnet-glossary.md
     - aspnet.md
     - ...

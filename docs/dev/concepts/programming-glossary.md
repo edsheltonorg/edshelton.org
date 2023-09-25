@@ -1,28 +1,56 @@
 ---
-foam_template:
-  filepath: 'docs-unpublished/$FOAM_TITLE.md'
-  name: Template - Article - Glossary
-  description: A glossary style note.
----
----
-title: $FOAM_TITLE Glossary
-description: Glossary of $FOAM_TITLE
-date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE
+title: Programming Glossary
+description: Glossary of Programming
+date: 2023-09-23
 hide:
   - footer
 ---
-$0
+
 <!--------------------------------------------------------------->
 
-# {CHANGE ME} Glossary
-Terminology, Lingo, and Clarification for {CHANGE ME}.
+# Programming Glossary
+Terminology, Lingo, and Clarification for Programming.
 
 ---------------------------------------------------------
 
-## Foo
+### Programming Language
+
 ***Simple Definition:***
 
-- <Content>
+- A human interface that controls computers, usually textual and with formal rules.
+
+???+ info "Extended Definition"
+    ***What:***
+
+    - Depends on [who you're asking][planguage01]!
+
+[planguage01]: https://en.wikipedia.org/wiki/Programming_language
+
+---------------------------------------------------------
+
+## Compiler
+
+***Simple Definition:***
+
+- A program that commonly converts code to other code (usually lower).
+- Sometimes refers to linking, optimizing, and other add-on features.
+
+---------------------------------------------------------
+
+## Syntax
+***Simple Definition:***
+
+- The set of rules for character arrangement [to make a valid statement in a language][syntax-01].
+
+[syntax-01]: https://www.educative.io/blog/what-is-syntax-in-programming
+
+---------------------------------------------------------
+
+## Semantics
+***Simple Definition:***
+
+- The meaning of the code written.
+- Something like `1 + 1` and `add(1, 1)` are semantically identical.
 
 <!-- --------------------------------------------------------- -->
 
