@@ -13,7 +13,7 @@ Terminology, Lingo, and Clarification for .NET.
 
 ---------------------------------------------------------
 
-## Console.WriteLine
+## Types
 ***Simple Definition:***
 
 <div class="annotate" markdown>
@@ -22,6 +22,16 @@ Terminology, Lingo, and Clarification for .NET.
 { .annotate }
 </div>
 
+---------------------------------------------------------
+
+## Console.WriteLine
+***Simple Definition:***
+
+<div class="annotate" markdown>
+- Writes to the console & adds a newline.
+- Basically `#!csharp Console.Write` with a newline at the end.
+{ .annotate }
+</div>
 
 ***Simple Why:***
 
@@ -40,24 +50,6 @@ Terminology, Lingo, and Clarification for .NET.
         ```cs
         System.Console.WriteLine("Hello");
         System.Console.WriteLine("World");
-        ```
-
-        Output:
-        ---
-        ```
-        Hello
-        World
-        ```
-        **Note:** The `World` will have a newline at the end as well.
-
-    === "Variables"
-
-        input:
-        ---
-        ```cs
-        // Any Variable That Has a .ToString
-        int x = 2;
-        System.Console.WriteLine("Hello " + x);
         ```
 
         Output:
