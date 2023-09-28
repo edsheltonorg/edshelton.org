@@ -68,7 +68,6 @@ Terminology, Lingo, and Clarification for Programming.
     === "C#"
 
         Input:
-        ---
         ```cs
         int i = 5; // int = type
         string s = "hi" // string = type
@@ -115,7 +114,6 @@ Terminology, Lingo, and Clarification for Programming.
     === "C#"
 
         Input:
-        ---
         ```cs
         int i = 5; // i = variable
         string s = "hi" // s = variable
@@ -138,7 +136,6 @@ Terminology, Lingo, and Clarification for Programming.
     === "C#"
 
         Input:
-        ---
         ```cs
         int i = 5; // 5 = literal
         string s = "hi" // "hi" = literal
@@ -160,7 +157,6 @@ Terminology, Lingo, and Clarification for Programming.
     === "C#"
 
         Input:
-        ---
         ```cs
         const int Months = 12; // Months are unchanging
         const double PI = 3.14; // Pi is unchanging
