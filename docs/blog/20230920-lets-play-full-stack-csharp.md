@@ -177,18 +177,66 @@ If I ever decide to teach, I'll have to determine how to address this if it isn'
 
 ---------------------------------------------------------
 
-### For The Non-Windows People
+### Non-Windows People Rejoice
 
 Good news!
 
-The polyglot notebooks are such a killer feature that I will be using VS Code.
-
-AFAIK, VS Code & the official C# extensions work on all major operating systems. (1)
+VS Code & the official C# Dev Kit extensions work on all major operating systems. (1)
 { .annotate }
 
-1. VS Codium had issues w/ the C# extension for licensing reasons, be advised.
+1. VS Codium had issues w/ the C# extension for licensing reasons, which is the same general terms as the Visual Studio EULA. This isn't FOSS at all, and you need to be cautious when using for a commercial product!
 
-The real question is.. how far can I go w/ VS Code before I need Visual Studio IDE?
+The C# Dev Kit provides pretty much all .NET Core functionality in Visual Studio to VSCode.
+
+![[image-20230928204049.png]]{width=700, align=}
+
+The Solution Explorer acts as it does in Visual Studio:
+
+![[image-20230928204026.png]]{width=700, align=}
+
+.NET Framework stuff is mostly stripped, but that's beyond OK!
+
+Let's see how far we can get w/ VSCode!
+
+---------------------------------------------------------
+
+### VSCode Idiosyncrasies
+
+Oh geez... how will I explain this sanely?
+
+So, the normal debug `launch.json` and the top right debug buttons are controlled separately:
+
+![[image-20230927220554.png]]{width=700, align=}
+
+The top right button is controlled by the (mostly working) C# Dev Kit via the `settings.json` file.
+
+Basically the only annoying thing is the default behavior to use the debug console.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+It doesn't allow for the `#!csharp Console.ReadLine()` to be input:
+
+![[image-20230928193551.png]]{width=700, align=}
+
+This can be fixed, [of which M$ fixed while I was writing this article!](https://github.com/microsoft/vscode-dotnettools/issues/82#issuecomment-1739008950)
+
+```json title=".vscode/settings.json"
+{
+    // ...
+    "csharp.debug.console": "externalTerminal", // or integratedTerminal if preferred
+    "debug.internalConsoleOptions": "neverOpen",
+    "debug.openDebug": "neverOpen",
+}
+```
+
+You can use the integrated one:
+
+![[image-20230928201013.png]]{width=700, align=}
+
+Or an external one:
+
+![[image-20230928203751.png]]{width=700, align=}
+
+Note that external terminals don't have a built-in way to hold open, so make one!
+
 
 <!-- --------------------------------------------------------- -->
 
