@@ -216,26 +216,28 @@ It doesn't allow for the `#!csharp Console.ReadLine()` to be input:
 
 ![[image-20230928193551.png]]{width=700, align=}
 
-This can be fixed, [of which M$ fixed while I was writing this article!](https://github.com/microsoft/vscode-dotnettools/issues/82#issuecomment-1739008950)
+This can be fixed, [however integratedTerminal is tricky to use until they fix it!](https://github.com/microsoft/vscode-dotnettools/issues/82#issuecomment-1739008950)
+
+As such, we'll use our preferred terminal for console apps:
 
 ```json title=".vscode/settings.json"
 {
     // ...
-    "csharp.debug.console": "externalTerminal", // or integratedTerminal if preferred
+    "csharp.debug.console": "externalTerminal", // or integratedTerminal when working nicely
     "debug.internalConsoleOptions": "neverOpen",
     "debug.openDebug": "neverOpen",
 }
 ```
 
-You can use the integrated one:
-
-![[image-20230928201013.png]]{width=700, align=}
-
-Or an external one:
+Here's the external terminal in action:
 
 ![[image-20230928203751.png]]{width=700, align=}
 
 Note that external terminals don't have a built-in way to hold open, so make one!
+
+Here's the integrated one (when its working sanely, which will probably be fixed soon):
+
+![[image-20230928201013.png]]{width=700, align=}
 
 
 <!-- --------------------------------------------------------- -->
