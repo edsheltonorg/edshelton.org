@@ -181,18 +181,22 @@ If I ever decide to teach, I'll have to determine how to address this if it isn'
 
 Good news!
 
-VS Code & the official C# Dev Kit extensions work on all major operating systems. (1)
+VSCode & the official C# Dev Kit extensions work on all major operating systems. (1)
 { .annotate }
 
 1. VS Codium had issues w/ the C# extension for licensing reasons, which is the same general terms as the Visual Studio EULA. This isn't FOSS at all, and you need to be cautious when using for a commercial product!
 
-The C# Dev Kit provides pretty much all .NET Core functionality in Visual Studio to VSCode.
+The C# Dev Kit provides a lot of Visual Studio features to VSCode, like project creation:
 
 ![[image-20230928204049.png]]{width=700, align=}
 
-The Solution Explorer acts as it does in Visual Studio:
+And the Solution Explorer allows adding project files nicely.
 
 ![[image-20230928204026.png]]{width=700, align=}
+
+Testing has a nice interface as well!
+
+![[image-20230929203310.png]]{width=300, align=}
 
 .NET Framework stuff is mostly stripped, but that's beyond OK!
 
@@ -229,15 +233,56 @@ As such, we'll use our preferred terminal for console apps:
 }
 ```
 
-Here's the external terminal in action:
+Here's the external terminal in action:<br>
+**Note:** VSCode doesn't hold the console open, so you can add this code to hold it open:<br> `#!csharp if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey(true);`
 
 ![[image-20230928203751.png]]{width=700, align=}
 
-Note that external terminals don't have a built-in way to hold open, so make one!
-
-Here's the integrated one (when its working sanely, which will probably be fixed soon):
+If you don't mind the debug menu focusing (or its fixed), here's the integrated terminal:
 
 ![[image-20230928201013.png]]{width=700, align=}
+
+---------------------------------------------------------
+
+### Part 1 Complete!
+
+Wow, that was a lot more comprehensive then I thought!
+
+We are introduced into types and general programming logic.
+
+![[image-20231001104911.png]]{width=700, align=}
+
+It also got pretty deep in `#!csharp Console.WriteLine()` formatting, I learned a few things!
+
+With the projects, they'll let you cheat yourself if you're not careful.
+
+![[image-20231001105315.png]]{width=700, align=}
+
+The projects are done at the skill level they want and are great!
+
+The editor on the side was pretty easy to work with too.
+
+I will say that this is a great interactive way to get someone started from nothing.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+It will save you time in seeing if someone is serious. Usually they're not!
+
+--------------------------------------------------------
+
+### Part 2
+
+Hey, I'm glad I decided to use VSCode for this in the background.
+
+Our first assignment is to setup VSCode (and will be used all the way to the end).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**Note:** The instructions are mostly Windows w/ small mentions of Linux & MacOS.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+You can easily follow along, but just be aware its not dynamic based off user agent.
+
+![[image-20231001113235.png]]{width=700, align=}
+
+They introduce you to it very nicely as well:
+
+![[image-20231001113830.png]]{width=700, align=}
 
 
 <!-- --------------------------------------------------------- -->

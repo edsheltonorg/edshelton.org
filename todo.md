@@ -4,8 +4,13 @@
 
 # project meta
 - track everything in gitlab as well (minus CI)
-- modify glossary template for fit programming style better.
-- create templates for polyglot books & foam?
+
+# Glossaries
+## Programming
+Function / Method Overloads
+Invariants
+public / private (is it OOP?)
+OOP principles (Type Accessors, )
 
 # meta content:
 - Make youtube brand account for edshelton (separate)
