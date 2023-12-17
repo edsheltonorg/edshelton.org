@@ -12,6 +12,9 @@ Invariants
 public / private (is it OOP?)
 OOP principles (Type Accessors, )
 
+## C#
+virtual modifier
+
 # meta content:
 - Make youtube brand account for edshelton (separate)
 - Make youtube video on how to setup

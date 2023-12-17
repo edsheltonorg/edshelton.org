@@ -284,6 +284,25 @@ They introduce you to it very nicely as well:
 
 ![[image-20231001113830.png]]{width=700, align=}
 
+---------------------------------------------------------
+
+### Learning to Swim
+
+Very shortly into part 2 does it start asking you to RTFM.
+
+This is excellent, they introduce where to look (that is, search engines & M$ docs).
+
+Here's an example:
+
+![[image-20231007102603.png]]{width=700, align=}
+
+I initially searched "Largest" instead of "Larger" and couldn't find anything in the docs.
+
+So I consulted the internet, and StackOverflow introduced `#!csharp Math.Max()`
+
+![[image-20231007103304.png]]{width=700, align=}
+
+I really like that it introduces the main problem solving workflow early to the student.
 
 <!-- --------------------------------------------------------- -->
 
