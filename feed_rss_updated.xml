@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>Ed Shelton</title>
+    <description>Just make it work!</description>
+    <link>https://edshelton.org/</link>
+    <atom:link href="https://edshelton.org/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
+
+    
+    <managingEditor>Ed Shelton</managingEditor>
+    <docs>https://github.com/edsheltonorg/edshelton.org</docs>
+    <language>en</language>
+
+    
+    <pubDate>Sun, 28 Sep 2025 02:07:00 -0000</pubDate>
+    <lastBuildDate>Sun, 28 Sep 2025 02:07:00 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.17.3</generator>
+
+    
+    
+    <image>
+      <url>None</url>
+      <title>Ed Shelton</title>
+      <link>https://edshelton.org/</link>
+    </image>
+    
+
+    
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://edshelton.org/archive/2023/</link>
+      <pubDate>Sun, 28 Sep 2025 02:07:01 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/archive/2023/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2025</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2025&lt;/h1&gt;</description>
+      <link>https://edshelton.org/archive/2025/</link>
+      <pubDate>Sun, 28 Sep 2025 02:07:01 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/archive/2025/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Home</title>
+      
+      
+      
+      
+      <description>Welcome to edshelton.org</description>
+      <link>https://edshelton.org/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      
+      
+      
+      
+      <description>Guide to Getting Started with Vagrant</description>
+      <link>https://edshelton.org/apps/vagrant/vagrant-getting-started/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/apps/vagrant/vagrant-getting-started/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      
+      
+      
+      
+      <description>Concept Overview of Vagrant</description>
+      <link>https://edshelton.org/apps/vagrant/vagrant/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/apps/vagrant/vagrant/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Setup C++</title>
+      
+      
+      
+      
+      <description>Guide to visual-studio-setup-cpp</description>
+      <link>https://edshelton.org/apps/visual-studio/visual-studio-setup-cpp/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/apps/visual-studio/visual-studio-setup-cpp/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      
+      
+      
+      
+      <description>Overview of Visual Studio</description>
+      <link>https://edshelton.org/apps/visual-studio/visual-studio/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/apps/visual-studio/visual-studio/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Let&#39;s Play: Full Stack C# Developer</title>
+      
+      
+        
+      <author>Ed Shelton</author>
+        
+      
+      
+      
+      <description>Ed&#39;s adventure in learning C# &amp; .NET</description>
+      <link>https://edshelton.org/blog/lets-play-full-stack-c-developer/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/blog/lets-play-full-stack-c-developer/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Pragmatism For The Idealistic Teacher</title>
+      
+      
+        
+      <author>Ed Shelton</author>
+        
+      
+      
+      
+      <description>Challenges in thriving when it doesn&#39;t go to plan!</description>
+      <link>https://edshelton.org/blog/pragmatism-for-the-idealistic-teacher/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/blog/pragmatism-for-the-idealistic-teacher/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Is Mkdocs Truly Stable</title>
+      
+      
+        
+      <author>Ed Shelton</author>
+        
+      
+      
+      
+      <description>Is Mkdocs Truly &#34;Stable&#34;</description>
+      <link>https://edshelton.org/blog/is-mkdocs-truly-stable/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/blog/is-mkdocs-truly-stable/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Databases</title>
+      
+      
+      
+      
+      <description>Database Concepts</description>
+      <link>https://edshelton.org/data/concepts/Databases/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/data/concepts/Databases/</guid>
+      
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      
+      
+      
+      
+      <description>SQL Concepts</description>
+      <link>https://edshelton.org/data/concepts/SQL/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/data/concepts/SQL/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Relational Databases</title>
+      
+      
+      
+      
+      <description>RDBMS Concepts</description>
+      <link>https://edshelton.org/data/concepts/relational-databases/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/data/concepts/relational-databases/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      
+      
+      
+      
+      <description>Overview of SQL Server</description>
+      <link>https://edshelton.org/data/sql-server/sql-server/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/data/sql-server/sql-server/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Programming Glossary</title>
+      
+      
+      
+      
+      <description>Glossary of Programming</description>
+      <link>https://edshelton.org/dev/concepts/programming-glossary/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/dev/concepts/programming-glossary/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Programming Concepts</title>
+      
+      
+      
+      
+      <description>General Programming Concepts</description>
+      <link>https://edshelton.org/dev/concepts/programming/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/dev/concepts/programming/</guid>
+      
+    </item>
+    
+    <item>
+      <title>ASP.NET Overview</title>
+      
+      
+      
+      
+      <description>Concept Overview of ASP.NET</description>
+      <link>https://edshelton.org/dev/dotnet/aspnet/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/dev/dotnet/aspnet/</guid>
+      
+    </item>
+    
+    <item>
+      <title>.NET Glossary</title>
+      
+      
+      
+      
+      <description>Glossary of .NET</description>
+      <link>https://edshelton.org/dev/dotnet/dotnet-glossary/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/dev/dotnet/dotnet-glossary/</guid>
+      
+    </item>
+    
+    <item>
+      <title>.NET Overview</title>
+      
+      
+      
+      
+      <description>Overview of .NET</description>
+      <link>https://edshelton.org/dev/dotnet/dotnet/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/dev/dotnet/dotnet/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      
+      
+      
+      
+      <description>Overview of Networking</description>
+      <link>https://edshelton.org/it/networking/networking/</link>
+      <pubDate>Sun, 28 Sep 2025 02:06:26 +0000</pubDate>
+      <source url="https://edshelton.org/feed_rss_updated.xml">Ed Shelton</source>
+      
+      <guid isPermaLink="true">https://edshelton.org/it/networking/networking/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,228 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Ed Shelton",
+    "home_page_url": "https://edshelton.org/",
+    "feed_url": "https://edshelton.org/feed_json_updated.json",
+    "description": "Just make it work!",
+    "icon": null,
+    "authors": [
+        {
+            "name": "Ed Shelton"
+        }
+    ],
+    "language": "en",
+    "items": [
+        {
+            "id": "https://edshelton.org/archive/2023/",
+            "url": "https://edshelton.org/archive/2023/",
+            "title": "2023",
+            "content_html": "<h1>2023</h1>",
+            "image": null,
+            "date_modified": "2025-09-28T02:07:01.558264+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/archive/2025/",
+            "url": "https://edshelton.org/archive/2025/",
+            "title": "2025",
+            "content_html": "<h1>2025</h1>",
+            "image": null,
+            "date_modified": "2025-09-28T02:07:01.552034+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/",
+            "url": "https://edshelton.org/",
+            "title": "Home",
+            "content_html": "Welcome to edshelton.org",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/apps/vagrant/vagrant-getting-started/",
+            "url": "https://edshelton.org/apps/vagrant/vagrant-getting-started/",
+            "title": "Getting Started",
+            "content_html": "Guide to Getting Started with Vagrant",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/apps/vagrant/vagrant/",
+            "url": "https://edshelton.org/apps/vagrant/vagrant/",
+            "title": "Overview",
+            "content_html": "Concept Overview of Vagrant",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/apps/visual-studio/visual-studio-setup-cpp/",
+            "url": "https://edshelton.org/apps/visual-studio/visual-studio-setup-cpp/",
+            "title": "Setup C++",
+            "content_html": "Guide to visual-studio-setup-cpp",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/apps/visual-studio/visual-studio/",
+            "url": "https://edshelton.org/apps/visual-studio/visual-studio/",
+            "title": "Overview",
+            "content_html": "Overview of Visual Studio",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/blog/lets-play-full-stack-c-developer/",
+            "url": "https://edshelton.org/blog/lets-play-full-stack-c-developer/",
+            "title": "Let's Play: Full Stack C# Developer",
+            "content_html": "Ed's adventure in learning C# & .NET",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [
+                {
+                    "name": "Ed Shelton"
+                }
+            ],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/blog/pragmatism-for-the-idealistic-teacher/",
+            "url": "https://edshelton.org/blog/pragmatism-for-the-idealistic-teacher/",
+            "title": "Pragmatism For The Idealistic Teacher",
+            "content_html": "Challenges in thriving when it doesn't go to plan!",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [
+                {
+                    "name": "Ed Shelton"
+                }
+            ],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/blog/is-mkdocs-truly-stable/",
+            "url": "https://edshelton.org/blog/is-mkdocs-truly-stable/",
+            "title": "Is Mkdocs Truly Stable",
+            "content_html": "Is Mkdocs Truly \"Stable\"",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [
+                {
+                    "name": "Ed Shelton"
+                }
+            ],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/data/concepts/Databases/",
+            "url": "https://edshelton.org/data/concepts/Databases/",
+            "title": "Databases",
+            "content_html": "Database Concepts",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/data/concepts/SQL/",
+            "url": "https://edshelton.org/data/concepts/SQL/",
+            "title": "SQL",
+            "content_html": "SQL Concepts",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/data/concepts/relational-databases/",
+            "url": "https://edshelton.org/data/concepts/relational-databases/",
+            "title": "Relational Databases",
+            "content_html": "RDBMS Concepts",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/data/sql-server/sql-server/",
+            "url": "https://edshelton.org/data/sql-server/sql-server/",
+            "title": "Overview",
+            "content_html": "Overview of SQL Server",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/dev/concepts/programming-glossary/",
+            "url": "https://edshelton.org/dev/concepts/programming-glossary/",
+            "title": "Programming Glossary",
+            "content_html": "Glossary of Programming",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/dev/concepts/programming/",
+            "url": "https://edshelton.org/dev/concepts/programming/",
+            "title": "Programming Concepts",
+            "content_html": "General Programming Concepts",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/dev/dotnet/aspnet/",
+            "url": "https://edshelton.org/dev/dotnet/aspnet/",
+            "title": "ASP.NET Overview",
+            "content_html": "Concept Overview of ASP.NET",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/dev/dotnet/dotnet-glossary/",
+            "url": "https://edshelton.org/dev/dotnet/dotnet-glossary/",
+            "title": ".NET Glossary",
+            "content_html": "Glossary of .NET",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/dev/dotnet/dotnet/",
+            "url": "https://edshelton.org/dev/dotnet/dotnet/",
+            "title": ".NET Overview",
+            "content_html": "Overview of .NET",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        },
+        {
+            "id": "https://edshelton.org/it/networking/networking/",
+            "url": "https://edshelton.org/it/networking/networking/",
+            "title": "Overview",
+            "content_html": "Overview of Networking",
+            "image": null,
+            "date_modified": "2025-09-28T02:06:26+00:00",
+            "authors": [],
+            "tags": null
+        }
+    ]
+}
